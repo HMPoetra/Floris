@@ -1,9 +1,26 @@
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Catalog from './components/Catalog';
+import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
+import FloatingWA from './components/FloatingWA';
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-3xl font-bold text-pink-400">Hello Jalé Florist 🌸</h1>
-    </div>
-  )
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Catalog />
+        <Testimonial />
+      </main>
+      <Footer />
+      <FloatingWA />
+    </>
+  );
 }
 
-export default App
+export default App;
+
