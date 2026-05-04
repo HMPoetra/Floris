@@ -71,19 +71,40 @@ export default function About() {
           ))}
         </div>
 
-        {/* Info Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {infoItems.map((item) => (
-            <div key={item.label} className="flex items-start gap-4 p-5 bg-cream rounded-2xl shadow-sm">
-              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blush flex items-center justify-center text-rose-brand">
-                {item.icon}
+        {/* Lokasi & Kontak */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+          {/* Info Cards */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-bold text-charcoal mb-2">Informasi & Kontak</h3>
+            {infoItems.map((item) => (
+              <div key={item.label} className="flex items-start gap-4 p-5 bg-cream rounded-2xl shadow-sm">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blush flex items-center justify-center text-rose-brand">
+                  {item.icon}
+                </div>
+                <div>
+                  <p className="text-xs font-medium text-muted uppercase tracking-wider mb-1">{item.label}</p>
+                  <p className="text-charcoal font-medium text-sm leading-snug">{item.value}</p>
+                </div>
               </div>
-              <div>
-                <p className="text-xs font-medium text-muted uppercase tracking-wider mb-1">{item.label}</p>
-                <p className="text-charcoal font-medium text-sm leading-snug">{item.value}</p>
-              </div>
+            ))}
+          </div>
+
+          {/* Google Maps Embed */}
+          <div className="flex flex-col gap-4 h-full">
+            <h3 className="text-xl font-bold text-charcoal mb-2">Lokasi Kami</h3>
+            <div className="w-full h-64 lg:h-[calc(100%-2.5rem)] min-h-[300px] rounded-2xl overflow-hidden shadow-sm bg-cream">
+              <iframe 
+                src="https://maps.google.com/maps?q=Jal%C3%A9%20Florist,%20Bandung&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen="" 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Maps Jalé Florist"
+              ></iframe>
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </section>

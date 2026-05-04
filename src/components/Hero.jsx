@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 
 const slides = [
   '/images/hero/hero1.png',
@@ -7,13 +7,40 @@ const slides = [
   '/images/hero/hero4.png',
 ];
 
+// Menambahkan slide terakhir di awal, dan slide pertama di akhir untuk infinite loop
+const extendedSlides = [slides[slides.length - 1], ...slides, slides[0]];
+
 export default function Hero() {
-  const [current, setCurrent] = useState(0);
+  // Index 1 adalah slide pertama aslinya
+  const [current, setCurrent] = useState(1);
+  const [isTransitioning, setIsTransitioning] = useState(true);
   const [paused, setPaused] = useState(false);
+  const trackRef = useRef(null);
 
-  const next = useCallback(() => setCurrent((p) => (p + 1) % slides.length), []);
-  const prev = useCallback(() => setCurrent((p) => (p - 1 + slides.length) % slides.length), []);
+  const next = useCallback(() => {
+    if (current >= extendedSlides.length - 1) return;
+    setIsTransitioning(true);
+    setCurrent((p) => p + 1);
+  }, [current]);
 
+  const prev = useCallback(() => {
+    if (current <= 0) return;
+    setIsTransitioning(true);
+    setCurrent((p) => p - 1);
+  }, [current]);
+
+  // Handle lompatan tanpa animasi ketika menyentuh clone slide di awal atau akhir
+  const handleTransitionEnd = () => {
+    if (current === 0) {
+      setIsTransitioning(false);
+      setCurrent(slides.length);
+    } else if (current === extendedSlides.length - 1) {
+      setIsTransitioning(false);
+      setCurrent(1);
+    }
+  };
+
+  // Auto-slide interval
   useEffect(() => {
     if (paused) return;
     const t = setInterval(next, 4500);
@@ -27,16 +54,18 @@ export default function Hero() {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      {/* Track — semua gambar berjejer horizontal, digeser dengan translateX */}
+      {/* Track */}
       <div
-        className="flex transition-transform duration-700 ease-in-out"
+        ref={trackRef}
+        onTransitionEnd={handleTransitionEnd}
+        className={`flex ${isTransitioning ? 'transition-transform duration-700 ease-in-out' : ''}`}
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
-        {slides.map((src, i) => (
+        {extendedSlides.map((src, i) => (
           <img
             key={i}
             src={src}
-            alt={`Banner ${i + 1}`}
+            alt={`Banner ${i}`}
             className="block h-auto flex-shrink-0"
             style={{ width: '100%', minWidth: '100%' }}
           />
@@ -67,16 +96,26 @@ export default function Hero() {
 
       {/* Dots */}
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
-        {slides.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setCurrent(i)}
-            className={`rounded-full transition-all duration-300 ${
-              i === current ? 'w-6 h-2 bg-white' : 'w-2 h-2 bg-white/50 hover:bg-white/80'
-            }`}
-            aria-label={`Slide ${i + 1}`}
-          />
-        ))}
+        {slides.map((_, i) => {
+          // Konversi current (1-4) kembali ke index (0-3) untuk indikator dots
+          let activeIndex = current - 1;
+          if (current === 0) activeIndex = slides.length - 1;
+          if (current === extendedSlides.length - 1) activeIndex = 0;
+
+          return (
+            <button
+              key={i}
+              onClick={() => {
+                setIsTransitioning(true);
+                setCurrent(i + 1);
+              }}
+              className={`rounded-full transition-all duration-300 ${
+                i === activeIndex ? 'w-6 h-2 bg-white' : 'w-2 h-2 bg-white/50 hover:bg-white/80'
+              }`}
+              aria-label={`Slide ${i + 1}`}
+            />
+          );
+        })}
       </div>
     </section>
   );
