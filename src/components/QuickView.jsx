@@ -20,11 +20,22 @@ export default function QuickView({ product, onClose }) {
       onClick={(e) => e.target === e.currentTarget && onClose()}
     >
       <div
-        className="bg-cream rounded-3xl shadow-2xl w-full max-w-3xl max-h-[90vh] overflow-hidden flex flex-col md:flex-row"
+        className="bg-cream rounded-3xl shadow-2xl w-full max-w-3xl max-h-[90vh] overflow-hidden flex flex-col md:flex-row relative"
         style={{ animation: 'modalIn 0.3s ease forwards' }}
       >
+        {/* Tombol Close (Absolute Top Right) */}
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 z-10 w-9 h-9 flex items-center justify-center rounded-full bg-white/90 hover:bg-white text-charcoal shadow-sm hover:scale-105 transition-all"
+          aria-label="Tutup"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
         {/* Image */}
-        <div className="md:w-1/2 aspect-square md:aspect-auto bg-blush flex-shrink-0">
+        <div className="w-full h-[40vh] md:h-auto md:w-1/2 bg-blush flex-shrink-0 relative">
           <img
             src={product.image}
             alt={product.name}
@@ -33,17 +44,7 @@ export default function QuickView({ product, onClose }) {
         </div>
 
         {/* Details */}
-        <div className="flex-1 p-7 flex flex-col overflow-y-auto">
-          {/* Close */}
-          <button
-            onClick={onClose}
-            className="self-end w-8 h-8 flex items-center justify-center rounded-full bg-blush hover:bg-sand text-muted hover:text-charcoal transition-colors mb-4"
-            aria-label="Tutup"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
+        <div className="flex-1 p-6 md:p-8 flex flex-col overflow-y-auto">
 
           <p className="text-xs text-muted font-medium tracking-wider uppercase mb-1">{product.id}</p>
           <h2 className="font-display text-2xl md:text-3xl text-charcoal font-bold mb-2 leading-tight">
