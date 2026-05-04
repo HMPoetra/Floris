@@ -1,36 +1,43 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { getWhatsAppLink } from '../utils/whatsapp';
 
 const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Katalog', href: '#catalog' },
-  { label: 'Kontak', href: '#contact' },
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  { label: 'Katalog', href: '/catalog' },
+  { label: 'Kontak', href: '/contact' },
 ];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 shadow-sm" style={{ backgroundColor: '#f0e4d3' }}>
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2">
           <img src="/logo.png" alt="Jalé Florist" className="h-14 w-auto object-contain" />
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className="text-sm font-medium tracking-wide transition-colors text-charcoal hover:text-rose-brand"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = location.pathname === link.href;
+            return (
+              <li key={link.href}>
+                <Link
+                  to={link.href}
+                  className={`text-sm font-medium tracking-wide transition-colors hover:text-rose-brand ${
+                    isActive ? 'text-rose-brand' : 'text-charcoal'
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
 
         {/* WA Button */}
@@ -63,23 +70,28 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div className={`md:hidden transition-all duration-300 overflow-hidden bg-cream/98 backdrop-blur-md ${menuOpen ? 'max-h-64' : 'max-h-0'}`}>
         <ul className="px-6 pb-4 pt-2 flex flex-col gap-4">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className="block text-charcoal font-medium hover:text-rose-brand transition-colors"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = location.pathname === link.href;
+            return (
+              <li key={link.href}>
+                <Link
+                  to={link.href}
+                  onClick={() => setMenuOpen(false)}
+                  className={`block font-medium transition-colors ${
+                    isActive ? 'text-rose-brand' : 'text-charcoal hover:text-rose-brand'
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              </li>
+            );
+          })}
           <li>
             <a
               href={getWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-rose-brand text-white text-sm font-medium px-5 py-2 rounded-full"
+              className="inline-block bg-rose-brand text-white text-sm font-medium px-5 py-2 rounded-full mt-2"
             >
               Pesan Sekarang
             </a>

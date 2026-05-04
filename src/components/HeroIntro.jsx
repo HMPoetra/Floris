@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { getWhatsAppLink } from '../utils/whatsapp';
 
 export default function HeroIntro() {
@@ -32,15 +33,15 @@ export default function HeroIntro() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href="#catalog"
+          <Link
+            to="/catalog"
             className="group inline-flex items-center gap-2 bg-rose-brand hover:bg-rose-dark text-white font-medium px-8 py-3.5 rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105"
           >
             Lihat Koleksi
             <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
-          </a>
+          </Link>
           <a
             href={getWhatsAppLink()}
             target="_blank"
