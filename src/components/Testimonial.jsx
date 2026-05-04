@@ -8,10 +8,10 @@ const StarIcon = () => (
 
 export default function Testimonial() {
   return (
-    <section className="py-24 bg-blush">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="py-24 bg-blush overflow-hidden">
+      <div className="max-w-6xl mx-auto px-6 mb-14">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center">
           <p className="text-rose-brand text-sm tracking-[0.25em] uppercase font-medium mb-3">Testimoni</p>
           <h2 className="font-display text-4xl md:text-5xl text-charcoal font-bold mb-4">
             Kata Pelanggan Kami
@@ -21,13 +21,16 @@ export default function Testimonial() {
             Review nyata dari Google Maps — kebahagiaan pelanggan adalah prioritas kami.
           </p>
         </div>
+      </div>
 
-        {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonials.map((t) => (
+      {/* Marquee (Auto-slide kanan ke kiri) */}
+      <div className="relative flex overflow-hidden group">
+        <div className="flex w-max animate-marquee hover:pause">
+          {/* Mapping dua kali array-nya (di-duplicate) agar looping mulus */}
+          {[...testimonials, ...testimonials].map((t, index) => (
             <div
-              key={t.id}
-              className="bg-cream rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col gap-3"
+              key={`${t.id}-${index}`}
+              className="bg-cream rounded-2xl p-6 shadow-sm mx-3 w-80 md:w-96 flex-shrink-0 flex flex-col gap-3 transition-shadow duration-300 hover:shadow-md"
             >
               {/* Stars */}
               <div className="flex gap-0.5">
@@ -53,6 +56,20 @@ export default function Testimonial() {
           ))}
         </div>
       </div>
+
+      {/* Custom Keyframes untuk efek Marquee Loop */}
+      <style>{`
+        @keyframes marquee {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); } /* Geser persis sejauh panjang setengah list (1 set testimonials) */
+        }
+        .animate-marquee {
+          animation: marquee 35s linear infinite;
+        }
+        .pause {
+          animation-play-state: paused;
+        }
+      `}</style>
     </section>
   );
 }
