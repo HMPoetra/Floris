@@ -1,10 +1,10 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 
 const slides = [
-  '/images/hero/hero1.png',
-  '/images/hero/hero2.png',
-  '/images/hero/hero3.png',
-  '/images/hero/hero4.png',
+  { desktop: '/images/hero/hero1.png', mobile: '/images/hero/heroM1.png' },
+  { desktop: '/images/hero/hero2.png', mobile: '/images/hero/heroM2.png' },
+  { desktop: '/images/hero/hero3.png', mobile: '/images/hero/heroM3.png' },
+  { desktop: '/images/hero/hero4.png', mobile: '/images/hero/heroM4.png' },
 ];
 
 // Menambahkan slide terakhir di awal, dan slide pertama di akhir untuk infinite loop
@@ -76,10 +76,24 @@ export default function Hero() {
     }
   };
 
+  // Keyboard Navigation Support
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      // Hanya merespon jika mouse sedang berada di area banner (paused = true)
+      if (paused) {
+        if (e.key === 'ArrowRight') next();
+        if (e.key === 'ArrowLeft') prev();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [paused, next, prev]);
+
   return (
     <section
       id="home"
-      className="relative w-full pb-8 md:pb-0" // Memberikan ruang di bawah untuk mobile dots
+      className="relative w-full pb-8 md:pb-0 focus:outline-none" // Memberikan ruang di bawah untuk mobile dots
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
@@ -96,15 +110,20 @@ export default function Hero() {
           className={`flex ${isTransitioning ? 'transition-transform duration-700 ease-in-out' : ''}`}
           style={{ transform: `translateX(-${current * 100}%)` }}
         >
-          {extendedSlides.map((src, i) => (
-            <img
-              key={i}
-              src={src}
-              alt={`Banner ${i}`}
-              className="block h-auto flex-shrink-0"
+          {extendedSlides.map((slide, i) => (
+            <picture 
+              key={i} 
+              className="block w-full flex-shrink-0" 
               style={{ width: '100%', minWidth: '100%' }}
-              draggable="false"
-            />
+            >
+              <source media="(min-width: 768px)" srcSet={slide.desktop} />
+              <img
+                src={slide.mobile}
+                alt={`Banner ${i}`}
+                className="block w-full h-auto"
+                draggable="false"
+              />
+            </picture>
           ))}
         </div>
 

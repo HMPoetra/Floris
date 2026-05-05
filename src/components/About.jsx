@@ -1,24 +1,40 @@
+import { useState } from 'react';
+
 const infoItems = [
   {
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
     label: 'Alamat',
     value: 'Jl. Cicalengka Raya No.8, Antapani Kidul, Kota Bandung',
     href: 'https://maps.app.goo.gl/YoGwkwk3kZKQYqru8',
+    theme: {
+      bg: 'bg-blue-50/80 hover:bg-blue-100',
+      iconBg: 'bg-blue-100 group-hover:bg-blue-500',
+      text: 'text-blue-600',
+      hoverText: 'group-hover:text-white',
+      border: 'border-blue-100 hover:border-blue-300'
+    }
   },
   {
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
     label: 'Jam Operasional',
     value: 'Senin – Minggu, 08.30 – 18.30 WIB',
     href: null,
+    theme: {
+      bg: 'bg-amber-50/80',
+      iconBg: 'bg-amber-100',
+      text: 'text-amber-600',
+      hoverText: '',
+      border: 'border-amber-100'
+    }
   },
   {
     icon: (
@@ -29,6 +45,13 @@ const infoItems = [
     label: 'WhatsApp',
     value: '+62 813-6793-1303',
     href: 'https://wa.me/6281367931303',
+    theme: {
+      bg: 'bg-emerald-50/80 hover:bg-emerald-100',
+      iconBg: 'bg-emerald-100 group-hover:bg-[#25D366]',
+      text: 'text-emerald-600',
+      hoverText: 'group-hover:text-white',
+      border: 'border-emerald-100 hover:border-emerald-300'
+    }
   },
   {
     icon: (
@@ -39,12 +62,138 @@ const infoItems = [
     label: 'Instagram',
     value: '@jale.floristt',
     href: 'https://instagram.com/jale.floristt',
+    theme: {
+      bg: 'bg-fuchsia-50/80 hover:bg-fuchsia-100',
+      iconBg: 'bg-fuchsia-100 group-hover:bg-gradient-to-tr group-hover:from-yellow-400 group-hover:via-pink-500 group-hover:to-purple-500',
+      text: 'text-fuchsia-600',
+      hoverText: 'group-hover:text-white',
+      border: 'border-fuchsia-100 hover:border-fuchsia-300'
+    }
   },
 ];
+
+function FeatureCard({ item }) {
+  const [isRaining, setIsRaining] = useState(false);
+
+  const handleClick = () => {
+    if (isRaining) return;
+    setIsRaining(true);
+    setTimeout(() => setIsRaining(false), 2000); // Selesai dalam 2 detik
+  };
+
+  const generateAnimationElements = () => {
+    let emojis = [];
+    let animName = "";
+
+    if (item.id === "premium") {
+      emojis = ['🌸', '🌷', '🌼', '🌺', '🌹', '🌻', '✨'];
+      animName = 'flowerFall';
+    } else if (item.id === "custom") {
+      emojis = ['🎨', '🖌️', '🎀', '✨', '🪄', '💡', '💭'];
+      animName = 'magicFloat';
+    } else if (item.id === "delivery") {
+      emojis = ['🛵', '📦', '💌', '💨', '🎁', '🎀'];
+      animName = 'driveAcross';
+    }
+
+    return Array.from({ length: 15 }).map((_, i) => {
+      const delay = Math.random() * 0.5;
+      const size = 1 + Math.random() * 1.5;
+      const emoji = emojis[Math.floor(Math.random() * emojis.length)];
+      
+      let style = {
+        animation: `${animName} 1.5s ease-in-out forwards`,
+        animationDelay: `${delay}s`,
+        fontSize: `${size}rem`,
+      };
+
+      if (item.id === "premium") {
+        style.left = `${Math.random() * 90}%`;
+        style.top = '-20px';
+      } else if (item.id === "custom") {
+        // Mulai dari tengah atas (di balik kotak putih yang posisinya mb-5)
+        style.left = '50%';
+        style.top = '30%'; 
+        const explodeX = (Math.random() - 0.5) * 500; // Sebar acak ke kiri/kanan
+        const explodeY = (Math.random() - 0.5) * 500; // Sebar acak ke atas/bawah
+        style['--exp-x'] = `${explodeX}px`;
+        style['--exp-y'] = `${explodeY}px`;
+      } else if (item.id === "delivery") {
+        style.top = `${Math.random() * 80}%`;
+        style.left = '-30px';
+      }
+
+      return (
+        <div 
+          key={i} 
+          className="absolute pointer-events-none select-none z-0"
+          style={style}
+        >
+          {emoji}
+        </div>
+      );
+    });
+  };
+
+  return (
+    <div 
+      onClick={handleClick}
+      className={`${item.color} p-8 md:p-10 rounded-[2rem] border border-white/60 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300 text-center relative overflow-hidden cursor-pointer`}
+    >
+      {/* Animasi */}
+      {isRaining && item.id !== 'delivery' && generateAnimationElements()}
+
+      {/* Aksen kaca / glassmorphism di sudut */}
+      <div className="absolute -top-10 -right-10 w-32 h-32 bg-white/40 blur-xl rounded-full z-0 pointer-events-none"></div>
+      
+      {/* Kotak Putih Utama (z-index tinggi agar menutupi emoji saat awal muncul) */}
+      <div 
+        className={`w-16 h-16 md:w-20 md:h-20 mx-auto bg-white/80 backdrop-blur-sm rounded-2xl shadow-sm flex items-center justify-center text-3xl md:text-4xl mb-5 relative z-20 transition-transform ${
+          item.id !== 'delivery' ? 'hover:scale-110' : ''
+        }`}
+      >
+        <span className={isRaining && item.id === 'delivery' ? 'animate-scooter block' : 'block'}>
+          {item.emoji}
+        </span>
+      </div>
+      <h4 className={`text-xl font-bold mb-3 relative z-10 ${item.text}`}>{item.title}</h4>
+      <p className="text-charcoal/70 leading-relaxed font-medium relative z-10">{item.desc}</p>
+    </div>
+  );
+}
 
 export default function About() {
   return (
     <section id="about" className="py-24 bg-blush">
+      <style>
+        {`
+          @keyframes flowerFall {
+            0% { transform: translateY(-20px) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { transform: translateY(300px) rotate(360deg); opacity: 0; }
+          }
+          @keyframes magicFloat {
+            0% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+            30% { transform: translate(-50%, -50%) scale(0.8); opacity: 1; }
+            60% { transform: translate(calc(-50% + (var(--exp-x) * 0.2)), calc(-50% + (var(--exp-y) * 0.2))) scale(1) rotate(45deg); opacity: 1; }
+            100% { transform: translate(calc(-50% + var(--exp-x)), calc(-50% + var(--exp-y))) scale(1.5) rotate(180deg); opacity: 0; }
+          }
+          @keyframes crazyScooter {
+            0% { transform: translate(0, 0); }
+            20% { transform: translate(-250px, 0); } 
+            21% { transform: translate(250px, 60px); } 
+            50% { transform: translate(-250px, 60px); } 
+            51% { transform: translate(250px, 120px); } 
+            80% { transform: translate(-250px, 120px); } 
+            81% { transform: translate(250px, 0); } 
+            100% { transform: translate(0, 0); } 
+          }
+          .animate-scooter {
+            animation: crazyScooter 2s linear forwards;
+          }
+        `}
+      </style>
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
@@ -60,8 +209,25 @@ export default function About() {
           </p>
         </div>
 
+        {/* Filosofi & Tagline */}
+        <div className="mb-20 md:mb-24 bg-gradient-to-br from-rose-50 via-pink-50 to-orange-50 rounded-[2rem] md:rounded-[3rem] p-8 md:p-16 text-center shadow-sm border border-white relative overflow-hidden group">
+          {/* Dekorasi lucu */}
+          <div className="absolute top-8 left-8 text-4xl md:text-5xl opacity-40 group-hover:rotate-12 transition-transform duration-500">🌸</div>
+          <div className="absolute bottom-8 right-8 text-4xl md:text-5xl opacity-40 group-hover:-rotate-12 transition-transform duration-500">✨</div>
+          <div className="absolute top-1/2 right-10 text-3xl opacity-30 group-hover:scale-110 transition-transform duration-500">🦋</div>
+          <div className="absolute -top-10 -right-10 w-40 h-40 bg-white/60 blur-3xl rounded-full"></div>
+          <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-white/60 blur-3xl rounded-full"></div>
+          
+          <h3 className="font-display text-4xl md:text-5xl lg:text-6xl text-rose-brand font-bold mb-6 italic leading-tight relative z-10">
+            "Handle with care, <br className="hidden md:block" />happiness inside."
+          </h3>
+          <p className="text-charcoal/80 text-base md:text-xl max-w-3xl mx-auto leading-relaxed relative z-10 font-medium">
+            Berawal dari kecintaan sederhana terhadap keindahan bunga, Jalé Florist hadir bukan sekadar untuk menjual buket. Kami percaya bahwa setiap tangkai bunga memiliki bahasanya sendiri untuk menyampaikan perasaan yang tak terucapkan. Bagi kami, merangkai bunga adalah seni merangkai kebahagiaan untuk momen paling berharga dalam hidup Anda.
+          </p>
+        </div>
+
         {/* Highlights */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-20 md:mb-24">
           {[
             { 
               num: '100+', 
@@ -125,6 +291,49 @@ export default function About() {
           ))}
         </div>
 
+        {/* Mengapa Memilih Kami */}
+        <div className="mb-20 md:mb-24">
+          <div className="text-center mb-10 md:mb-14">
+            <h3 className="font-display text-3xl md:text-4xl font-bold text-charcoal">Kenapa Jalé Florist?</h3>
+            <p className="text-muted mt-3 text-lg">Alasan kenapa ribuan pelanggan mempercayakan momen spesialnya pada kami.</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            {[
+              { id: "premium", title: "Bunga Premium", desc: "Kami hanya menggunakan bunga segar harian kualitas terbaik dan artificial import yang persis seperti aslinya.", emoji: "🌷", color: "bg-blue-50", text: "text-blue-700" },
+              { id: "custom", title: "Custom Suka-Suka", desc: "Punya referensi dari Pinterest? Tim florist kami siap mewujudkan rangkaian bunga impian sesuai budgetmu.", emoji: "🎨", color: "bg-amber-50", text: "text-amber-700" },
+              { id: "delivery", title: "Pengiriman Aman", desc: "Packing super tebal dan kurir khusus memastikan bunga sampai ke tangan orang tersayang tanpa lecet sedikitpun.", emoji: "🛵", color: "bg-emerald-50", text: "text-emerald-700" },
+            ].map((item, i) => (
+              <FeatureCard key={i} item={item} />
+            ))}
+          </div>
+        </div>
+
+        {/* Layanan & Spesialisasi */}
+        <div className="mb-24 md:mb-32">
+          <div className="text-center mb-8 md:mb-12">
+            <h3 className="font-display text-3xl md:text-4xl font-bold text-charcoal">Spesialisasi Kami</h3>
+            <p className="text-muted mt-2 md:mt-3 text-base md:text-lg">Lebih dari sekadar buket, kami siap melengkapi semua kebutuhan event Anda.</p>
+          </div>
+          
+          <div className="flex flex-wrap justify-center gap-2 md:gap-4 max-w-4xl mx-auto px-2">
+            {[
+              { name: "Bouquet Artificial", color: "bg-pink-100/80 text-pink-700 hover:bg-pink-200" },
+              { name: "Fresh Flowers", color: "bg-rose-100/80 text-rose-700 hover:bg-rose-200" },
+              { name: "Bloom Box", color: "bg-purple-100/80 text-purple-700 hover:bg-purple-200" },
+              { name: "Snack & Gift Bucket", color: "bg-orange-100/80 text-orange-700 hover:bg-orange-200" },
+              { name: "Money Bucket", color: "bg-green-100/80 text-green-700 hover:bg-green-200" },
+              { name: "Wedding Arrangement", color: "bg-teal-100/80 text-teal-700 hover:bg-teal-200" },
+              { name: "Standing Flower", color: "bg-blue-100/80 text-blue-700 hover:bg-blue-200" },
+              { name: "Decoration", color: "bg-amber-100/80 text-amber-700 hover:bg-amber-200" },
+            ].map((srv, i) => (
+              <span key={i} className={`${srv.color} px-4 md:px-8 py-2 md:py-4 rounded-full text-[13px] md:text-base font-bold shadow-sm transition-all duration-300 hover:-translate-y-1 cursor-default border border-white/50 text-center`}>
+                {srv.name}
+              </span>
+            ))}
+          </div>
+        </div>
+
         {/* Galeri Toko */}
         <div className="mb-20">
           <div className="text-center mb-10">
@@ -148,7 +357,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
           {/* Info Cards */}
           <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-bold text-charcoal mb-2">Informasi & Kontak</h3>
+            <h3 className="text-2xl font-bold text-charcoal mb-2">Informasi & Kontak</h3>
             {infoItems.map((item) => {
               const CardTag = item.href ? 'a' : 'div';
               return (
@@ -157,21 +366,19 @@ export default function About() {
                   href={item.href}
                   target={item.href ? "_blank" : undefined}
                   rel={item.href ? "noopener noreferrer" : undefined}
-                  className={`group flex items-center gap-5 p-5 bg-cream rounded-2xl border border-transparent shadow-sm transition-all duration-300 ${
-                    item.href ? 'cursor-pointer hover:-translate-y-1 hover:shadow-md hover:border-rose-brand/30 hover:bg-white' : ''
+                  className={`group flex items-center gap-5 p-4 md:p-5 rounded-2xl border transition-all duration-300 ${item.theme.bg} ${item.theme.border} ${
+                    item.href ? 'cursor-pointer hover:-translate-y-1 hover:shadow-md' : 'shadow-sm'
                   }`}
                 >
-                  <div className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center transition-colors duration-300 ${
-                    item.href ? 'bg-blush text-rose-brand group-hover:bg-rose-brand group-hover:text-white' : 'bg-blush text-rose-brand'
-                  }`}>
+                  <div className={`flex-shrink-0 w-12 h-12 md:w-14 md:h-14 rounded-2xl flex items-center justify-center transition-all duration-500 shadow-sm ${item.theme.iconBg} ${item.theme.text} ${item.theme.hoverText}`}>
                     {item.icon}
                   </div>
                   <div className="flex-1">
-                    <p className="text-xs font-semibold text-rose-brand uppercase tracking-widest mb-1">{item.label}</p>
-                    <p className="text-charcoal font-medium text-[15px] leading-snug">{item.value}</p>
+                    <p className={`text-[10px] md:text-xs font-bold uppercase tracking-[0.15em] mb-1 opacity-80 ${item.theme.text}`}>{item.label}</p>
+                    <p className="text-charcoal font-bold text-sm md:text-base leading-snug">{item.value}</p>
                   </div>
                   {item.href && (
-                    <div className="text-sand group-hover:text-rose-brand transition-colors duration-300">
+                    <div className={`transition-all duration-300 ${item.theme.text} opacity-50 group-hover:opacity-100`}>
                       <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
