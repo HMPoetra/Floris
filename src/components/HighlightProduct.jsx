@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { getWhatsAppLink } from '../utils/whatsapp';
+import SectionBackground from './SectionBackground';
 
 const highlightProducts = [
   {
@@ -142,6 +143,7 @@ export default function HighlightProduct() {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
+      <SectionBackground variant="products" />
       <div className="max-w-7xl mx-auto px-4 md:px-6 relative z-10">
         
         {/* Header Section */}

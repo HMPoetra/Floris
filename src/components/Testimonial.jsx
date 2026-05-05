@@ -1,4 +1,5 @@
 import { testimonials } from '../data/testimonials';
+import SectionBackground from './SectionBackground';
 
 const StarIcon = () => (
   <svg className="w-4 h-4 text-amber-400 fill-current" viewBox="0 0 20 20">
@@ -8,8 +9,9 @@ const StarIcon = () => (
 
 export default function Testimonial() {
   return (
-    <section className="py-24 bg-blush overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 mb-14">
+    <section className="py-24 bg-blush relative overflow-hidden">
+      <SectionBackground variant="testimonials" />
+      <div className="max-w-6xl mx-auto px-6 mb-14 relative z-10">
         {/* Header */}
         <div className="text-center">
           <p className="text-rose-brand text-sm tracking-[0.25em] uppercase font-medium mb-3">Testimoni</p>
@@ -24,7 +26,7 @@ export default function Testimonial() {
       </div>
 
       {/* Marquee (Auto-slide kanan ke kiri) */}
-      <div className="relative flex overflow-hidden group">
+      <div className="relative z-10 flex overflow-hidden group">
         <div className="flex w-max animate-marquee hover:pause">
           {/* Mapping dua kali array-nya (di-duplicate) agar looping mulus */}
           {[...testimonials, ...testimonials].map((t, index) => (

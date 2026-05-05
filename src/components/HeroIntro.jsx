@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import { getWhatsAppLink } from '../utils/whatsapp';
+import SectionBackground from './SectionBackground';
 
 export default function HeroIntro() {
   return (
-    <section className="bg-cream py-16 md:py-20 border-b border-sand/40">
-      <div className="max-w-4xl mx-auto px-6 text-center">
+    <section className="bg-cream py-16 md:py-20 border-b border-sand/40 relative overflow-hidden">
+      <SectionBackground variant="intro" />
+      <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
         {/* Eyebrow */}
         <p className="text-rose-brand text-sm tracking-[0.3em] uppercase font-medium mb-5">
           Jalé Florist · Bandung

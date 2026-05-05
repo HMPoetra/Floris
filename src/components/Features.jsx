@@ -1,3 +1,5 @@
+import SectionBackground from './SectionBackground';
+
 export default function Features() {
   const features = [
     {
@@ -18,8 +20,9 @@ export default function Features() {
   ];
 
   return (
-    <section className="py-16 border-b border-sand/30 bg-cream">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="py-16 border-b border-sand/30 bg-cream relative overflow-hidden">
+      <SectionBackground variant="features" />
+      <div className="max-w-6xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8 divide-y md:divide-y-0 md:divide-x divide-sand/50">
           {features.map((f, i) => (
             <div key={i} className="flex flex-row md:flex-col items-start md:items-center text-left md:text-center py-5 md:p-8 hover:-translate-y-1 transition-transform duration-300 gap-4 md:gap-0">

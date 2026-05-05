@@ -1,6 +1,9 @@
+import SectionBackground from './SectionBackground';
+
 export default function InstagramPromo() {
   return (
     <section className="py-10 md:py-20 bg-cream relative overflow-hidden border-b border-sand/40">
+      <SectionBackground variant="promo" />
       <div className="max-w-5xl mx-auto px-4 md:px-6 relative z-10">
         <div className="bg-white rounded-2xl md:rounded-[2rem] p-6 md:p-12 shadow-sm border border-sand/30 flex flex-col md:flex-row items-center gap-5 md:gap-14 relative overflow-hidden group">
           

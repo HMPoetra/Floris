@@ -23,10 +23,13 @@ const categories = [
   }
 ];
 
+import SectionBackground from './SectionBackground';
+
 export default function CategoryShowcase() {
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="py-20 bg-white relative overflow-hidden">
+      <SectionBackground variant="categories" />
+      <div className="max-w-6xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <p className="text-rose-brand text-sm tracking-[0.25em] uppercase font-medium mb-3">Pilihan Kami</p>
           <h2 className="font-display text-4xl text-charcoal font-bold mb-5">

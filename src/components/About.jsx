@@ -162,9 +162,31 @@ function FeatureCard({ item }) {
   );
 }
 
+function FloralBackground() {
+  return (
+    <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
+      {/* Siluet Bunga Estetik - Opacity dan warna dinaikkan agar lebih jelas */}
+      <div className="absolute top-0 -left-10 text-[20rem] text-rose-300 opacity-25 rotate-12 select-none">✿</div>
+      <div className="absolute top-[10%] right-[-5%] text-[25rem] text-rose-300 opacity-20 -rotate-45 select-none">❀</div>
+      <div className="absolute top-[40%] -left-10 text-[28rem] text-rose-300 opacity-20 rotate-[60deg] select-none">❁</div>
+      <div className="absolute bottom-[20%] right-[-10%] text-[22rem] text-rose-300 opacity-25 rotate-90 select-none">✾</div>
+      <div className="absolute -bottom-10 left-[10%] text-[24rem] text-rose-300 opacity-20 -rotate-12 select-none">✽</div>
+      
+      {/* Siluet Putih Besar di Tengah untuk memberikan efek kedalaman (depth) */}
+      <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-[45rem] text-white opacity-40 rotate-[30deg] select-none">✿</div>
+      
+      {/* Bercak warna (Glow/Ambient Light) - Intensitas dinaikkan */}
+      <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-pink-300/30 rounded-full blur-[100px] mix-blend-multiply"></div>
+      <div className="absolute top-[40%] right-0 w-[600px] h-[600px] bg-orange-300/30 rounded-full blur-[120px] mix-blend-multiply"></div>
+      <div className="absolute bottom-0 left-[20%] w-[500px] h-[500px] bg-rose-300/30 rounded-full blur-[100px] mix-blend-multiply"></div>
+    </div>
+  );
+}
+
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-blush">
+    <section id="about" className="py-24 bg-blush relative overflow-hidden">
+      <FloralBackground />
       <style>
         {`
           @keyframes flowerFall {
@@ -194,7 +216,7 @@ export default function About() {
           }
         `}
       </style>
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
           <p className="text-rose-brand text-sm tracking-[0.25em] uppercase font-medium mb-3">Tentang Kami</p>
