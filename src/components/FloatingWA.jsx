@@ -1,13 +1,16 @@
 import { getWhatsAppLink } from '../utils/whatsapp';
+import { MOBILE_NAV_STYLE } from './Navbar';
 
 export default function FloatingWA() {
+  const isHiddenOnMobile = MOBILE_NAV_STYLE === 1 || MOBILE_NAV_STYLE === 2;
+
   return (
     <a
       href={getWhatsAppLink()}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat WhatsApp Jalé Florist"
-      className="fixed bottom-6 right-6 z-40 group"
+      className={`fixed bottom-6 right-6 z-40 group ${isHiddenOnMobile ? 'hidden md:block' : ''}`}
     >
       {/* Pulse ring */}
       <span className="absolute inset-0 rounded-full bg-green-400 animate-ping opacity-40" />
