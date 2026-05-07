@@ -1,10 +1,10 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 
 const slides = [
-  { desktop: 'https://res.cloudinary.com/dex2dr4zf/image/upload/v1778136626/hero1_tfoafq.webp', mobile: '/images/hero/heroM1.png' },
-  { desktop: 'https://res.cloudinary.com/dex2dr4zf/image/upload/v1778137557/hero2_xmkizz.webp', mobile: '/images/hero/heroM2.png' },
-  { desktop: 'https://res.cloudinary.com/dex2dr4zf/image/upload/v1778137565/hero3_dcilpl.webp', mobile: '/images/hero/heroM3.png' },
-  { desktop: 'https://res.cloudinary.com/dex2dr4zf/image/upload/v1778137551/hero4_pa1t3f.webp', mobile: '/images/hero/heroM4.png' },
+  { desktop: '/images/hero/hero1.webp', mobile: '/images/hero/heroM1.png' },
+  { desktop: '/images/hero/hero2.webp', mobile: '/images/hero/heroM2.png' },
+  { desktop: '/images/hero/hero3.webp', mobile: '/images/hero/heroM3.png' },
+  { desktop: '/images/hero/hero4.webp', mobile: '/images/hero/heroM4.png' },
 ];
 
 // Menambahkan slide terakhir di awal, dan slide pertama di akhir untuk infinite loop
