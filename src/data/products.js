@@ -65,7 +65,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "Blboxartif_007",
+    "id": "Blboxartif_007_1",
     "name": "Bloom Box & Vas Bloom Box Artificial 007",
     "category": "Bloom Box & Vas",
     "size": "Bloom Box Artificial",
@@ -317,7 +317,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "VasKacaArtif_011",
+    "id": "VasKacaArtif_011_1",
     "name": "Bloom Box & Vas Vas Kaca Artificial 011",
     "category": "Bloom Box & Vas",
     "size": "Vas Kaca Artificial",
@@ -353,7 +353,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "VasKacaArtif_014",
+    "id": "VasKacaArtif_014_1",
     "name": "Bloom Box & Vas Vas Kaca Artificial 014",
     "category": "Bloom Box & Vas",
     "size": "Vas Kaca Artificial",
@@ -4106,6 +4106,15 @@ export const products = [
     "isPopular": false
   },
   {
+    "id": "BFHS_001",
+    "name": "Fresh Flowers Human Size 001",
+    "category": "Fresh Flowers",
+    "size": "Human Size",
+    "price": 499000,
+    "image": "/images/produk/bouquet-fresh/human-size/BFHS_001_Harga 499K.webp",
+    "isPopular": false
+  },
+  {
     "id": "Bfl_001",
     "name": "Fresh Flowers Large 001",
     "category": "Fresh Flowers",
@@ -4664,7 +4673,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "BFP_003",
+    "id": "BFP_003_1",
     "name": "Fresh Flowers Premium 003",
     "category": "Fresh Flowers",
     "size": "Premium",
@@ -5501,6 +5510,15 @@ export const products = [
     "isPopular": false
   },
   {
+    "id": "BCSayur_001",
+    "name": "Custom Bucket Sayur 001",
+    "category": "Custom Bucket",
+    "size": "Sayur",
+    "price": 200000,
+    "image": "/images/produk/custom-bucket/BCSayur_001_Harga 200K.webp",
+    "isPopular": false
+  },
+  {
     "id": "BDried_001",
     "name": "Custom Bucket Dried 001",
     "category": "Custom Bucket",
@@ -5915,7 +5933,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "Giftcustom_010",
+    "id": "Giftcustom_010_1",
     "name": "Custom Bucket Gift Custom 010",
     "category": "Custom Bucket",
     "size": "Gift Custom",
@@ -5924,7 +5942,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "Giftcustom_010",
+    "id": "Giftcustom_010_2",
     "name": "Custom Bucket Gift Custom 010",
     "category": "Custom Bucket",
     "size": "Gift Custom",
@@ -6842,7 +6860,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "WedArtif_005",
+    "id": "WedArtif_005_1",
     "name": "Wedding Arrangement Artificial 005",
     "category": "Wedding Arrangement",
     "size": "Artificial",
@@ -6851,7 +6869,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "WedArtif_005",
+    "id": "WedArtif_005_2",
     "name": "Wedding Arrangement Artificial 005",
     "category": "Wedding Arrangement",
     "size": "Artificial",
@@ -6905,7 +6923,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "Wedartif_009",
+    "id": "Wedartif_009_1",
     "name": "Wedding Arrangement Artificial 009",
     "category": "Wedding Arrangement",
     "size": "Artificial",
@@ -6950,7 +6968,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "WedArtif_013",
+    "id": "WedArtif_013_1",
     "name": "Wedding Arrangement Artificial 013",
     "category": "Wedding Arrangement",
     "size": "Artificial",
@@ -7085,7 +7103,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "WedArtif_027",
+    "id": "WedArtif_027_1",
     "name": "Wedding Arrangement Artificial 027",
     "category": "Wedding Arrangement",
     "size": "Artificial",
@@ -7166,7 +7184,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "WedFresh_002",
+    "id": "WedFresh_002_1",
     "name": "Wedding Arrangement Fresh 002",
     "category": "Wedding Arrangement",
     "size": "Fresh",
@@ -7202,7 +7220,7 @@ export const products = [
     "isPopular": false
   },
   {
-    "id": "WedFresh_005",
+    "id": "WedFresh_005_1",
     "name": "Wedding Arrangement Fresh 005",
     "category": "Wedding Arrangement",
     "size": "Fresh",
@@ -7323,6 +7341,7 @@ export const sizes = [
   "Premium",
   "Single Flower",
   "Custom",
+  "Sayur",
   "Dried",
   "Graduation Artificial",
   "Graduation Fresh",

@@ -25,6 +25,7 @@ const prefixMap = {
   'bfxl': { cat: 'Fresh Flowers', sub: 'XL', dir: 'bouquet-fresh/xl' },
   'bfp': { cat: 'Fresh Flowers', sub: 'Premium', dir: 'bouquet-fresh/premium' },
   'bsf': { cat: 'Fresh Flowers', sub: 'Single Flower', dir: 'bouquet-fresh/single' },
+  'bfhs': { cat: 'Fresh Flowers', sub: 'Human Size', dir: 'bouquet-fresh/human-size' },
 
   // Bouquet Mix
   'bfmam': { cat: 'Fresh Mix Artificial', sub: 'Medium', dir: 'bouquet-mix/m' },
@@ -61,6 +62,7 @@ const prefixMap = {
   'bphotoartif': { cat: 'Custom Bucket', sub: 'Photo', dir: 'custom-bucket' },
   'giftcustom': { cat: 'Custom Bucket', sub: 'Gift Custom', dir: 'custom-bucket' },
   'bdried': { cat: 'Custom Bucket', sub: 'Dried', dir: 'custom-bucket' },
+  'bcsayur': { cat: 'Custom Bucket', sub: 'Sayur', dir: 'custom-bucket' },
 
   // Bucket Pipe
   'bpipe': { cat: 'Bucket Pipe', sub: '', dir: 'bucket-pipe' }
@@ -162,6 +164,8 @@ async function organizeProducts() {
 
   // 3. Scan all files in produkDir to generate catalog
   const productsList = [];
+  const seenIds = new Set();
+
   const scanCatalog = (dir) => {
     if (dir.includes('uncategorized')) return;
     if (!fs.existsSync(dir)) return;
@@ -175,12 +179,25 @@ async function organizeProducts() {
         if (info) {
           const price = parsePrice(item);
           const idMatch = item.match(/^([A-Za-z0-9]+_\d+)/);
-          const id = idMatch ? idMatch[1] : item.replace('.webp', '');
-          const codeNumber = id.includes('_') ? id.split('_')[1] : '';
+          let baseId = idMatch ? idMatch[1] : item.replace('.webp', '');
+          
+          // Ensure uniqueness
+          if (seenIds.has(baseId)) {
+            let counter = 1;
+            while (seenIds.has(`${baseId}_${counter}`)) {
+              counter++;
+            }
+            baseId = `${baseId}_${counter}`;
+          }
+          seenIds.add(baseId);
+          const id = baseId;
+
+          const codeNumber = idMatch ? (id.includes('_') ? id.split('_')[1] : '') : '';
           
           let name = `${info.cat}`;
           if (info.sub) name += ` ${info.sub}`;
           if (codeNumber) name += ` ${codeNumber}`;
+          if (id.includes('_') && !idMatch) name += ` (Custom)`; // fallback
 
           // Relative path for web
           const relativePath = '/images/produk/' + path.relative(produkDir, itemPath).replace(/\\/g, '/');
