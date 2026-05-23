@@ -60,10 +60,13 @@ export default function QuickView({ product, onClose }) {
           text += `- ${qty}x ${item.name} (${formatPrice(item.price * qty)})\n`;
         }
       });
-      text += `\n`;
     }
 
-    text += `*Total Harga:* ${formatPrice(totalPrice)}\n\n`;
+    const displayTotalWA = product.price === 0 
+      ? (addonsTotal > 0 ? `Ask admin (+ ${formatPrice(addonsTotal)} untuk addons)` : "Ask admin for price")
+      : formatPrice(totalPrice);
+
+    text += `*Total Harga:* ${displayTotalWA}\n\n`;
     text += `Mohon info ketersediaan dan total biaya ongkirnya ya. Terima kasih!`;
 
     return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
@@ -83,7 +86,7 @@ export default function QuickView({ product, onClose }) {
       onClick={(e) => e.target === e.currentTarget && onClose()}
     >
       <div
-        className="bg-cream rounded-2xl md:rounded-3xl shadow-2xl w-full max-w-4xl max-h-[95vh] md:max-h-[90vh] flex flex-col md:flex-row relative overflow-hidden"
+        className="bg-cream rounded-2xl md:rounded-3xl shadow-2xl w-full max-w-4xl max-h-[85vh] md:max-h-[90vh] flex flex-col md:flex-row relative overflow-hidden"
         style={{ animation: 'modalIn 0.3s ease forwards' }}
       >
         {/* Tombol Close */}
@@ -98,7 +101,7 @@ export default function QuickView({ product, onClose }) {
         </button>
 
         {/* Image */}
-        <div className="w-full h-[35vh] md:h-auto md:w-5/12 bg-blush flex-shrink-0 relative">
+        <div className="w-full h-[28vh] md:h-auto md:w-5/12 bg-blush flex-shrink-0 relative">
           <img
             src={product.image}
             alt={product.name}
@@ -178,13 +181,15 @@ export default function QuickView({ product, onClose }) {
               <div>
                 <p className="text-xs text-muted mb-0.5">Total Pembayaran</p>
                 <div className="flex flex-col">
-                  {addonsTotal > 0 && (
+                  {addonsTotal > 0 && product.price > 0 && (
                     <span className="text-[10px] text-muted line-through opacity-70">
                       Dasar: {formatPrice(product.price)}
                     </span>
                   )}
-                  <span className="text-xl md:text-2xl font-bold text-rose-brand leading-none">
-                    {formatPrice(totalPrice)}
+                  <span className={`font-bold text-rose-brand leading-none ${product.price === 0 && addonsTotal === 0 ? 'text-lg md:text-xl' : 'text-xl md:text-2xl'}`}>
+                    {product.price === 0 
+                      ? (addonsTotal > 0 ? `Ask admin (+ ${formatPrice(addonsTotal)})` : "Ask admin for price") 
+                      : formatPrice(totalPrice)}
                   </span>
                 </div>
               </div>
