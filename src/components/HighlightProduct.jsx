@@ -14,8 +14,8 @@ const highlightProducts = [
   },
   {
     id: 2,
-    name: "Summer Sunshine Bouquet",
-    price: "Rp 275.000",
+    name: "Round Lily Humansize",
+    price: "Rp 1.250.000",
     images: [
       "/images/highlights/prod2_01.jpeg",
       "/images/highlights/prod2_02.jpeg",
@@ -32,8 +32,8 @@ const highlightProducts = [
   },
   {
     id: 4,
-    name: "Thumbelina L",
-    price: "Rp 235.000",
+    name: "Thumbelina M",
+    price: "Rp 135.000",
     images: [
       "/images/highlights/prod4_01.jpeg",
       "/images/highlights/prod4_02.jpeg",
@@ -41,8 +41,8 @@ const highlightProducts = [
   },
   {
     id: 5,
-    name: "Rustic Peony Charm",
-    price: "Rp 380.000",
+    name: "Thumbelina L",
+    price: "Rp 235.000",
     images: [
       "/images/highlights/prod5_01.jpeg",
       "/images/highlights/prod5_02.jpeg",
@@ -417,9 +417,9 @@ export default function HighlightProduct() {
 
               <div className="mt-auto pt-6 border-t border-sand/40">
                 <a
-                  href={getWhatsAppLink(
-                    `Halo Jalé Florist, saya tertarik dengan produk ${selectedProduct.name} (${selectedProduct.price}). Boleh minta info lebih lanjut?`,
-                  )}
+                  href={`${getWhatsAppLink()}?text=${encodeURIComponent(
+                    `Halo Jalé Florist, saya tertarik dengan produk ${selectedProduct.name} (${selectedProduct.price}). Boleh minta info lebih lanjut?`
+                  )}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex justify-center items-center gap-2 bg-[#25D366] hover:bg-[#1DA851] text-white font-bold px-8 py-4 rounded-xl transition-all shadow-md hover:shadow-lg hover:-translate-y-1"
