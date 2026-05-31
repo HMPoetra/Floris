@@ -3,7 +3,7 @@
 export const products = [
   {
     "id": "BLBOXARTIF_001",
-    "name": "Bloom Box Artificial 001",
+    "name": "Bloombox Artificial 001",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 170000,
@@ -13,7 +13,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_002",
-    "name": "Bloom Box Artificial 002",
+    "name": "Bloombox Artificial 002",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 275000,
@@ -23,7 +23,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_003",
-    "name": "Bloom Box Artificial 003",
+    "name": "Bloombox Artificial 003",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 265000,
@@ -33,7 +33,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_004",
-    "name": "Bloom Box Artificial 004",
+    "name": "Bloombox Artificial 004",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 399000,
@@ -43,7 +43,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_005",
-    "name": "Bloom Box Artificial 005",
+    "name": "Bloombox Artificial 005",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 149000,
@@ -53,7 +53,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_006",
-    "name": "Bloom Box Artificial 006",
+    "name": "Bloombox Artificial 006",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 399000,
@@ -63,7 +63,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_007",
-    "name": "Bloom Box Artificial 007",
+    "name": "Bloombox Artificial 007",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 299000,
@@ -73,7 +73,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_007_1",
-    "name": "Bloom Box Artificial 007",
+    "name": "Bloombox Artificial 007",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 399000,
@@ -83,7 +83,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_008",
-    "name": "Bloom Box Artificial 008",
+    "name": "Bloombox Artificial 008",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 399000,
@@ -93,7 +93,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_009",
-    "name": "Bloom Box Artificial 009",
+    "name": "Bloombox Artificial 009",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 399000,
@@ -103,7 +103,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_010",
-    "name": "Bloom Box Artificial 010",
+    "name": "Bloombox Artificial 010",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 279000,
@@ -113,7 +113,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_011",
-    "name": "Bloom Box Artificial 011",
+    "name": "Bloombox Artificial 011",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 249000,
@@ -123,7 +123,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_012",
-    "name": "Bloom Box Artificial 012",
+    "name": "Bloombox Artificial 012",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 249000,
@@ -133,7 +133,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_013",
-    "name": "Bloom Box Artificial 013",
+    "name": "Bloombox Artificial 013",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 249000,
@@ -143,7 +143,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_014",
-    "name": "Bloom Box Artificial 014",
+    "name": "Bloombox Artificial 014",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 249000,
@@ -153,7 +153,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_015",
-    "name": "Bloom Box Artificial 015",
+    "name": "Bloombox Artificial 015",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 249000,
@@ -163,7 +163,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_016",
-    "name": "Bloom Box Artificial 016",
+    "name": "Bloombox Artificial 016",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 249000,
@@ -173,7 +173,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_017",
-    "name": "Bloom Box Artificial 017",
+    "name": "Bloombox Artificial 017",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 249000,
@@ -183,7 +183,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_018",
-    "name": "Bloom Box Artificial 018",
+    "name": "Bloombox Artificial 018",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 179000,
@@ -193,7 +193,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_019",
-    "name": "Bloom Box Artificial 019",
+    "name": "Bloombox Artificial 019",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 149000,
@@ -203,7 +203,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_020",
-    "name": "Bloom Box Artificial 020",
+    "name": "Bloombox Artificial 020",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 149000,
@@ -213,7 +213,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_021",
-    "name": "Bloom Box Artificial 021",
+    "name": "Bloombox Artificial 021",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 149000,
@@ -223,7 +223,7 @@ export const products = [
   },
   {
     "id": "BLBOXARTIF_022",
-    "name": "Bloom Box Artificial 022",
+    "name": "Bloombox Artificial 022",
     "category": "Bloom Box",
     "size": "Artificial",
     "price": 149000,
@@ -233,7 +233,7 @@ export const products = [
   },
   {
     "id": "BLBOXFRESH_001",
-    "name": "Bloom Box Fresh 001",
+    "name": "Bloombox Fresh 001",
     "category": "Bloom Box",
     "size": "Fresh",
     "price": 259000,
@@ -243,7 +243,7 @@ export const products = [
   },
   {
     "id": "BAHS_001",
-    "name": "Artificial Human Size 001",
+    "name": "Bouquet Artificial Human Size 001",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
@@ -253,7 +253,7 @@ export const products = [
   },
   {
     "id": "BAHS_002",
-    "name": "Artificial Human Size 002",
+    "name": "Bouquet Artificial Human Size 002",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 650000,
@@ -263,7 +263,7 @@ export const products = [
   },
   {
     "id": "BAHS_003",
-    "name": "Artificial Human Size 003",
+    "name": "Bouquet Artificial Human Size 003",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 700000,
@@ -273,7 +273,7 @@ export const products = [
   },
   {
     "id": "BAHS_004",
-    "name": "Artificial Human Size 004",
+    "name": "Bouquet Artificial Human Size 004",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 700000,
@@ -283,7 +283,7 @@ export const products = [
   },
   {
     "id": "BAHS_005",
-    "name": "Artificial Human Size 005",
+    "name": "Bouquet Artificial Human Size 005",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 700000,
@@ -293,7 +293,7 @@ export const products = [
   },
   {
     "id": "BAHS_006",
-    "name": "Artificial Human Size 006",
+    "name": "Bouquet Artificial Human Size 006",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 650000,
@@ -303,7 +303,7 @@ export const products = [
   },
   {
     "id": "BAHS_007",
-    "name": "Artificial Human Size 007",
+    "name": "Bouquet Artificial Human Size 007",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 950000,
@@ -313,7 +313,7 @@ export const products = [
   },
   {
     "id": "BAHS_008",
-    "name": "Artificial Human Size 008",
+    "name": "Bouquet Artificial Human Size 008",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 750000,
@@ -323,7 +323,7 @@ export const products = [
   },
   {
     "id": "BAHS_009",
-    "name": "Artificial Human Size 009",
+    "name": "Bouquet Artificial Human Size 009",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 950000,
@@ -333,7 +333,7 @@ export const products = [
   },
   {
     "id": "BAHS_010",
-    "name": "Artificial Human Size 010",
+    "name": "Bouquet Artificial Human Size 010",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
@@ -343,7 +343,7 @@ export const products = [
   },
   {
     "id": "BAHS_011",
-    "name": "Artificial Human Size 011",
+    "name": "Bouquet Artificial Human Size 011",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 850000,
@@ -353,7 +353,7 @@ export const products = [
   },
   {
     "id": "BAHS_012",
-    "name": "Artificial Human Size 012",
+    "name": "Bouquet Artificial Human Size 012",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 600000,
@@ -363,7 +363,7 @@ export const products = [
   },
   {
     "id": "BAHS_013",
-    "name": "Artificial Human Size 013",
+    "name": "Bouquet Artificial Human Size 013",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
@@ -373,7 +373,7 @@ export const products = [
   },
   {
     "id": "BAHS_014",
-    "name": "Artificial Human Size 014",
+    "name": "Bouquet Artificial Human Size 014",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 800000,
@@ -383,7 +383,7 @@ export const products = [
   },
   {
     "id": "BAHS_015",
-    "name": "Artificial Human Size 015",
+    "name": "Bouquet Artificial Human Size 015",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 750000,
@@ -393,7 +393,7 @@ export const products = [
   },
   {
     "id": "BAHS_016",
-    "name": "Artificial Human Size 016",
+    "name": "Bouquet Artificial Human Size 016",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 900000,
@@ -403,7 +403,7 @@ export const products = [
   },
   {
     "id": "BAHS_017",
-    "name": "Artificial Human Size 017",
+    "name": "Bouquet Artificial Human Size 017",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 950000,
@@ -413,7 +413,7 @@ export const products = [
   },
   {
     "id": "BAHS_018",
-    "name": "Artificial Human Size 018",
+    "name": "Bouquet Artificial Human Size 018",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 750000,
@@ -423,7 +423,7 @@ export const products = [
   },
   {
     "id": "BAHS_019",
-    "name": "Artificial Human Size 019",
+    "name": "Bouquet Artificial Human Size 019",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
@@ -433,7 +433,7 @@ export const products = [
   },
   {
     "id": "BAHS_020",
-    "name": "Artificial Human Size 020",
+    "name": "Bouquet Artificial Human Size 020",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1000000,
@@ -443,7 +443,7 @@ export const products = [
   },
   {
     "id": "BAHS_021",
-    "name": "Artificial Human Size 021",
+    "name": "Bouquet Artificial Human Size 021",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 1250000,
@@ -453,7 +453,7 @@ export const products = [
   },
   {
     "id": "BAHS_022",
-    "name": "Artificial Human Size 022",
+    "name": "Bouquet Artificial Human Size 022",
     "category": "Bouquet Artificial",
     "size": "Human Size",
     "price": 950000,
@@ -463,7 +463,7 @@ export const products = [
   },
   {
     "id": "BAL_001",
-    "name": "Artificial Large 001",
+    "name": "Bouquet Artificial Large 001",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -473,7 +473,7 @@ export const products = [
   },
   {
     "id": "BAL_002",
-    "name": "Artificial Large 002",
+    "name": "Bouquet Artificial Large 002",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -483,7 +483,7 @@ export const products = [
   },
   {
     "id": "BAL_003",
-    "name": "Artificial Large 003",
+    "name": "Bouquet Artificial Large 003",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -493,7 +493,7 @@ export const products = [
   },
   {
     "id": "BAL_004",
-    "name": "Artificial Large 004",
+    "name": "Bouquet Artificial Large 004",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 200000,
@@ -503,7 +503,7 @@ export const products = [
   },
   {
     "id": "BAL_005",
-    "name": "Artificial Large 005",
+    "name": "Bouquet Artificial Large 005",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -513,7 +513,7 @@ export const products = [
   },
   {
     "id": "BAL_006",
-    "name": "Artificial Large 006",
+    "name": "Bouquet Artificial Large 006",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -523,7 +523,7 @@ export const products = [
   },
   {
     "id": "BAL_007",
-    "name": "Artificial Large 007",
+    "name": "Bouquet Artificial Large 007",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -533,7 +533,7 @@ export const products = [
   },
   {
     "id": "BAL_008",
-    "name": "Artificial Large 008",
+    "name": "Bouquet Artificial Large 008",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -543,7 +543,7 @@ export const products = [
   },
   {
     "id": "BAL_009",
-    "name": "Artificial Large 009",
+    "name": "Bouquet Artificial Large 009",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -553,7 +553,7 @@ export const products = [
   },
   {
     "id": "BAL_010",
-    "name": "Artificial Large 010",
+    "name": "Bouquet Artificial Large 010",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -563,7 +563,7 @@ export const products = [
   },
   {
     "id": "BAL_011",
-    "name": "Artificial Large 011",
+    "name": "Bouquet Artificial Large 011",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -573,7 +573,7 @@ export const products = [
   },
   {
     "id": "BAL_012",
-    "name": "Artificial Large 012",
+    "name": "Bouquet Artificial Large 012",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -583,7 +583,7 @@ export const products = [
   },
   {
     "id": "BAL_013",
-    "name": "Artificial Large 013",
+    "name": "Bouquet Artificial Large 013",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -593,7 +593,7 @@ export const products = [
   },
   {
     "id": "BAL_014",
-    "name": "Artificial Large 014",
+    "name": "Bouquet Artificial Large 014",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 200000,
@@ -603,7 +603,7 @@ export const products = [
   },
   {
     "id": "BAL_015",
-    "name": "Artificial Large 015",
+    "name": "Bouquet Artificial Large 015",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -613,7 +613,7 @@ export const products = [
   },
   {
     "id": "BAL_016",
-    "name": "Artificial Large 016",
+    "name": "Bouquet Artificial Large 016",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -623,7 +623,7 @@ export const products = [
   },
   {
     "id": "BAL_017",
-    "name": "Artificial Large 017",
+    "name": "Bouquet Artificial Large 017",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -633,7 +633,7 @@ export const products = [
   },
   {
     "id": "BAL_018",
-    "name": "Artificial Large 018",
+    "name": "Bouquet Artificial Large 018",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -643,7 +643,7 @@ export const products = [
   },
   {
     "id": "BAL_019",
-    "name": "Artificial Large 019",
+    "name": "Bouquet Artificial Large 019",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -653,7 +653,7 @@ export const products = [
   },
   {
     "id": "BAL_020",
-    "name": "Artificial Large 020",
+    "name": "Bouquet Artificial Large 020",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -663,7 +663,7 @@ export const products = [
   },
   {
     "id": "BAL_021",
-    "name": "Artificial Large 021",
+    "name": "Bouquet Artificial Large 021",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -673,7 +673,7 @@ export const products = [
   },
   {
     "id": "BAL_022",
-    "name": "Artificial Large 022",
+    "name": "Bouquet Artificial Large 022",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -683,7 +683,7 @@ export const products = [
   },
   {
     "id": "BAL_023",
-    "name": "Artificial Large 023",
+    "name": "Bouquet Artificial Large 023",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -693,7 +693,7 @@ export const products = [
   },
   {
     "id": "BAL_024",
-    "name": "Artificial Large 024",
+    "name": "Bouquet Artificial Large 024",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -703,7 +703,7 @@ export const products = [
   },
   {
     "id": "BAL_025",
-    "name": "Artificial Large 025",
+    "name": "Bouquet Artificial Large 025",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -713,7 +713,7 @@ export const products = [
   },
   {
     "id": "BAL_026",
-    "name": "Artificial Large 026",
+    "name": "Bouquet Artificial Large 026",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 275000,
@@ -723,7 +723,7 @@ export const products = [
   },
   {
     "id": "BAL_027",
-    "name": "Artificial Large 027",
+    "name": "Bouquet Artificial Large 027",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -733,7 +733,7 @@ export const products = [
   },
   {
     "id": "BAL_028",
-    "name": "Artificial Large 028",
+    "name": "Bouquet Artificial Large 028",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -743,7 +743,7 @@ export const products = [
   },
   {
     "id": "BAL_029",
-    "name": "Artificial Large 029",
+    "name": "Bouquet Artificial Large 029",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -753,7 +753,7 @@ export const products = [
   },
   {
     "id": "BAL_030",
-    "name": "Artificial Large 030",
+    "name": "Bouquet Artificial Large 030",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -763,7 +763,7 @@ export const products = [
   },
   {
     "id": "BAL_031",
-    "name": "Artificial Large 031",
+    "name": "Bouquet Artificial Large 031",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -773,7 +773,7 @@ export const products = [
   },
   {
     "id": "BAL_032",
-    "name": "Artificial Large 032",
+    "name": "Bouquet Artificial Large 032",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -783,7 +783,7 @@ export const products = [
   },
   {
     "id": "BAL_033",
-    "name": "Artificial Large 033",
+    "name": "Bouquet Artificial Large 033",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -793,7 +793,7 @@ export const products = [
   },
   {
     "id": "BAL_034",
-    "name": "Artificial Large 034",
+    "name": "Bouquet Artificial Large 034",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -803,7 +803,7 @@ export const products = [
   },
   {
     "id": "BAL_035",
-    "name": "Artificial Large 035",
+    "name": "Bouquet Artificial Large 035",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -813,7 +813,7 @@ export const products = [
   },
   {
     "id": "BAL_036",
-    "name": "Artificial Large 036",
+    "name": "Bouquet Artificial Large 036",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -823,7 +823,7 @@ export const products = [
   },
   {
     "id": "BAL_037",
-    "name": "Artificial Large 037",
+    "name": "Bouquet Artificial Large 037",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -833,7 +833,7 @@ export const products = [
   },
   {
     "id": "BAL_038",
-    "name": "Artificial Large 038",
+    "name": "Bouquet Artificial Large 038",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 230000,
@@ -843,7 +843,7 @@ export const products = [
   },
   {
     "id": "BAL_039",
-    "name": "Artificial Large 039",
+    "name": "Bouquet Artificial Large 039",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -853,7 +853,7 @@ export const products = [
   },
   {
     "id": "BAL_040",
-    "name": "Artificial Large 040",
+    "name": "Bouquet Artificial Large 040",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -863,7 +863,7 @@ export const products = [
   },
   {
     "id": "BAL_041",
-    "name": "Artificial Large 041",
+    "name": "Bouquet Artificial Large 041",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -873,7 +873,7 @@ export const products = [
   },
   {
     "id": "BAL_042",
-    "name": "Artificial Large 042",
+    "name": "Bouquet Artificial Large 042",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -883,7 +883,7 @@ export const products = [
   },
   {
     "id": "BAL_043",
-    "name": "Artificial Large 043",
+    "name": "Bouquet Artificial Large 043",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -893,7 +893,7 @@ export const products = [
   },
   {
     "id": "BAL_044",
-    "name": "Artificial Large 044",
+    "name": "Bouquet Artificial Large 044",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 0,
@@ -903,7 +903,7 @@ export const products = [
   },
   {
     "id": "BAL_045",
-    "name": "Artificial Large 045",
+    "name": "Bouquet Artificial Large 045",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -913,7 +913,7 @@ export const products = [
   },
   {
     "id": "BAL_046",
-    "name": "Artificial Large 046",
+    "name": "Bouquet Artificial Large 046",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -923,7 +923,7 @@ export const products = [
   },
   {
     "id": "BAL_047",
-    "name": "Artificial Large 047",
+    "name": "Bouquet Artificial Large 047",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -933,7 +933,7 @@ export const products = [
   },
   {
     "id": "BAL_048",
-    "name": "Artificial Large 048",
+    "name": "Bouquet Artificial Large 048",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -943,7 +943,7 @@ export const products = [
   },
   {
     "id": "BAL_049",
-    "name": "Artificial Large 049",
+    "name": "Bouquet Artificial Large 049",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -953,7 +953,7 @@ export const products = [
   },
   {
     "id": "BAL_050",
-    "name": "Artificial Large 050",
+    "name": "Bouquet Artificial Large 050",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -963,7 +963,7 @@ export const products = [
   },
   {
     "id": "BAL_051",
-    "name": "Artificial Large 051",
+    "name": "Bouquet Artificial Large 051",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -973,7 +973,7 @@ export const products = [
   },
   {
     "id": "BAL_052",
-    "name": "Artificial Large 052",
+    "name": "Bouquet Artificial Large 052",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -983,7 +983,7 @@ export const products = [
   },
   {
     "id": "BAL_053",
-    "name": "Artificial Large 053",
+    "name": "Bouquet Artificial Large 053",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -993,7 +993,7 @@ export const products = [
   },
   {
     "id": "BAL_054",
-    "name": "Artificial Large 054",
+    "name": "Bouquet Artificial Large 054",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1003,7 +1003,7 @@ export const products = [
   },
   {
     "id": "BAL_055",
-    "name": "Artificial Large 055",
+    "name": "Bouquet Artificial Large 055",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1013,7 +1013,7 @@ export const products = [
   },
   {
     "id": "BAL_056",
-    "name": "Artificial Large 056",
+    "name": "Bouquet Artificial Large 056",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1023,7 +1023,7 @@ export const products = [
   },
   {
     "id": "BAL_057",
-    "name": "Artificial Large 057",
+    "name": "Bouquet Artificial Large 057",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -1033,7 +1033,7 @@ export const products = [
   },
   {
     "id": "BAL_058",
-    "name": "Artificial Large 058",
+    "name": "Bouquet Artificial Large 058",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1043,7 +1043,7 @@ export const products = [
   },
   {
     "id": "BAL_059",
-    "name": "Artificial Large 059",
+    "name": "Bouquet Artificial Large 059",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1053,7 +1053,7 @@ export const products = [
   },
   {
     "id": "BAL_060",
-    "name": "Artificial Large 060",
+    "name": "Bouquet Artificial Large 060",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1063,7 +1063,7 @@ export const products = [
   },
   {
     "id": "BAL_061",
-    "name": "Artificial Large 061",
+    "name": "Bouquet Artificial Large 061",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1073,7 +1073,7 @@ export const products = [
   },
   {
     "id": "BAL_062",
-    "name": "Artificial Large 062",
+    "name": "Bouquet Artificial Large 062",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1083,7 +1083,7 @@ export const products = [
   },
   {
     "id": "BAL_063",
-    "name": "Artificial Large 063",
+    "name": "Bouquet Artificial Large 063",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1093,7 +1093,7 @@ export const products = [
   },
   {
     "id": "BAL_064",
-    "name": "Artificial Large 064",
+    "name": "Bouquet Artificial Large 064",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1103,7 +1103,7 @@ export const products = [
   },
   {
     "id": "BAL_065",
-    "name": "Artificial Large 065",
+    "name": "Bouquet Artificial Large 065",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1113,7 +1113,7 @@ export const products = [
   },
   {
     "id": "BAL_066",
-    "name": "Artificial Large 066",
+    "name": "Bouquet Artificial Large 066",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 0,
@@ -1123,7 +1123,7 @@ export const products = [
   },
   {
     "id": "BAL_067",
-    "name": "Artificial Large 067",
+    "name": "Bouquet Artificial Large 067",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1133,7 +1133,7 @@ export const products = [
   },
   {
     "id": "BAL_068",
-    "name": "Artificial Large 068",
+    "name": "Bouquet Artificial Large 068",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1143,7 +1143,7 @@ export const products = [
   },
   {
     "id": "BAL_069",
-    "name": "Artificial Large 069",
+    "name": "Bouquet Artificial Large 069",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1153,7 +1153,7 @@ export const products = [
   },
   {
     "id": "BAL_070",
-    "name": "Artificial Large 070",
+    "name": "Bouquet Artificial Large 070",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1163,7 +1163,7 @@ export const products = [
   },
   {
     "id": "BAL_071",
-    "name": "Artificial Large 071",
+    "name": "Bouquet Artificial Large 071",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1173,7 +1173,7 @@ export const products = [
   },
   {
     "id": "BAL_072",
-    "name": "Artificial Large 072",
+    "name": "Bouquet Artificial Large 072",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -1183,7 +1183,7 @@ export const products = [
   },
   {
     "id": "BAL_073",
-    "name": "Artificial Large 073",
+    "name": "Bouquet Artificial Large 073",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 265000,
@@ -1193,7 +1193,7 @@ export const products = [
   },
   {
     "id": "BAL_074",
-    "name": "Artificial Large 074",
+    "name": "Bouquet Artificial Large 074",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -1203,7 +1203,7 @@ export const products = [
   },
   {
     "id": "BAL_075",
-    "name": "Artificial Large 075",
+    "name": "Bouquet Artificial Large 075",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1213,7 +1213,7 @@ export const products = [
   },
   {
     "id": "BAL_076",
-    "name": "Artificial Large 076",
+    "name": "Bouquet Artificial Large 076",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 220000,
@@ -1223,7 +1223,7 @@ export const products = [
   },
   {
     "id": "BAL_077",
-    "name": "Artificial Large 077",
+    "name": "Bouquet Artificial Large 077",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1233,7 +1233,7 @@ export const products = [
   },
   {
     "id": "BAL_078",
-    "name": "Artificial Large 078",
+    "name": "Bouquet Artificial Large 078",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1243,7 +1243,7 @@ export const products = [
   },
   {
     "id": "BAL_079",
-    "name": "Artificial Large 079",
+    "name": "Bouquet Artificial Large 079",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -1253,7 +1253,7 @@ export const products = [
   },
   {
     "id": "BAL_080",
-    "name": "Artificial Large 080",
+    "name": "Bouquet Artificial Large 080",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -1263,7 +1263,7 @@ export const products = [
   },
   {
     "id": "BAL_081",
-    "name": "Artificial Large 081",
+    "name": "Bouquet Artificial Large 081",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1273,7 +1273,7 @@ export const products = [
   },
   {
     "id": "BAL_082",
-    "name": "Artificial Large 082",
+    "name": "Bouquet Artificial Large 082",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1283,7 +1283,7 @@ export const products = [
   },
   {
     "id": "BAL_083",
-    "name": "Artificial Large 083",
+    "name": "Bouquet Artificial Large 083",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1293,7 +1293,7 @@ export const products = [
   },
   {
     "id": "BAL_084",
-    "name": "Artificial Large 084",
+    "name": "Bouquet Artificial Large 084",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 265000,
@@ -1303,7 +1303,7 @@ export const products = [
   },
   {
     "id": "BAL_085",
-    "name": "Artificial Large 085",
+    "name": "Bouquet Artificial Large 085",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 235000,
@@ -1313,7 +1313,7 @@ export const products = [
   },
   {
     "id": "BAL_086",
-    "name": "Artificial Large 086",
+    "name": "Bouquet Artificial Large 086",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -1323,7 +1323,7 @@ export const products = [
   },
   {
     "id": "BAL_087",
-    "name": "Artificial Large 087",
+    "name": "Bouquet Artificial Large 087",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -1333,7 +1333,7 @@ export const products = [
   },
   {
     "id": "BAL_088",
-    "name": "Artificial Large 088",
+    "name": "Bouquet Artificial Large 088",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1343,7 +1343,7 @@ export const products = [
   },
   {
     "id": "BAL_089",
-    "name": "Artificial Large 089",
+    "name": "Bouquet Artificial Large 089",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1353,7 +1353,7 @@ export const products = [
   },
   {
     "id": "BAL_090",
-    "name": "Artificial Large 090",
+    "name": "Bouquet Artificial Large 090",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1363,7 +1363,7 @@ export const products = [
   },
   {
     "id": "BAL_091",
-    "name": "Artificial Large 091",
+    "name": "Bouquet Artificial Large 091",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1373,7 +1373,7 @@ export const products = [
   },
   {
     "id": "BAL_092",
-    "name": "Artificial Large 092",
+    "name": "Bouquet Artificial Large 092",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 245000,
@@ -1383,7 +1383,7 @@ export const products = [
   },
   {
     "id": "BAL_093",
-    "name": "Artificial Large 093",
+    "name": "Bouquet Artificial Large 093",
     "category": "Bouquet Artificial",
     "size": "Large",
     "price": 250000,
@@ -1393,7 +1393,7 @@ export const products = [
   },
   {
     "id": "BAM_001",
-    "name": "Artificial Medium 001",
+    "name": "Bouquet Artificial Medium 001",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -1403,7 +1403,7 @@ export const products = [
   },
   {
     "id": "BAM_002",
-    "name": "Artificial Medium 002",
+    "name": "Bouquet Artificial Medium 002",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -1413,7 +1413,7 @@ export const products = [
   },
   {
     "id": "BAM_003",
-    "name": "Artificial Medium 003",
+    "name": "Bouquet Artificial Medium 003",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
@@ -1423,7 +1423,7 @@ export const products = [
   },
   {
     "id": "BAM_004",
-    "name": "Artificial Medium 004",
+    "name": "Bouquet Artificial Medium 004",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
@@ -1433,7 +1433,7 @@ export const products = [
   },
   {
     "id": "BAM_006",
-    "name": "Artificial Medium 006",
+    "name": "Bouquet Artificial Medium 006",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
@@ -1443,7 +1443,7 @@ export const products = [
   },
   {
     "id": "BAM_007",
-    "name": "Artificial Medium 007",
+    "name": "Bouquet Artificial Medium 007",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1453,7 +1453,7 @@ export const products = [
   },
   {
     "id": "BAM_008",
-    "name": "Artificial Medium 008",
+    "name": "Bouquet Artificial Medium 008",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1463,7 +1463,7 @@ export const products = [
   },
   {
     "id": "BAM_009",
-    "name": "Artificial Medium 009",
+    "name": "Bouquet Artificial Medium 009",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1473,7 +1473,7 @@ export const products = [
   },
   {
     "id": "BAM_010",
-    "name": "Artificial Medium 010",
+    "name": "Bouquet Artificial Medium 010",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1483,7 +1483,7 @@ export const products = [
   },
   {
     "id": "BAM_011",
-    "name": "Artificial Medium 011",
+    "name": "Bouquet Artificial Medium 011",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1493,7 +1493,7 @@ export const products = [
   },
   {
     "id": "BAM_012",
-    "name": "Artificial Medium 012",
+    "name": "Bouquet Artificial Medium 012",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1503,7 +1503,7 @@ export const products = [
   },
   {
     "id": "BAM_013",
-    "name": "Artificial Medium 013",
+    "name": "Bouquet Artificial Medium 013",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1513,7 +1513,7 @@ export const products = [
   },
   {
     "id": "BAM_014",
-    "name": "Artificial Medium 014",
+    "name": "Bouquet Artificial Medium 014",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1523,7 +1523,7 @@ export const products = [
   },
   {
     "id": "BAM_015",
-    "name": "Artificial Medium 015",
+    "name": "Bouquet Artificial Medium 015",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1533,7 +1533,7 @@ export const products = [
   },
   {
     "id": "BAM_016",
-    "name": "Artificial Medium 016",
+    "name": "Bouquet Artificial Medium 016",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1543,7 +1543,7 @@ export const products = [
   },
   {
     "id": "BAM_017",
-    "name": "Artificial Medium 017",
+    "name": "Bouquet Artificial Medium 017",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -1553,7 +1553,7 @@ export const products = [
   },
   {
     "id": "BAM_018",
-    "name": "Artificial Medium 018",
+    "name": "Bouquet Artificial Medium 018",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1563,7 +1563,7 @@ export const products = [
   },
   {
     "id": "BAM_019",
-    "name": "Artificial Medium 019",
+    "name": "Bouquet Artificial Medium 019",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1573,7 +1573,7 @@ export const products = [
   },
   {
     "id": "BAM_020",
-    "name": "Artificial Medium 020",
+    "name": "Bouquet Artificial Medium 020",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1583,7 +1583,7 @@ export const products = [
   },
   {
     "id": "BAM_021",
-    "name": "Artificial Medium 021",
+    "name": "Bouquet Artificial Medium 021",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1593,7 +1593,7 @@ export const products = [
   },
   {
     "id": "BAM_022",
-    "name": "Artificial Medium 022",
+    "name": "Bouquet Artificial Medium 022",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1603,7 +1603,7 @@ export const products = [
   },
   {
     "id": "BAM_023",
-    "name": "Artificial Medium 023",
+    "name": "Bouquet Artificial Medium 023",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1613,7 +1613,7 @@ export const products = [
   },
   {
     "id": "BAM_024",
-    "name": "Artificial Medium 024",
+    "name": "Bouquet Artificial Medium 024",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1623,7 +1623,7 @@ export const products = [
   },
   {
     "id": "BAM_025",
-    "name": "Artificial Medium 025",
+    "name": "Bouquet Artificial Medium 025",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1633,7 +1633,7 @@ export const products = [
   },
   {
     "id": "BAM_026",
-    "name": "Artificial Medium 026",
+    "name": "Bouquet Artificial Medium 026",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1643,7 +1643,7 @@ export const products = [
   },
   {
     "id": "BAM_027",
-    "name": "Artificial Medium 027",
+    "name": "Bouquet Artificial Medium 027",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1653,7 +1653,7 @@ export const products = [
   },
   {
     "id": "BAM_028",
-    "name": "Artificial Medium 028",
+    "name": "Bouquet Artificial Medium 028",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -1663,7 +1663,7 @@ export const products = [
   },
   {
     "id": "BAM_029",
-    "name": "Artificial Medium 029",
+    "name": "Bouquet Artificial Medium 029",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -1673,7 +1673,7 @@ export const products = [
   },
   {
     "id": "BAM_030",
-    "name": "Artificial Medium 030",
+    "name": "Bouquet Artificial Medium 030",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1683,7 +1683,7 @@ export const products = [
   },
   {
     "id": "BAM_031",
-    "name": "Artificial Medium 031",
+    "name": "Bouquet Artificial Medium 031",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1693,7 +1693,7 @@ export const products = [
   },
   {
     "id": "BAM_032",
-    "name": "Artificial Medium 032",
+    "name": "Bouquet Artificial Medium 032",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1703,7 +1703,7 @@ export const products = [
   },
   {
     "id": "BAM_033",
-    "name": "Artificial Medium 033",
+    "name": "Bouquet Artificial Medium 033",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1713,7 +1713,7 @@ export const products = [
   },
   {
     "id": "BAM_034",
-    "name": "Artificial Medium 034",
+    "name": "Bouquet Artificial Medium 034",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1723,7 +1723,7 @@ export const products = [
   },
   {
     "id": "BAM_035",
-    "name": "Artificial Medium 035",
+    "name": "Bouquet Artificial Medium 035",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1733,7 +1733,7 @@ export const products = [
   },
   {
     "id": "BAM_036",
-    "name": "Artificial Medium 036",
+    "name": "Bouquet Artificial Medium 036",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -1743,7 +1743,7 @@ export const products = [
   },
   {
     "id": "BAM_037",
-    "name": "Artificial Medium 037",
+    "name": "Bouquet Artificial Medium 037",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1753,7 +1753,7 @@ export const products = [
   },
   {
     "id": "BAM_038",
-    "name": "Artificial Medium 038",
+    "name": "Bouquet Artificial Medium 038",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1763,7 +1763,7 @@ export const products = [
   },
   {
     "id": "BAM_039",
-    "name": "Artificial Medium 039",
+    "name": "Bouquet Artificial Medium 039",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1773,7 +1773,7 @@ export const products = [
   },
   {
     "id": "BAM_040",
-    "name": "Artificial Medium 040",
+    "name": "Bouquet Artificial Medium 040",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1783,7 +1783,7 @@ export const products = [
   },
   {
     "id": "BAM_041",
-    "name": "Artificial Medium 041",
+    "name": "Bouquet Artificial Medium 041",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1793,7 +1793,7 @@ export const products = [
   },
   {
     "id": "BAM_042",
-    "name": "Artificial Medium 042",
+    "name": "Bouquet Artificial Medium 042",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -1803,7 +1803,7 @@ export const products = [
   },
   {
     "id": "BAM_043",
-    "name": "Artificial Medium 043",
+    "name": "Bouquet Artificial Medium 043",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -1813,7 +1813,7 @@ export const products = [
   },
   {
     "id": "BAM_044",
-    "name": "Artificial Medium 044",
+    "name": "Bouquet Artificial Medium 044",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -1823,7 +1823,7 @@ export const products = [
   },
   {
     "id": "BAM_045",
-    "name": "Artificial Medium 045",
+    "name": "Bouquet Artificial Medium 045",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1833,7 +1833,7 @@ export const products = [
   },
   {
     "id": "BAM_046",
-    "name": "Artificial Medium 046",
+    "name": "Bouquet Artificial Medium 046",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
@@ -1843,7 +1843,7 @@ export const products = [
   },
   {
     "id": "BAM_047",
-    "name": "Artificial Medium 047",
+    "name": "Bouquet Artificial Medium 047",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1853,7 +1853,7 @@ export const products = [
   },
   {
     "id": "BAM_048",
-    "name": "Artificial Medium 048",
+    "name": "Bouquet Artificial Medium 048",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1863,7 +1863,7 @@ export const products = [
   },
   {
     "id": "BAM_049",
-    "name": "Artificial Medium 049",
+    "name": "Bouquet Artificial Medium 049",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1873,7 +1873,7 @@ export const products = [
   },
   {
     "id": "BAM_050",
-    "name": "Artificial Medium 050",
+    "name": "Bouquet Artificial Medium 050",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1883,7 +1883,7 @@ export const products = [
   },
   {
     "id": "BAM_051",
-    "name": "Artificial Medium 051",
+    "name": "Bouquet Artificial Medium 051",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1893,7 +1893,7 @@ export const products = [
   },
   {
     "id": "BAM_052",
-    "name": "Artificial Medium 052",
+    "name": "Bouquet Artificial Medium 052",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1903,7 +1903,7 @@ export const products = [
   },
   {
     "id": "BAM_053",
-    "name": "Artificial Medium 053",
+    "name": "Bouquet Artificial Medium 053",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1913,7 +1913,7 @@ export const products = [
   },
   {
     "id": "BAM_054",
-    "name": "Artificial Medium 054",
+    "name": "Bouquet Artificial Medium 054",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1923,7 +1923,7 @@ export const products = [
   },
   {
     "id": "BAM_055",
-    "name": "Artificial Medium 055",
+    "name": "Bouquet Artificial Medium 055",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1933,7 +1933,7 @@ export const products = [
   },
   {
     "id": "BAM_056",
-    "name": "Artificial Medium 056",
+    "name": "Bouquet Artificial Medium 056",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1943,7 +1943,7 @@ export const products = [
   },
   {
     "id": "BAM_057",
-    "name": "Artificial Medium 057",
+    "name": "Bouquet Artificial Medium 057",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1953,7 +1953,7 @@ export const products = [
   },
   {
     "id": "BAM_058",
-    "name": "Artificial Medium 058",
+    "name": "Bouquet Artificial Medium 058",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -1963,7 +1963,7 @@ export const products = [
   },
   {
     "id": "BAM_059",
-    "name": "Artificial Medium 059",
+    "name": "Bouquet Artificial Medium 059",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -1973,7 +1973,7 @@ export const products = [
   },
   {
     "id": "BAM_060",
-    "name": "Artificial Medium 060",
+    "name": "Bouquet Artificial Medium 060",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
@@ -1983,7 +1983,7 @@ export const products = [
   },
   {
     "id": "BAM_061",
-    "name": "Artificial Medium 061",
+    "name": "Bouquet Artificial Medium 061",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -1993,7 +1993,7 @@ export const products = [
   },
   {
     "id": "BAM_062",
-    "name": "Artificial Medium 062",
+    "name": "Bouquet Artificial Medium 062",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -2003,7 +2003,7 @@ export const products = [
   },
   {
     "id": "BAM_063",
-    "name": "Artificial Medium 063",
+    "name": "Bouquet Artificial Medium 063",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -2013,7 +2013,7 @@ export const products = [
   },
   {
     "id": "BAM_064",
-    "name": "Artificial Medium 064",
+    "name": "Bouquet Artificial Medium 064",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2023,7 +2023,7 @@ export const products = [
   },
   {
     "id": "BAM_065",
-    "name": "Artificial Medium 065",
+    "name": "Bouquet Artificial Medium 065",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -2033,7 +2033,7 @@ export const products = [
   },
   {
     "id": "BAM_066",
-    "name": "Artificial Medium 066",
+    "name": "Bouquet Artificial Medium 066",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2043,7 +2043,7 @@ export const products = [
   },
   {
     "id": "BAM_067",
-    "name": "Artificial Medium 067",
+    "name": "Bouquet Artificial Medium 067",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -2053,7 +2053,7 @@ export const products = [
   },
   {
     "id": "BAM_068",
-    "name": "Artificial Medium 068",
+    "name": "Bouquet Artificial Medium 068",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -2063,7 +2063,7 @@ export const products = [
   },
   {
     "id": "BAM_069",
-    "name": "Artificial Medium 069",
+    "name": "Bouquet Artificial Medium 069",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2073,7 +2073,7 @@ export const products = [
   },
   {
     "id": "BAM_070",
-    "name": "Artificial Medium 070",
+    "name": "Bouquet Artificial Medium 070",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -2083,7 +2083,7 @@ export const products = [
   },
   {
     "id": "BAM_071",
-    "name": "Artificial Medium 071",
+    "name": "Bouquet Artificial Medium 071",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -2093,7 +2093,7 @@ export const products = [
   },
   {
     "id": "BAM_072",
-    "name": "Artificial Medium 072",
+    "name": "Bouquet Artificial Medium 072",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -2103,7 +2103,7 @@ export const products = [
   },
   {
     "id": "BAM_073",
-    "name": "Artificial Medium 073",
+    "name": "Bouquet Artificial Medium 073",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2113,7 +2113,7 @@ export const products = [
   },
   {
     "id": "BAM_074",
-    "name": "Artificial Medium 074",
+    "name": "Bouquet Artificial Medium 074",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2123,7 +2123,7 @@ export const products = [
   },
   {
     "id": "BAM_075",
-    "name": "Artificial Medium 075",
+    "name": "Bouquet Artificial Medium 075",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
@@ -2133,7 +2133,7 @@ export const products = [
   },
   {
     "id": "BAM_076",
-    "name": "Artificial Medium 076",
+    "name": "Bouquet Artificial Medium 076",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -2143,7 +2143,7 @@ export const products = [
   },
   {
     "id": "BAM_077",
-    "name": "Artificial Medium 077",
+    "name": "Bouquet Artificial Medium 077",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 170000,
@@ -2153,7 +2153,7 @@ export const products = [
   },
   {
     "id": "BAM_078",
-    "name": "Artificial Medium 078",
+    "name": "Bouquet Artificial Medium 078",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -2163,7 +2163,7 @@ export const products = [
   },
   {
     "id": "BAM_079",
-    "name": "Artificial Medium 079",
+    "name": "Bouquet Artificial Medium 079",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 135000,
@@ -2173,7 +2173,7 @@ export const products = [
   },
   {
     "id": "BAM_080",
-    "name": "Artificial Medium 080",
+    "name": "Bouquet Artificial Medium 080",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2183,7 +2183,7 @@ export const products = [
   },
   {
     "id": "BAM_081",
-    "name": "Artificial Medium 081",
+    "name": "Bouquet Artificial Medium 081",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2193,7 +2193,7 @@ export const products = [
   },
   {
     "id": "BAM_082",
-    "name": "Artificial Medium 082",
+    "name": "Bouquet Artificial Medium 082",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2203,7 +2203,7 @@ export const products = [
   },
   {
     "id": "BAM_083",
-    "name": "Artificial Medium 083",
+    "name": "Bouquet Artificial Medium 083",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -2213,7 +2213,7 @@ export const products = [
   },
   {
     "id": "BAM_084",
-    "name": "Artificial Medium 084",
+    "name": "Bouquet Artificial Medium 084",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2223,7 +2223,7 @@ export const products = [
   },
   {
     "id": "BAM_085",
-    "name": "Artificial Medium 085",
+    "name": "Bouquet Artificial Medium 085",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -2233,7 +2233,7 @@ export const products = [
   },
   {
     "id": "BAM_086",
-    "name": "Artificial Medium 086",
+    "name": "Bouquet Artificial Medium 086",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2243,7 +2243,7 @@ export const products = [
   },
   {
     "id": "BAM_087",
-    "name": "Artificial Medium 087",
+    "name": "Bouquet Artificial Medium 087",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 150000,
@@ -2253,7 +2253,7 @@ export const products = [
   },
   {
     "id": "BAM_088",
-    "name": "Artificial Medium 088",
+    "name": "Bouquet Artificial Medium 088",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -2263,7 +2263,7 @@ export const products = [
   },
   {
     "id": "BAM_089",
-    "name": "Artificial Medium 089",
+    "name": "Bouquet Artificial Medium 089",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -2273,7 +2273,7 @@ export const products = [
   },
   {
     "id": "BAM_090",
-    "name": "Artificial Medium 090",
+    "name": "Bouquet Artificial Medium 090",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2283,7 +2283,7 @@ export const products = [
   },
   {
     "id": "BAM_091",
-    "name": "Artificial Medium 091",
+    "name": "Bouquet Artificial Medium 091",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2293,7 +2293,7 @@ export const products = [
   },
   {
     "id": "BAM_092",
-    "name": "Artificial Medium 092",
+    "name": "Bouquet Artificial Medium 092",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2303,7 +2303,7 @@ export const products = [
   },
   {
     "id": "BAM_093",
-    "name": "Artificial Medium 093",
+    "name": "Bouquet Artificial Medium 093",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 200000,
@@ -2313,7 +2313,7 @@ export const products = [
   },
   {
     "id": "BAM_094",
-    "name": "Artificial Medium 094",
+    "name": "Bouquet Artificial Medium 094",
     "category": "Bouquet Artificial",
     "size": "Medium",
     "price": 180000,
@@ -2323,7 +2323,7 @@ export const products = [
   },
   {
     "id": "BAP_001",
-    "name": "Artificial Petite 001",
+    "name": "Bouquet Artificial Petite 001",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2333,7 +2333,7 @@ export const products = [
   },
   {
     "id": "BAP_002",
-    "name": "Artificial Petite 002",
+    "name": "Bouquet Artificial Petite 002",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2343,7 +2343,7 @@ export const products = [
   },
   {
     "id": "BAP_003",
-    "name": "Artificial Petite 003",
+    "name": "Bouquet Artificial Petite 003",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2353,7 +2353,7 @@ export const products = [
   },
   {
     "id": "BAP_004",
-    "name": "Artificial Petite 004",
+    "name": "Bouquet Artificial Petite 004",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2363,7 +2363,7 @@ export const products = [
   },
   {
     "id": "BAP_005",
-    "name": "Artificial Petite 005",
+    "name": "Bouquet Artificial Petite 005",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2373,7 +2373,7 @@ export const products = [
   },
   {
     "id": "BAP_006",
-    "name": "Artificial Petite 006",
+    "name": "Bouquet Artificial Petite 006",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2383,7 +2383,7 @@ export const products = [
   },
   {
     "id": "BAP_007",
-    "name": "Artificial Petite 007",
+    "name": "Bouquet Artificial Petite 007",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2393,7 +2393,7 @@ export const products = [
   },
   {
     "id": "BAP_008",
-    "name": "Artificial Petite 008",
+    "name": "Bouquet Artificial Petite 008",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
@@ -2403,7 +2403,7 @@ export const products = [
   },
   {
     "id": "BAP_009",
-    "name": "Artificial Petite 009",
+    "name": "Bouquet Artificial Petite 009",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2413,7 +2413,7 @@ export const products = [
   },
   {
     "id": "BAP_010",
-    "name": "Artificial Petite 010",
+    "name": "Bouquet Artificial Petite 010",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
@@ -2423,7 +2423,7 @@ export const products = [
   },
   {
     "id": "BAP_011",
-    "name": "Artificial Petite 011",
+    "name": "Bouquet Artificial Petite 011",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
@@ -2433,7 +2433,7 @@ export const products = [
   },
   {
     "id": "BAP_012",
-    "name": "Artificial Petite 012",
+    "name": "Bouquet Artificial Petite 012",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
@@ -2443,7 +2443,7 @@ export const products = [
   },
   {
     "id": "BAP_013",
-    "name": "Artificial Petite 013",
+    "name": "Bouquet Artificial Petite 013",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2453,7 +2453,7 @@ export const products = [
   },
   {
     "id": "BAP_014",
-    "name": "Artificial Petite 014",
+    "name": "Bouquet Artificial Petite 014",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2463,7 +2463,7 @@ export const products = [
   },
   {
     "id": "BAP_015",
-    "name": "Artificial Petite 015",
+    "name": "Bouquet Artificial Petite 015",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
@@ -2473,7 +2473,7 @@ export const products = [
   },
   {
     "id": "BAP_016",
-    "name": "Artificial Petite 016",
+    "name": "Bouquet Artificial Petite 016",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2483,7 +2483,7 @@ export const products = [
   },
   {
     "id": "BAP_017",
-    "name": "Artificial Petite 017",
+    "name": "Bouquet Artificial Petite 017",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 35000,
@@ -2493,7 +2493,7 @@ export const products = [
   },
   {
     "id": "BAP_018",
-    "name": "Artificial Petite 018",
+    "name": "Bouquet Artificial Petite 018",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
@@ -2503,7 +2503,7 @@ export const products = [
   },
   {
     "id": "BAP_019",
-    "name": "Artificial Petite 019",
+    "name": "Bouquet Artificial Petite 019",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
@@ -2513,7 +2513,7 @@ export const products = [
   },
   {
     "id": "BAP_020",
-    "name": "Artificial Petite 020",
+    "name": "Bouquet Artificial Petite 020",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 50000,
@@ -2523,7 +2523,7 @@ export const products = [
   },
   {
     "id": "BAP_021",
-    "name": "Artificial Petite 021",
+    "name": "Bouquet Artificial Petite 021",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
@@ -2533,7 +2533,7 @@ export const products = [
   },
   {
     "id": "BAP_022",
-    "name": "Artificial Petite 022",
+    "name": "Bouquet Artificial Petite 022",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
@@ -2543,7 +2543,7 @@ export const products = [
   },
   {
     "id": "BAP_023",
-    "name": "Artificial Petite 023",
+    "name": "Bouquet Artificial Petite 023",
     "category": "Bouquet Artificial",
     "size": "Petite",
     "price": 65000,
@@ -2553,7 +2553,7 @@ export const products = [
   },
   {
     "id": "BAS_001",
-    "name": "Artificial Small 001",
+    "name": "Bouquet Artificial Small 001",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2563,7 +2563,7 @@ export const products = [
   },
   {
     "id": "BAS_002",
-    "name": "Artificial Small 002",
+    "name": "Bouquet Artificial Small 002",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2573,7 +2573,7 @@ export const products = [
   },
   {
     "id": "BAS_003",
-    "name": "Artificial Small 003",
+    "name": "Bouquet Artificial Small 003",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2583,7 +2583,7 @@ export const products = [
   },
   {
     "id": "BAS_004",
-    "name": "Artificial Small 004",
+    "name": "Bouquet Artificial Small 004",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2593,7 +2593,7 @@ export const products = [
   },
   {
     "id": "BAS_005",
-    "name": "Artificial Small 005",
+    "name": "Bouquet Artificial Small 005",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2603,7 +2603,7 @@ export const products = [
   },
   {
     "id": "BAS_006",
-    "name": "Artificial Small 006",
+    "name": "Bouquet Artificial Small 006",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2613,7 +2613,7 @@ export const products = [
   },
   {
     "id": "BAS_007",
-    "name": "Artificial Small 007",
+    "name": "Bouquet Artificial Small 007",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2623,7 +2623,7 @@ export const products = [
   },
   {
     "id": "BAS_008",
-    "name": "Artificial Small 008",
+    "name": "Bouquet Artificial Small 008",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2633,7 +2633,7 @@ export const products = [
   },
   {
     "id": "BAS_009",
-    "name": "Artificial Small 009",
+    "name": "Bouquet Artificial Small 009",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2643,7 +2643,7 @@ export const products = [
   },
   {
     "id": "BAS_010",
-    "name": "Artificial Small 010",
+    "name": "Bouquet Artificial Small 010",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2653,7 +2653,7 @@ export const products = [
   },
   {
     "id": "BAS_011",
-    "name": "Artificial Small 011",
+    "name": "Bouquet Artificial Small 011",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2663,7 +2663,7 @@ export const products = [
   },
   {
     "id": "BAS_012",
-    "name": "Artificial Small 012",
+    "name": "Bouquet Artificial Small 012",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2673,7 +2673,7 @@ export const products = [
   },
   {
     "id": "BAS_013",
-    "name": "Artificial Small 013",
+    "name": "Bouquet Artificial Small 013",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2683,7 +2683,7 @@ export const products = [
   },
   {
     "id": "BAS_014",
-    "name": "Artificial Small 014",
+    "name": "Bouquet Artificial Small 014",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2693,7 +2693,7 @@ export const products = [
   },
   {
     "id": "BAS_015",
-    "name": "Artificial Small 015",
+    "name": "Bouquet Artificial Small 015",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2703,7 +2703,7 @@ export const products = [
   },
   {
     "id": "BAS_016",
-    "name": "Artificial Small 016",
+    "name": "Bouquet Artificial Small 016",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2713,7 +2713,7 @@ export const products = [
   },
   {
     "id": "BAS_017",
-    "name": "Artificial Small 017",
+    "name": "Bouquet Artificial Small 017",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2723,7 +2723,7 @@ export const products = [
   },
   {
     "id": "BAS_018",
-    "name": "Artificial Small 018",
+    "name": "Bouquet Artificial Small 018",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2733,7 +2733,7 @@ export const products = [
   },
   {
     "id": "BAS_019",
-    "name": "Artificial Small 019",
+    "name": "Bouquet Artificial Small 019",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2743,7 +2743,7 @@ export const products = [
   },
   {
     "id": "BAS_020",
-    "name": "Artificial Small 020",
+    "name": "Bouquet Artificial Small 020",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2753,7 +2753,7 @@ export const products = [
   },
   {
     "id": "BAS_021",
-    "name": "Artificial Small 021",
+    "name": "Bouquet Artificial Small 021",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2763,7 +2763,7 @@ export const products = [
   },
   {
     "id": "BAS_022",
-    "name": "Artificial Small 022",
+    "name": "Bouquet Artificial Small 022",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2773,7 +2773,7 @@ export const products = [
   },
   {
     "id": "BAS_023",
-    "name": "Artificial Small 023",
+    "name": "Bouquet Artificial Small 023",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2783,7 +2783,7 @@ export const products = [
   },
   {
     "id": "BAS_024",
-    "name": "Artificial Small 024",
+    "name": "Bouquet Artificial Small 024",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2793,7 +2793,7 @@ export const products = [
   },
   {
     "id": "BAS_025",
-    "name": "Artificial Small 025",
+    "name": "Bouquet Artificial Small 025",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 85000,
@@ -2803,7 +2803,7 @@ export const products = [
   },
   {
     "id": "BAS_026",
-    "name": "Artificial Small 026",
+    "name": "Bouquet Artificial Small 026",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2813,7 +2813,7 @@ export const products = [
   },
   {
     "id": "BAS_027",
-    "name": "Artificial Small 027",
+    "name": "Bouquet Artificial Small 027",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2823,7 +2823,7 @@ export const products = [
   },
   {
     "id": "BAS_028",
-    "name": "Artificial Small 028",
+    "name": "Bouquet Artificial Small 028",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2833,7 +2833,7 @@ export const products = [
   },
   {
     "id": "BAS_029",
-    "name": "Artificial Small 029",
+    "name": "Bouquet Artificial Small 029",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2843,7 +2843,7 @@ export const products = [
   },
   {
     "id": "BAS_030",
-    "name": "Artificial Small 030",
+    "name": "Bouquet Artificial Small 030",
     "category": "Bouquet Artificial",
     "size": "Small",
     "price": 100000,
@@ -2853,7 +2853,7 @@ export const products = [
   },
   {
     "id": "BAXL_001",
-    "name": "Artificial XL 001",
+    "name": "Bouquet Artificial XL 001",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2863,7 +2863,7 @@ export const products = [
   },
   {
     "id": "BAXL_002",
-    "name": "Artificial XL 002",
+    "name": "Bouquet Artificial XL 002",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2873,7 +2873,7 @@ export const products = [
   },
   {
     "id": "BAXL_003",
-    "name": "Artificial XL 003",
+    "name": "Bouquet Artificial XL 003",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -2883,7 +2883,7 @@ export const products = [
   },
   {
     "id": "BAXL_004",
-    "name": "Artificial XL 004",
+    "name": "Bouquet Artificial XL 004",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2893,7 +2893,7 @@ export const products = [
   },
   {
     "id": "BAXL_005",
-    "name": "Artificial XL 005",
+    "name": "Bouquet Artificial XL 005",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2903,7 +2903,7 @@ export const products = [
   },
   {
     "id": "BAXL_006",
-    "name": "Artificial XL 006",
+    "name": "Bouquet Artificial XL 006",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2913,7 +2913,7 @@ export const products = [
   },
   {
     "id": "BAXL_007",
-    "name": "Artificial XL 007",
+    "name": "Bouquet Artificial XL 007",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2923,7 +2923,7 @@ export const products = [
   },
   {
     "id": "BAXL_008",
-    "name": "Artificial XL 008",
+    "name": "Bouquet Artificial XL 008",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2933,7 +2933,7 @@ export const products = [
   },
   {
     "id": "BAXL_009",
-    "name": "Artificial XL 009",
+    "name": "Bouquet Artificial XL 009",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -2943,7 +2943,7 @@ export const products = [
   },
   {
     "id": "BAXL_010",
-    "name": "Artificial XL 010",
+    "name": "Bouquet Artificial XL 010",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -2953,7 +2953,7 @@ export const products = [
   },
   {
     "id": "BAXL_011",
-    "name": "Artificial XL 011",
+    "name": "Bouquet Artificial XL 011",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2963,7 +2963,7 @@ export const products = [
   },
   {
     "id": "BAXL_012",
-    "name": "Artificial XL 012",
+    "name": "Bouquet Artificial XL 012",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2973,7 +2973,7 @@ export const products = [
   },
   {
     "id": "BAXL_013",
-    "name": "Artificial XL 013",
+    "name": "Bouquet Artificial XL 013",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -2983,7 +2983,7 @@ export const products = [
   },
   {
     "id": "BAXL_014",
-    "name": "Artificial XL 014",
+    "name": "Bouquet Artificial XL 014",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -2993,7 +2993,7 @@ export const products = [
   },
   {
     "id": "BAXL_015",
-    "name": "Artificial XL 015",
+    "name": "Bouquet Artificial XL 015",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3003,7 +3003,7 @@ export const products = [
   },
   {
     "id": "BAXL_016",
-    "name": "Artificial XL 016",
+    "name": "Bouquet Artificial XL 016",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -3013,7 +3013,7 @@ export const products = [
   },
   {
     "id": "BAXL_017",
-    "name": "Artificial XL 017",
+    "name": "Bouquet Artificial XL 017",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3023,7 +3023,7 @@ export const products = [
   },
   {
     "id": "BAXL_018",
-    "name": "Artificial XL 018",
+    "name": "Bouquet Artificial XL 018",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -3033,7 +3033,7 @@ export const products = [
   },
   {
     "id": "BAXL_019",
-    "name": "Artificial XL 019",
+    "name": "Bouquet Artificial XL 019",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3043,7 +3043,7 @@ export const products = [
   },
   {
     "id": "BAXL_020",
-    "name": "Artificial XL 020",
+    "name": "Bouquet Artificial XL 020",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3053,7 +3053,7 @@ export const products = [
   },
   {
     "id": "BAXL_021",
-    "name": "Artificial XL 021",
+    "name": "Bouquet Artificial XL 021",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3063,7 +3063,7 @@ export const products = [
   },
   {
     "id": "BAXL_022",
-    "name": "Artificial XL 022",
+    "name": "Bouquet Artificial XL 022",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -3073,7 +3073,7 @@ export const products = [
   },
   {
     "id": "BAXL_023",
-    "name": "Artificial XL 023",
+    "name": "Bouquet Artificial XL 023",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3083,7 +3083,7 @@ export const products = [
   },
   {
     "id": "BAXL_024",
-    "name": "Artificial XL 024",
+    "name": "Bouquet Artificial XL 024",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3093,7 +3093,7 @@ export const products = [
   },
   {
     "id": "BAXL_025",
-    "name": "Artificial XL 025",
+    "name": "Bouquet Artificial XL 025",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3103,7 +3103,7 @@ export const products = [
   },
   {
     "id": "BAXL_026",
-    "name": "Artificial XL 026",
+    "name": "Bouquet Artificial XL 026",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3113,7 +3113,7 @@ export const products = [
   },
   {
     "id": "BAXL_027",
-    "name": "Artificial XL 027",
+    "name": "Bouquet Artificial XL 027",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3123,7 +3123,7 @@ export const products = [
   },
   {
     "id": "BAXL_028",
-    "name": "Artificial XL 028",
+    "name": "Bouquet Artificial XL 028",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3133,7 +3133,7 @@ export const products = [
   },
   {
     "id": "BAXL_029",
-    "name": "Artificial XL 029",
+    "name": "Bouquet Artificial XL 029",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3143,7 +3143,7 @@ export const products = [
   },
   {
     "id": "BAXL_030",
-    "name": "Artificial XL 030",
+    "name": "Bouquet Artificial XL 030",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3153,7 +3153,7 @@ export const products = [
   },
   {
     "id": "BAXL_031",
-    "name": "Artificial XL 031",
+    "name": "Bouquet Artificial XL 031",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3163,7 +3163,7 @@ export const products = [
   },
   {
     "id": "BAXL_032",
-    "name": "Artificial XL 032",
+    "name": "Bouquet Artificial XL 032",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -3173,7 +3173,7 @@ export const products = [
   },
   {
     "id": "BAXL_033",
-    "name": "Artificial XL 033",
+    "name": "Bouquet Artificial XL 033",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3183,7 +3183,7 @@ export const products = [
   },
   {
     "id": "BAXL_036",
-    "name": "Artificial XL 036",
+    "name": "Bouquet Artificial XL 036",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3193,7 +3193,7 @@ export const products = [
   },
   {
     "id": "BAXL_037",
-    "name": "Artificial XL 037",
+    "name": "Bouquet Artificial XL 037",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3203,7 +3203,7 @@ export const products = [
   },
   {
     "id": "BAXL_038",
-    "name": "Artificial XL 038",
+    "name": "Bouquet Artificial XL 038",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3213,7 +3213,7 @@ export const products = [
   },
   {
     "id": "BAXL_039",
-    "name": "Artificial XL 039",
+    "name": "Bouquet Artificial XL 039",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 280000,
@@ -3223,7 +3223,7 @@ export const products = [
   },
   {
     "id": "BAXL_040",
-    "name": "Artificial XL 040",
+    "name": "Bouquet Artificial XL 040",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3233,7 +3233,7 @@ export const products = [
   },
   {
     "id": "BAXL_041",
-    "name": "Artificial XL 041",
+    "name": "Bouquet Artificial XL 041",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -3243,7 +3243,7 @@ export const products = [
   },
   {
     "id": "BAXL_042",
-    "name": "Artificial XL 042",
+    "name": "Bouquet Artificial XL 042",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3253,7 +3253,7 @@ export const products = [
   },
   {
     "id": "BAXL_043",
-    "name": "Artificial XL 043",
+    "name": "Bouquet Artificial XL 043",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3263,7 +3263,7 @@ export const products = [
   },
   {
     "id": "BAXL_044",
-    "name": "Artificial XL 044",
+    "name": "Bouquet Artificial XL 044",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -3273,7 +3273,7 @@ export const products = [
   },
   {
     "id": "BAXL_045",
-    "name": "Artificial XL 045",
+    "name": "Bouquet Artificial XL 045",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3283,7 +3283,7 @@ export const products = [
   },
   {
     "id": "BAXL_046",
-    "name": "Artificial XL 046",
+    "name": "Bouquet Artificial XL 046",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3293,7 +3293,7 @@ export const products = [
   },
   {
     "id": "BAXL_047",
-    "name": "Artificial XL 047",
+    "name": "Bouquet Artificial XL 047",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3303,7 +3303,7 @@ export const products = [
   },
   {
     "id": "BAXL_048",
-    "name": "Artificial XL 048",
+    "name": "Bouquet Artificial XL 048",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3313,7 +3313,7 @@ export const products = [
   },
   {
     "id": "BAXL_049",
-    "name": "Artificial XL 049",
+    "name": "Bouquet Artificial XL 049",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -3323,7 +3323,7 @@ export const products = [
   },
   {
     "id": "BAXL_050",
-    "name": "Artificial XL 050",
+    "name": "Bouquet Artificial XL 050",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3333,7 +3333,7 @@ export const products = [
   },
   {
     "id": "BAXL_051",
-    "name": "Artificial XL 051",
+    "name": "Bouquet Artificial XL 051",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3343,7 +3343,7 @@ export const products = [
   },
   {
     "id": "BAXL_052",
-    "name": "Artificial XL 052",
+    "name": "Bouquet Artificial XL 052",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3353,7 +3353,7 @@ export const products = [
   },
   {
     "id": "BAXL_053",
-    "name": "Artificial XL 053",
+    "name": "Bouquet Artificial XL 053",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -3363,7 +3363,7 @@ export const products = [
   },
   {
     "id": "BAXL_054",
-    "name": "Artificial XL 054",
+    "name": "Bouquet Artificial XL 054",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 290000,
@@ -3373,7 +3373,7 @@ export const products = [
   },
   {
     "id": "BAXL_055",
-    "name": "Artificial XL 055",
+    "name": "Bouquet Artificial XL 055",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3383,7 +3383,7 @@ export const products = [
   },
   {
     "id": "BAXL_056",
-    "name": "Artificial XL 056",
+    "name": "Bouquet Artificial XL 056",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 350000,
@@ -3393,7 +3393,7 @@ export const products = [
   },
   {
     "id": "BAXL_057",
-    "name": "Artificial XL 057",
+    "name": "Bouquet Artificial XL 057",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3403,7 +3403,7 @@ export const products = [
   },
   {
     "id": "BAXL_058",
-    "name": "Artificial XL 058",
+    "name": "Bouquet Artificial XL 058",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3413,7 +3413,7 @@ export const products = [
   },
   {
     "id": "BAXL_059",
-    "name": "Artificial XL 059",
+    "name": "Bouquet Artificial XL 059",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 325000,
@@ -3423,7 +3423,7 @@ export const products = [
   },
   {
     "id": "BAXL_060",
-    "name": "Artificial XL 060",
+    "name": "Bouquet Artificial XL 060",
     "category": "Bouquet Artificial",
     "size": "XL",
     "price": 300000,
@@ -3433,7 +3433,7 @@ export const products = [
   },
   {
     "id": "BAXXL_001",
-    "name": "Artificial XXL 001",
+    "name": "Bouquet Artificial XXL 001",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3443,7 +3443,7 @@ export const products = [
   },
   {
     "id": "BAXXL_002",
-    "name": "Artificial XXL 002",
+    "name": "Bouquet Artificial XXL 002",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 600000,
@@ -3453,7 +3453,7 @@ export const products = [
   },
   {
     "id": "BAXXL_003",
-    "name": "Artificial XXL 003",
+    "name": "Bouquet Artificial XXL 003",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3463,7 +3463,7 @@ export const products = [
   },
   {
     "id": "BAXXL_004",
-    "name": "Artificial XXL 004",
+    "name": "Bouquet Artificial XXL 004",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3473,7 +3473,7 @@ export const products = [
   },
   {
     "id": "BAXXL_005",
-    "name": "Artificial XXL 005",
+    "name": "Bouquet Artificial XXL 005",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3483,7 +3483,7 @@ export const products = [
   },
   {
     "id": "BAXXL_006",
-    "name": "Artificial XXL 006",
+    "name": "Bouquet Artificial XXL 006",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3493,7 +3493,7 @@ export const products = [
   },
   {
     "id": "BAXXL_007",
-    "name": "Artificial XXL 007",
+    "name": "Bouquet Artificial XXL 007",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3503,7 +3503,7 @@ export const products = [
   },
   {
     "id": "BAXXL_008",
-    "name": "Artificial XXL 008",
+    "name": "Bouquet Artificial XXL 008",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3513,7 +3513,7 @@ export const products = [
   },
   {
     "id": "BAXXL_009",
-    "name": "Artificial XXL 009",
+    "name": "Bouquet Artificial XXL 009",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3523,7 +3523,7 @@ export const products = [
   },
   {
     "id": "BAXXL_010",
-    "name": "Artificial XXL 010",
+    "name": "Bouquet Artificial XXL 010",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3533,7 +3533,7 @@ export const products = [
   },
   {
     "id": "BAXXL_011",
-    "name": "Artificial XXL 011",
+    "name": "Bouquet Artificial XXL 011",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3543,7 +3543,7 @@ export const products = [
   },
   {
     "id": "BAXXL_012",
-    "name": "Artificial XXL 012",
+    "name": "Bouquet Artificial XXL 012",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3553,7 +3553,7 @@ export const products = [
   },
   {
     "id": "BAXXL_013",
-    "name": "Artificial XXL 013",
+    "name": "Bouquet Artificial XXL 013",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3563,7 +3563,7 @@ export const products = [
   },
   {
     "id": "BAXXL_014",
-    "name": "Artificial XXL 014",
+    "name": "Bouquet Artificial XXL 014",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3573,7 +3573,7 @@ export const products = [
   },
   {
     "id": "BAXXL_015",
-    "name": "Artificial XXL 015",
+    "name": "Bouquet Artificial XXL 015",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3583,7 +3583,7 @@ export const products = [
   },
   {
     "id": "BAXXL_016",
-    "name": "Artificial XXL 016",
+    "name": "Bouquet Artificial XXL 016",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3593,7 +3593,7 @@ export const products = [
   },
   {
     "id": "BAXXL_017",
-    "name": "Artificial XXL 017",
+    "name": "Bouquet Artificial XXL 017",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3603,7 +3603,7 @@ export const products = [
   },
   {
     "id": "BAXXL_018",
-    "name": "Artificial XXL 018",
+    "name": "Bouquet Artificial XXL 018",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3613,7 +3613,7 @@ export const products = [
   },
   {
     "id": "BAXXL_019",
-    "name": "Artificial XXL 019",
+    "name": "Bouquet Artificial XXL 019",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3623,7 +3623,7 @@ export const products = [
   },
   {
     "id": "BAXXL_020",
-    "name": "Artificial XXL 020",
+    "name": "Bouquet Artificial XXL 020",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3633,7 +3633,7 @@ export const products = [
   },
   {
     "id": "BAXXL_021",
-    "name": "Artificial XXL 021",
+    "name": "Bouquet Artificial XXL 021",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3643,7 +3643,7 @@ export const products = [
   },
   {
     "id": "BAXXL_022",
-    "name": "Artificial XXL 022",
+    "name": "Bouquet Artificial XXL 022",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3653,7 +3653,7 @@ export const products = [
   },
   {
     "id": "BAXXL_023",
-    "name": "Artificial XXL 023",
+    "name": "Bouquet Artificial XXL 023",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3663,7 +3663,7 @@ export const products = [
   },
   {
     "id": "BAXXL_024",
-    "name": "Artificial XXL 024",
+    "name": "Bouquet Artificial XXL 024",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3673,7 +3673,7 @@ export const products = [
   },
   {
     "id": "BAXXL_025",
-    "name": "Artificial XXL 025",
+    "name": "Bouquet Artificial XXL 025",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3683,7 +3683,7 @@ export const products = [
   },
   {
     "id": "BAXXL_026",
-    "name": "Artificial XXL 026",
+    "name": "Bouquet Artificial XXL 026",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3693,7 +3693,7 @@ export const products = [
   },
   {
     "id": "BAXXL_027",
-    "name": "Artificial XXL 027",
+    "name": "Bouquet Artificial XXL 027",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3703,7 +3703,7 @@ export const products = [
   },
   {
     "id": "BAXXL_028",
-    "name": "Artificial XXL 028",
+    "name": "Bouquet Artificial XXL 028",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3713,7 +3713,7 @@ export const products = [
   },
   {
     "id": "BAXXL_029",
-    "name": "Artificial XXL 029",
+    "name": "Bouquet Artificial XXL 029",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3723,7 +3723,7 @@ export const products = [
   },
   {
     "id": "BAXXL_030",
-    "name": "Artificial XXL 030",
+    "name": "Bouquet Artificial XXL 030",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3733,7 +3733,7 @@ export const products = [
   },
   {
     "id": "BAXXL_031",
-    "name": "Artificial XXL 031",
+    "name": "Bouquet Artificial XXL 031",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3743,7 +3743,7 @@ export const products = [
   },
   {
     "id": "BAXXL_032",
-    "name": "Artificial XXL 032",
+    "name": "Bouquet Artificial XXL 032",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3753,7 +3753,7 @@ export const products = [
   },
   {
     "id": "BAXXL_033",
-    "name": "Artificial XXL 033",
+    "name": "Bouquet Artificial XXL 033",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 400000,
@@ -3763,7 +3763,7 @@ export const products = [
   },
   {
     "id": "BAXXL_034",
-    "name": "Artificial XXL 034",
+    "name": "Bouquet Artificial XXL 034",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3773,7 +3773,7 @@ export const products = [
   },
   {
     "id": "BAXXL_035",
-    "name": "Artificial XXL 035",
+    "name": "Bouquet Artificial XXL 035",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3783,7 +3783,7 @@ export const products = [
   },
   {
     "id": "BAXXL_036",
-    "name": "Artificial XXL 036",
+    "name": "Bouquet Artificial XXL 036",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3793,7 +3793,7 @@ export const products = [
   },
   {
     "id": "BAXXL_037",
-    "name": "Artificial XXL 037",
+    "name": "Bouquet Artificial XXL 037",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3803,7 +3803,7 @@ export const products = [
   },
   {
     "id": "BAXXL_038",
-    "name": "Artificial XXL 038",
+    "name": "Bouquet Artificial XXL 038",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3813,7 +3813,7 @@ export const products = [
   },
   {
     "id": "BAXXL_039",
-    "name": "Artificial XXL 039",
+    "name": "Bouquet Artificial XXL 039",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3823,7 +3823,7 @@ export const products = [
   },
   {
     "id": "BAXXL_040",
-    "name": "Artificial XXL 040",
+    "name": "Bouquet Artificial XXL 040",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3833,7 +3833,7 @@ export const products = [
   },
   {
     "id": "BAXXL_041",
-    "name": "Artificial XXL 041",
+    "name": "Bouquet Artificial XXL 041",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 400000,
@@ -3843,7 +3843,7 @@ export const products = [
   },
   {
     "id": "BAXXL_042",
-    "name": "Artificial XXL 042",
+    "name": "Bouquet Artificial XXL 042",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3853,7 +3853,7 @@ export const products = [
   },
   {
     "id": "BAXXL_043",
-    "name": "Artificial XXL 043",
+    "name": "Bouquet Artificial XXL 043",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 400000,
@@ -3863,7 +3863,7 @@ export const products = [
   },
   {
     "id": "BAXXL_044",
-    "name": "Artificial XXL 044",
+    "name": "Bouquet Artificial XXL 044",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 450000,
@@ -3873,7 +3873,7 @@ export const products = [
   },
   {
     "id": "BAXXL_045",
-    "name": "Artificial XXL 045",
+    "name": "Bouquet Artificial XXL 045",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 425000,
@@ -3883,7 +3883,7 @@ export const products = [
   },
   {
     "id": "BAXXL_046",
-    "name": "Artificial XXL 046",
+    "name": "Bouquet Artificial XXL 046",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3893,7 +3893,7 @@ export const products = [
   },
   {
     "id": "BAXXL_047",
-    "name": "Artificial XXL 047",
+    "name": "Bouquet Artificial XXL 047",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3903,7 +3903,7 @@ export const products = [
   },
   {
     "id": "BAXXL_048",
-    "name": "Artificial XXL 048",
+    "name": "Bouquet Artificial XXL 048",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3913,7 +3913,7 @@ export const products = [
   },
   {
     "id": "BAXXL_049",
-    "name": "Artificial XXL 049",
+    "name": "Bouquet Artificial XXL 049",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 500000,
@@ -3923,7 +3923,7 @@ export const products = [
   },
   {
     "id": "BAXXL_050",
-    "name": "Artificial XXL 050",
+    "name": "Bouquet Artificial XXL 050",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 600000,
@@ -3933,7 +3933,7 @@ export const products = [
   },
   {
     "id": "BAXXL_051",
-    "name": "Artificial XXL 051",
+    "name": "Bouquet Artificial XXL 051",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 550000,
@@ -3943,7 +3943,7 @@ export const products = [
   },
   {
     "id": "BAXXL_052",
-    "name": "Artificial XXL 052",
+    "name": "Bouquet Artificial XXL 052",
     "category": "Bouquet Artificial",
     "size": "XXL",
     "price": 500000,
@@ -3953,7 +3953,7 @@ export const products = [
   },
   {
     "id": "BFHS_001",
-    "name": "Fresh Flowers Human Size 001",
+    "name": "Bouquet Fresh Flower Human Size 001",
     "category": "Fresh Flowers",
     "size": "Human Size",
     "price": 499000,
@@ -3963,7 +3963,7 @@ export const products = [
   },
   {
     "id": "BFL_001",
-    "name": "Fresh Flowers Large 001",
+    "name": "Bouquet Fresh Large 001",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 175000,
@@ -3973,7 +3973,7 @@ export const products = [
   },
   {
     "id": "BFL_002",
-    "name": "Fresh Flowers Large 002",
+    "name": "Bouquet Fresh Large 002",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
@@ -3983,7 +3983,7 @@ export const products = [
   },
   {
     "id": "BFL_003",
-    "name": "Fresh Flowers Large 003",
+    "name": "Bouquet Fresh Large 003",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 160000,
@@ -3993,7 +3993,7 @@ export const products = [
   },
   {
     "id": "BFL_004",
-    "name": "Fresh Flowers Large 004",
+    "name": "Bouquet Fresh Large 004",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
@@ -4003,7 +4003,7 @@ export const products = [
   },
   {
     "id": "BFL_005",
-    "name": "Fresh Flowers Large 005",
+    "name": "Bouquet Fresh Large 005",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
@@ -4013,7 +4013,7 @@ export const products = [
   },
   {
     "id": "BFL_006",
-    "name": "Fresh Flowers Large 006",
+    "name": "Bouquet Fresh Large 006",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
@@ -4023,7 +4023,7 @@ export const products = [
   },
   {
     "id": "BFL_007",
-    "name": "Fresh Flowers Large 007",
+    "name": "Bouquet Fresh Large 007",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
@@ -4033,7 +4033,7 @@ export const products = [
   },
   {
     "id": "BFL_008",
-    "name": "Fresh Flowers Large 008",
+    "name": "Bouquet Fresh Large 008",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
@@ -4043,7 +4043,7 @@ export const products = [
   },
   {
     "id": "BFL_009",
-    "name": "Fresh Flowers Large 009",
+    "name": "Bouquet Fresh Large 009",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 175000,
@@ -4053,7 +4053,7 @@ export const products = [
   },
   {
     "id": "BFL_010",
-    "name": "Fresh Flowers Large 010",
+    "name": "Bouquet Fresh Large 010",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
@@ -4063,7 +4063,7 @@ export const products = [
   },
   {
     "id": "BFL_011",
-    "name": "Fresh Flowers Large 011",
+    "name": "Bouquet Fresh Large 011",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 175000,
@@ -4073,7 +4073,7 @@ export const products = [
   },
   {
     "id": "BFL_012",
-    "name": "Fresh Flowers Large 012",
+    "name": "Bouquet Fresh Large 012",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 180000,
@@ -4083,7 +4083,7 @@ export const products = [
   },
   {
     "id": "BFL_013",
-    "name": "Fresh Flowers Large 013",
+    "name": "Bouquet Fresh Large 013",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
@@ -4093,7 +4093,7 @@ export const products = [
   },
   {
     "id": "BFL_014",
-    "name": "Fresh Flowers Large 014",
+    "name": "Bouquet Fresh Large 014",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
@@ -4103,7 +4103,7 @@ export const products = [
   },
   {
     "id": "BFL_015",
-    "name": "Fresh Flowers Large 015",
+    "name": "Bouquet Fresh Large 015",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 165000,
@@ -4113,7 +4113,7 @@ export const products = [
   },
   {
     "id": "BFL_016",
-    "name": "Fresh Flowers Large 016",
+    "name": "Bouquet Fresh Large 016",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 180000,
@@ -4123,7 +4123,7 @@ export const products = [
   },
   {
     "id": "BFL_017",
-    "name": "Fresh Flowers Large 017",
+    "name": "Bouquet Fresh Large 017",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
@@ -4133,7 +4133,7 @@ export const products = [
   },
   {
     "id": "BFL_018",
-    "name": "Fresh Flowers Large 018",
+    "name": "Bouquet Fresh Large 018",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
@@ -4143,7 +4143,7 @@ export const products = [
   },
   {
     "id": "BFL_019",
-    "name": "Fresh Flowers Large 019",
+    "name": "Bouquet Fresh Large 019",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
@@ -4153,7 +4153,7 @@ export const products = [
   },
   {
     "id": "BFL_020",
-    "name": "Fresh Flowers Large 020",
+    "name": "Bouquet Fresh Large 020",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
@@ -4163,7 +4163,7 @@ export const products = [
   },
   {
     "id": "BFL_021",
-    "name": "Fresh Flowers Large 021",
+    "name": "Bouquet Fresh Large 021",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 175000,
@@ -4173,7 +4173,7 @@ export const products = [
   },
   {
     "id": "BFL_022",
-    "name": "Fresh Flowers Large 022",
+    "name": "Bouquet Fresh Large 022",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 150000,
@@ -4183,7 +4183,7 @@ export const products = [
   },
   {
     "id": "BFL_023",
-    "name": "Fresh Flowers Large 023",
+    "name": "Bouquet Fresh Large 023",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 210000,
@@ -4193,7 +4193,7 @@ export const products = [
   },
   {
     "id": "BFL_024",
-    "name": "Fresh Flowers Large 024",
+    "name": "Bouquet Fresh Large 024",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 170000,
@@ -4203,7 +4203,7 @@ export const products = [
   },
   {
     "id": "BFL_025",
-    "name": "Fresh Flowers Large 025",
+    "name": "Bouquet Fresh Large 025",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 149000,
@@ -4213,7 +4213,7 @@ export const products = [
   },
   {
     "id": "BFL_026",
-    "name": "Fresh Flowers Large 026",
+    "name": "Bouquet Fresh Large 026",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 149000,
@@ -4223,7 +4223,7 @@ export const products = [
   },
   {
     "id": "BFL_027",
-    "name": "Fresh Flowers Large 027",
+    "name": "Bouquet Fresh Large 027",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 149000,
@@ -4233,7 +4233,7 @@ export const products = [
   },
   {
     "id": "BFL_028",
-    "name": "Fresh Flowers Large 028",
+    "name": "Bouquet Fresh Large 028",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 169000,
@@ -4243,7 +4243,7 @@ export const products = [
   },
   {
     "id": "BFL_029",
-    "name": "Fresh Flowers Large 029",
+    "name": "Bouquet Fresh Large 029",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 179000,
@@ -4253,7 +4253,7 @@ export const products = [
   },
   {
     "id": "BFL_030",
-    "name": "Fresh Flowers Large 030",
+    "name": "Bouquet Fresh Large 030",
     "category": "Fresh Flowers",
     "size": "Large",
     "price": 179000,
@@ -4263,7 +4263,7 @@ export const products = [
   },
   {
     "id": "BFM_001",
-    "name": "Fresh Flowers Medium 001",
+    "name": "Bouquet Fresh Medium 001",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 110000,
@@ -4273,7 +4273,7 @@ export const products = [
   },
   {
     "id": "BFM_002",
-    "name": "Fresh Flowers Medium 002",
+    "name": "Bouquet Fresh Medium 002",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 100000,
@@ -4283,7 +4283,7 @@ export const products = [
   },
   {
     "id": "BFM_003",
-    "name": "Fresh Flowers Medium 003",
+    "name": "Bouquet Fresh Medium 003",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
@@ -4293,7 +4293,7 @@ export const products = [
   },
   {
     "id": "BFM_004",
-    "name": "Fresh Flowers Medium 004",
+    "name": "Bouquet Fresh Medium 004",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 125000,
@@ -4303,7 +4303,7 @@ export const products = [
   },
   {
     "id": "BFM_005",
-    "name": "Fresh Flowers Medium 005",
+    "name": "Bouquet Fresh Medium 005",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
@@ -4313,7 +4313,7 @@ export const products = [
   },
   {
     "id": "BFM_006",
-    "name": "Fresh Flowers Medium 006",
+    "name": "Bouquet Fresh Medium 006",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 100000,
@@ -4323,7 +4323,7 @@ export const products = [
   },
   {
     "id": "BFM_007",
-    "name": "Fresh Flowers Medium 007",
+    "name": "Bouquet Fresh Medium 007",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 125000,
@@ -4333,7 +4333,7 @@ export const products = [
   },
   {
     "id": "BFM_008",
-    "name": "Fresh Flowers Medium 008",
+    "name": "Bouquet Fresh Medium 008",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 100000,
@@ -4343,7 +4343,7 @@ export const products = [
   },
   {
     "id": "BFM_009",
-    "name": "Fresh Flowers Medium 009",
+    "name": "Bouquet Fresh Medium 009",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 130000,
@@ -4353,7 +4353,7 @@ export const products = [
   },
   {
     "id": "BFM_010",
-    "name": "Fresh Flowers Medium 010",
+    "name": "Bouquet Fresh Medium 010",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
@@ -4363,7 +4363,7 @@ export const products = [
   },
   {
     "id": "BFM_011",
-    "name": "Fresh Flowers Medium 011",
+    "name": "Bouquet Fresh Medium 011",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
@@ -4373,7 +4373,7 @@ export const products = [
   },
   {
     "id": "BFM_012",
-    "name": "Fresh Flowers Medium 012",
+    "name": "Bouquet Fresh Medium 012",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
@@ -4383,7 +4383,7 @@ export const products = [
   },
   {
     "id": "BFM_013",
-    "name": "Fresh Flowers Medium 013",
+    "name": "Bouquet Fresh Medium 013",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 110000,
@@ -4393,7 +4393,7 @@ export const products = [
   },
   {
     "id": "BFM_014",
-    "name": "Fresh Flowers Medium 014",
+    "name": "Bouquet Fresh Medium 014",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 115000,
@@ -4403,7 +4403,7 @@ export const products = [
   },
   {
     "id": "BFM_015",
-    "name": "Fresh Flowers Medium 015",
+    "name": "Bouquet Fresh Medium 015",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 145000,
@@ -4413,7 +4413,7 @@ export const products = [
   },
   {
     "id": "BFM_016",
-    "name": "Fresh Flowers Medium 016",
+    "name": "Bouquet Fresh Medium 016",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 100000,
@@ -4423,7 +4423,7 @@ export const products = [
   },
   {
     "id": "BFM_017",
-    "name": "Fresh Flowers Medium 017",
+    "name": "Bouquet Fresh Medium 017",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
@@ -4433,7 +4433,7 @@ export const products = [
   },
   {
     "id": "BFM_018",
-    "name": "Fresh Flowers Medium 018",
+    "name": "Bouquet Fresh Medium 018",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
@@ -4443,7 +4443,7 @@ export const products = [
   },
   {
     "id": "BFM_019",
-    "name": "Fresh Flowers Medium 019",
+    "name": "Bouquet Fresh Medium 019",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 135000,
@@ -4453,7 +4453,7 @@ export const products = [
   },
   {
     "id": "BFM_020",
-    "name": "Fresh Flowers Medium 020",
+    "name": "Bouquet Fresh Medium 020",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 135000,
@@ -4463,7 +4463,7 @@ export const products = [
   },
   {
     "id": "BFM_021",
-    "name": "Fresh Flowers Medium 021",
+    "name": "Bouquet Fresh Medium 021",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 120000,
@@ -4473,7 +4473,7 @@ export const products = [
   },
   {
     "id": "BFM_022",
-    "name": "Fresh Flowers Medium 022",
+    "name": "Bouquet Fresh Medium 022",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 130000,
@@ -4483,7 +4483,7 @@ export const products = [
   },
   {
     "id": "BFM_023",
-    "name": "Fresh Flowers Medium 023",
+    "name": "Bouquet Fresh Medium 023",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 99000,
@@ -4493,7 +4493,7 @@ export const products = [
   },
   {
     "id": "BFM_024",
-    "name": "Fresh Flowers Medium 024",
+    "name": "Bouquet Fresh Medium 024",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 99000,
@@ -4503,7 +4503,7 @@ export const products = [
   },
   {
     "id": "BFM_025",
-    "name": "Fresh Flowers Medium 025",
+    "name": "Bouquet Fresh Medium 025",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 109000,
@@ -4513,7 +4513,7 @@ export const products = [
   },
   {
     "id": "BFM_026",
-    "name": "Fresh Flowers Medium 026",
+    "name": "Bouquet Fresh Medium 026",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 110000,
@@ -4523,7 +4523,7 @@ export const products = [
   },
   {
     "id": "BFM_027",
-    "name": "Fresh Flowers Medium 027",
+    "name": "Bouquet Fresh Medium 027",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 125000,
@@ -4533,7 +4533,7 @@ export const products = [
   },
   {
     "id": "BFM_028",
-    "name": "Fresh Flowers Medium 028",
+    "name": "Bouquet Fresh Medium 028",
     "category": "Fresh Flowers",
     "size": "Medium",
     "price": 125000,
@@ -4543,7 +4543,7 @@ export const products = [
   },
   {
     "id": "BFP_001",
-    "name": "Fresh Flowers Premium 001",
+    "name": "Bouquet Fresh Premium 001",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 250000,
@@ -4553,7 +4553,7 @@ export const products = [
   },
   {
     "id": "BFP_002",
-    "name": "Fresh Flowers Premium 002",
+    "name": "Bouquet Fresh Premium 002",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 850000,
@@ -4563,7 +4563,7 @@ export const products = [
   },
   {
     "id": "BFP_003",
-    "name": "Fresh Flowers Premium 003",
+    "name": "Bouquet Fresh Premium 003",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 280000,
@@ -4573,7 +4573,7 @@ export const products = [
   },
   {
     "id": "BFP_003_1",
-    "name": "Fresh Flowers Premium 003",
+    "name": "Bouquet Fresh Premium 003",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 280000,
@@ -4583,7 +4583,7 @@ export const products = [
   },
   {
     "id": "BFP_003_2",
-    "name": "Fresh Flowers Premium 003",
+    "name": "Bouquet Fresh Premium 003",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 280000,
@@ -4593,7 +4593,7 @@ export const products = [
   },
   {
     "id": "BFP_004",
-    "name": "Fresh Flowers Premium 004",
+    "name": "Bouquet Fresh Premium 004",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 450000,
@@ -4603,7 +4603,7 @@ export const products = [
   },
   {
     "id": "BFP_005",
-    "name": "Fresh Flowers Premium 005",
+    "name": "Bouquet Fresh Premium 005",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 300000,
@@ -4613,7 +4613,7 @@ export const products = [
   },
   {
     "id": "BFP_006",
-    "name": "Fresh Flowers Premium 006",
+    "name": "Bouquet Fresh Premium 006",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 550000,
@@ -4623,7 +4623,7 @@ export const products = [
   },
   {
     "id": "BFP_007",
-    "name": "Fresh Flowers Premium 007",
+    "name": "Bouquet Fresh Premium 007",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 250000,
@@ -4633,7 +4633,7 @@ export const products = [
   },
   {
     "id": "BFP_008",
-    "name": "Fresh Flowers Premium 008",
+    "name": "Bouquet Fresh Premium 008",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 299000,
@@ -4643,7 +4643,7 @@ export const products = [
   },
   {
     "id": "BFP_009",
-    "name": "Fresh Flowers Premium 009",
+    "name": "Bouquet Fresh Premium 009",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 220000,
@@ -4653,7 +4653,7 @@ export const products = [
   },
   {
     "id": "BFP_010",
-    "name": "Fresh Flowers Premium 010",
+    "name": "Bouquet Fresh Premium 010",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 250000,
@@ -4663,7 +4663,7 @@ export const products = [
   },
   {
     "id": "BFP_011",
-    "name": "Fresh Flowers Premium 011",
+    "name": "Bouquet Fresh Premium 011",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 150000,
@@ -4673,7 +4673,7 @@ export const products = [
   },
   {
     "id": "BFP_012",
-    "name": "Fresh Flowers Premium 012",
+    "name": "Bouquet Fresh Premium 012",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 199000,
@@ -4683,7 +4683,7 @@ export const products = [
   },
   {
     "id": "BFP_013",
-    "name": "Fresh Flowers Premium 013",
+    "name": "Bouquet Fresh Premium 013",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 119000,
@@ -4693,7 +4693,7 @@ export const products = [
   },
   {
     "id": "BFP_014",
-    "name": "Fresh Flowers Premium 014",
+    "name": "Bouquet Fresh Premium 014",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 169000,
@@ -4703,7 +4703,7 @@ export const products = [
   },
   {
     "id": "BFP_015",
-    "name": "Fresh Flowers Premium 015",
+    "name": "Bouquet Fresh Premium 015",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 199000,
@@ -4713,7 +4713,7 @@ export const products = [
   },
   {
     "id": "BFP_016",
-    "name": "Fresh Flowers Premium 016",
+    "name": "Bouquet Fresh Premium 016",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 459000,
@@ -4723,7 +4723,7 @@ export const products = [
   },
   {
     "id": "BFP_017",
-    "name": "Fresh Flowers Premium 017",
+    "name": "Bouquet Fresh Premium 017",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 450000,
@@ -4733,7 +4733,7 @@ export const products = [
   },
   {
     "id": "BFP_018",
-    "name": "Fresh Flowers Premium 018",
+    "name": "Bouquet Fresh Premium 018",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 399000,
@@ -4743,7 +4743,7 @@ export const products = [
   },
   {
     "id": "BFP_019",
-    "name": "Fresh Flowers Premium 019",
+    "name": "Bouquet Fresh Premium 019",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 350000,
@@ -4753,7 +4753,7 @@ export const products = [
   },
   {
     "id": "BFP_020",
-    "name": "Fresh Flowers Premium 020",
+    "name": "Bouquet Fresh Premium 020",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 299000,
@@ -4763,7 +4763,7 @@ export const products = [
   },
   {
     "id": "BFP_021",
-    "name": "Fresh Flowers Premium 021",
+    "name": "Bouquet Fresh Premium 021",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 299000,
@@ -4773,7 +4773,7 @@ export const products = [
   },
   {
     "id": "BFP_022",
-    "name": "Fresh Flowers Premium 022",
+    "name": "Bouquet Fresh Premium 022",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 249000,
@@ -4783,7 +4783,7 @@ export const products = [
   },
   {
     "id": "BFP_023",
-    "name": "Fresh Flowers Premium 023",
+    "name": "Bouquet Fresh Premium 023",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 249000,
@@ -4793,7 +4793,7 @@ export const products = [
   },
   {
     "id": "BFP_024",
-    "name": "Fresh Flowers Premium 024",
+    "name": "Bouquet Fresh Premium 024",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 249000,
@@ -4803,7 +4803,7 @@ export const products = [
   },
   {
     "id": "BFP_025",
-    "name": "Fresh Flowers Premium 025",
+    "name": "Bouquet Fresh Premium 025",
     "category": "Fresh Flowers",
     "size": "Premium",
     "price": 249000,
@@ -4813,7 +4813,7 @@ export const products = [
   },
   {
     "id": "BFS_001",
-    "name": "Fresh Flowers Small 001",
+    "name": "Bouquet Fresh Small 001",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 85000,
@@ -4823,7 +4823,7 @@ export const products = [
   },
   {
     "id": "BFS_002",
-    "name": "Fresh Flowers Small 002",
+    "name": "Bouquet Fresh Small 002",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
@@ -4833,7 +4833,7 @@ export const products = [
   },
   {
     "id": "BFS_003",
-    "name": "Fresh Flowers Small 003",
+    "name": "Bouquet Fresh Small 003",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 75000,
@@ -4843,7 +4843,7 @@ export const products = [
   },
   {
     "id": "BFS_004",
-    "name": "Fresh Flowers Small 004",
+    "name": "Bouquet Fresh Small 004",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 70000,
@@ -4853,7 +4853,7 @@ export const products = [
   },
   {
     "id": "BFS_005",
-    "name": "Fresh Flowers Small 005",
+    "name": "Bouquet Fresh Small 005",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 25000,
@@ -4863,7 +4863,7 @@ export const products = [
   },
   {
     "id": "BFS_006",
-    "name": "Fresh Flowers Small 006",
+    "name": "Bouquet Fresh Small 006",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
@@ -4873,7 +4873,7 @@ export const products = [
   },
   {
     "id": "BFS_007",
-    "name": "Fresh Flowers Small 007",
+    "name": "Bouquet Fresh Small 007",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 95000,
@@ -4883,7 +4883,7 @@ export const products = [
   },
   {
     "id": "BFS_008",
-    "name": "Fresh Flowers Small 008",
+    "name": "Bouquet Fresh Small 008",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
@@ -4893,7 +4893,7 @@ export const products = [
   },
   {
     "id": "BFS_009",
-    "name": "Fresh Flowers Small 009",
+    "name": "Bouquet Fresh Small 009",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 75000,
@@ -4903,7 +4903,7 @@ export const products = [
   },
   {
     "id": "BFS_010",
-    "name": "Fresh Flowers Small 010",
+    "name": "Bouquet Fresh Small 010",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 60000,
@@ -4913,7 +4913,7 @@ export const products = [
   },
   {
     "id": "BFS_011",
-    "name": "Fresh Flowers Small 011",
+    "name": "Bouquet Fresh Small 011",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 75000,
@@ -4923,7 +4923,7 @@ export const products = [
   },
   {
     "id": "BFS_012",
-    "name": "Fresh Flowers Small 012",
+    "name": "Bouquet Fresh Small 012",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
@@ -4933,7 +4933,7 @@ export const products = [
   },
   {
     "id": "BFS_013",
-    "name": "Fresh Flowers Small 013",
+    "name": "Bouquet Fresh Small 013",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 50000,
@@ -4943,7 +4943,7 @@ export const products = [
   },
   {
     "id": "BFS_014",
-    "name": "Fresh Flowers Small 014",
+    "name": "Bouquet Fresh Small 014",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 30000,
@@ -4953,7 +4953,7 @@ export const products = [
   },
   {
     "id": "BFS_015",
-    "name": "Fresh Flowers Small 015",
+    "name": "Bouquet Fresh Small 015",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 50000,
@@ -4963,7 +4963,7 @@ export const products = [
   },
   {
     "id": "BFS_016",
-    "name": "Fresh Flowers Small 016",
+    "name": "Bouquet Fresh Small 016",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 95000,
@@ -4973,7 +4973,7 @@ export const products = [
   },
   {
     "id": "BFS_017",
-    "name": "Fresh Flowers Small 017",
+    "name": "Bouquet Fresh Small 017",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 85000,
@@ -4983,7 +4983,7 @@ export const products = [
   },
   {
     "id": "BFS_018",
-    "name": "Fresh Flowers Small 018",
+    "name": "Bouquet Fresh Small 018",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 65000,
@@ -4993,7 +4993,7 @@ export const products = [
   },
   {
     "id": "BFS_019",
-    "name": "Fresh Flowers Small 019",
+    "name": "Bouquet Fresh Small 019",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 50000,
@@ -5003,7 +5003,7 @@ export const products = [
   },
   {
     "id": "BFS_020",
-    "name": "Fresh Flowers Small 020",
+    "name": "Bouquet Fresh Small 020",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 49000,
@@ -5013,7 +5013,7 @@ export const products = [
   },
   {
     "id": "BFS_021",
-    "name": "Fresh Flowers Small 021",
+    "name": "Bouquet Fresh Small 021",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 49000,
@@ -5023,7 +5023,7 @@ export const products = [
   },
   {
     "id": "BFS_022",
-    "name": "Fresh Flowers Small 022",
+    "name": "Bouquet Fresh Small 022",
     "category": "Fresh Flowers",
     "size": "Small",
     "price": 55000,
@@ -5033,7 +5033,7 @@ export const products = [
   },
   {
     "id": "BSF_001",
-    "name": "Fresh Flowers Single Flower 001",
+    "name": "Bouquet Single Fresh Flower 001",
     "category": "Fresh Flowers",
     "size": "Single Flower",
     "price": 12500,
@@ -5043,7 +5043,7 @@ export const products = [
   },
   {
     "id": "BSF_002",
-    "name": "Fresh Flowers Single Flower 002",
+    "name": "Bouquet Single Fresh Flower 002",
     "category": "Fresh Flowers",
     "size": "Single Flower",
     "price": 12000,
@@ -5053,7 +5053,7 @@ export const products = [
   },
   {
     "id": "BSF_003",
-    "name": "Fresh Flowers Single Flower 003",
+    "name": "Bouquet Single Fresh Flower 003",
     "category": "Fresh Flowers",
     "size": "Single Flower",
     "price": 15000,
@@ -5063,7 +5063,7 @@ export const products = [
   },
   {
     "id": "BSF_004",
-    "name": "Fresh Flowers Single Flower 004",
+    "name": "Bouquet Single Fresh Flower 004",
     "category": "Fresh Flowers",
     "size": "Single Flower",
     "price": 20000,
@@ -5073,7 +5073,7 @@ export const products = [
   },
   {
     "id": "BFXL_001",
-    "name": "Fresh Flowers XL 001",
+    "name": "Bouquet Fresh XL 001",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 235000,
@@ -5083,7 +5083,7 @@ export const products = [
   },
   {
     "id": "BFXL_002",
-    "name": "Fresh Flowers XL 002",
+    "name": "Bouquet Fresh XL 002",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 235000,
@@ -5093,7 +5093,7 @@ export const products = [
   },
   {
     "id": "BFXL_003",
-    "name": "Fresh Flowers XL 003",
+    "name": "Bouquet Fresh XL 003",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 275000,
@@ -5103,7 +5103,7 @@ export const products = [
   },
   {
     "id": "BFXL_004",
-    "name": "Fresh Flowers XL 004",
+    "name": "Bouquet Fresh XL 004",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 200000,
@@ -5113,7 +5113,7 @@ export const products = [
   },
   {
     "id": "BFXL_005",
-    "name": "Fresh Flowers XL 005",
+    "name": "Bouquet Fresh XL 005",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 225000,
@@ -5123,7 +5123,7 @@ export const products = [
   },
   {
     "id": "BFXL_006",
-    "name": "Fresh Flowers XL 006",
+    "name": "Bouquet Fresh XL 006",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 275000,
@@ -5133,7 +5133,7 @@ export const products = [
   },
   {
     "id": "BFXL_007",
-    "name": "Fresh Flowers XL 007",
+    "name": "Bouquet Fresh XL 007",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 250000,
@@ -5143,7 +5143,7 @@ export const products = [
   },
   {
     "id": "BFXL_008",
-    "name": "Fresh Flowers XL 008",
+    "name": "Bouquet Fresh XL 008",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 220000,
@@ -5153,7 +5153,7 @@ export const products = [
   },
   {
     "id": "BFXL_009",
-    "name": "Fresh Flowers XL 009",
+    "name": "Bouquet Fresh XL 009",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 220000,
@@ -5163,7 +5163,7 @@ export const products = [
   },
   {
     "id": "BFXL_010",
-    "name": "Fresh Flowers XL 010",
+    "name": "Bouquet Fresh XL 010",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 220000,
@@ -5173,7 +5173,7 @@ export const products = [
   },
   {
     "id": "BFXL_011",
-    "name": "Fresh Flowers XL 011",
+    "name": "Bouquet Fresh XL 011",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 250000,
@@ -5183,7 +5183,7 @@ export const products = [
   },
   {
     "id": "BFXL_012",
-    "name": "Fresh Flowers XL 012",
+    "name": "Bouquet Fresh XL 012",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 235000,
@@ -5193,7 +5193,7 @@ export const products = [
   },
   {
     "id": "BFXL_013",
-    "name": "Fresh Flowers XL 013",
+    "name": "Bouquet Fresh XL 013",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 250000,
@@ -5203,7 +5203,7 @@ export const products = [
   },
   {
     "id": "BFXL_014",
-    "name": "Fresh Flowers XL 014",
+    "name": "Bouquet Fresh XL 014",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 250000,
@@ -5213,7 +5213,7 @@ export const products = [
   },
   {
     "id": "BFXL_015",
-    "name": "Fresh Flowers XL 015",
+    "name": "Bouquet Fresh XL 015",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 245000,
@@ -5223,7 +5223,7 @@ export const products = [
   },
   {
     "id": "BFXL_016",
-    "name": "Fresh Flowers XL 016",
+    "name": "Bouquet Fresh XL 016",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 275000,
@@ -5233,7 +5233,7 @@ export const products = [
   },
   {
     "id": "BFXL_017",
-    "name": "Fresh Flowers XL 017",
+    "name": "Bouquet Fresh XL 017",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 399000,
@@ -5243,7 +5243,7 @@ export const products = [
   },
   {
     "id": "BFXL_018",
-    "name": "Fresh Flowers XL 018",
+    "name": "Bouquet Fresh XL 018",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 235000,
@@ -5253,7 +5253,7 @@ export const products = [
   },
   {
     "id": "BFXL_019",
-    "name": "Fresh Flowers XL 019",
+    "name": "Bouquet Fresh XL 019",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 265000,
@@ -5263,7 +5263,7 @@ export const products = [
   },
   {
     "id": "BFXL_020",
-    "name": "Fresh Flowers XL 020",
+    "name": "Bouquet Fresh XL 020",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 229000,
@@ -5273,7 +5273,7 @@ export const products = [
   },
   {
     "id": "BFXL_021",
-    "name": "Fresh Flowers XL 021",
+    "name": "Bouquet Fresh XL 021",
     "category": "Fresh Flowers",
     "size": "XL",
     "price": 220000,
@@ -5283,7 +5283,7 @@ export const products = [
   },
   {
     "id": "BFMAL_001",
-    "name": "Fresh Mix Artificial Large 001",
+    "name": "Bouquet Fresh Mix Artificial Large 001",
     "category": "Fresh Mix Artificial",
     "size": "Large",
     "price": 200000,
@@ -5293,7 +5293,7 @@ export const products = [
   },
   {
     "id": "BFMAL_002",
-    "name": "Fresh Mix Artificial Large 002",
+    "name": "Bouquet Fresh Mix Artificial Large 002",
     "category": "Fresh Mix Artificial",
     "size": "Large",
     "price": 185000,
@@ -5303,7 +5303,7 @@ export const products = [
   },
   {
     "id": "BFMAL_003",
-    "name": "Fresh Mix Artificial Large 003",
+    "name": "Bouquet Fresh Mix Artificial Large 003",
     "category": "Fresh Mix Artificial",
     "size": "Large",
     "price": 170000,
@@ -5313,7 +5313,7 @@ export const products = [
   },
   {
     "id": "BFMAL_004",
-    "name": "Fresh Mix Artificial Large 004",
+    "name": "Bouquet Fresh Mix Artificial Large 004",
     "category": "Fresh Mix Artificial",
     "size": "Large",
     "price": 189000,
@@ -5323,7 +5323,7 @@ export const products = [
   },
   {
     "id": "BFMAM_005",
-    "name": "Fresh Mix Artificial Medium 005",
+    "name": "Bouquet Fresh Mix Artificial Medium 005",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 145000,
@@ -5333,7 +5333,7 @@ export const products = [
   },
   {
     "id": "BFMAM_006",
-    "name": "Fresh Mix Artificial Medium 006",
+    "name": "Bouquet Fresh Mix Artificial Medium 006",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 135000,
@@ -5343,7 +5343,7 @@ export const products = [
   },
   {
     "id": "BFMAM_007",
-    "name": "Fresh Mix Artificial Medium 007",
+    "name": "Bouquet Fresh Mix Artificial Medium 007",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 135000,
@@ -5353,7 +5353,7 @@ export const products = [
   },
   {
     "id": "BFMAM_008",
-    "name": "Fresh Mix Artificial Medium 008",
+    "name": "Bouquet Fresh Mix Artificial Medium 008",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 135000,
@@ -5363,7 +5363,7 @@ export const products = [
   },
   {
     "id": "BFMAM_009",
-    "name": "Fresh Mix Artificial Medium 009",
+    "name": "Bouquet Fresh Mix Artificial Medium 009",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 125000,
@@ -5373,7 +5373,7 @@ export const products = [
   },
   {
     "id": "BFMAM_010",
-    "name": "Fresh Mix Artificial Medium 010",
+    "name": "Bouquet Fresh Mix Artificial Medium 010",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 125000,
@@ -5383,7 +5383,7 @@ export const products = [
   },
   {
     "id": "BFMAM_011",
-    "name": "Fresh Mix Artificial Medium 011",
+    "name": "Bouquet Fresh Mix Artificial Medium 011",
     "category": "Fresh Mix Artificial",
     "size": "Medium",
     "price": 135000,
@@ -5393,7 +5393,7 @@ export const products = [
   },
   {
     "id": "BFMAXL_012",
-    "name": "Fresh Mix Artificial XL 012",
+    "name": "Bouquet Fresh Mix Artificial XL 012",
     "category": "Fresh Mix Artificial",
     "size": "XL",
     "price": 285000,
@@ -5403,7 +5403,7 @@ export const products = [
   },
   {
     "id": "BFMAXL_013",
-    "name": "Fresh Mix Artificial XL 013",
+    "name": "Bouquet Fresh Mix Artificial XL 013",
     "category": "Fresh Mix Artificial",
     "size": "XL",
     "price": 275000,
@@ -5413,7 +5413,7 @@ export const products = [
   },
   {
     "id": "BFMAXL_014",
-    "name": "Fresh Mix Artificial XL 014",
+    "name": "Bouquet Fresh Mix Artificial XL 014",
     "category": "Fresh Mix Artificial",
     "size": "XL",
     "price": 250000,
@@ -5423,7 +5423,7 @@ export const products = [
   },
   {
     "id": "BFMAXL_015",
-    "name": "Fresh Mix Artificial XL 015",
+    "name": "Bouquet Fresh Mix Artificial XL 015",
     "category": "Fresh Mix Artificial",
     "size": "XL",
     "price": 350000,
@@ -5433,7 +5433,7 @@ export const products = [
   },
   {
     "id": "BPIPE_001",
-    "name": "Pipe Bouquet 001",
+    "name": "Bouquet Pipe 001",
     "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 120000,
@@ -5443,7 +5443,7 @@ export const products = [
   },
   {
     "id": "BPIPE_002",
-    "name": "Pipe Bouquet 002",
+    "name": "Bouquet Pipe 002",
     "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 165000,
@@ -5453,7 +5453,7 @@ export const products = [
   },
   {
     "id": "BPIPE_003",
-    "name": "Pipe Bouquet 003",
+    "name": "Bouquet Pipe 003",
     "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 165000,
@@ -5463,7 +5463,7 @@ export const products = [
   },
   {
     "id": "BPIPE_004",
-    "name": "Pipe Bouquet 004",
+    "name": "Bouquet Pipe 004",
     "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 165000,
@@ -5473,7 +5473,7 @@ export const products = [
   },
   {
     "id": "BPIPE_005",
-    "name": "Pipe Bouquet 005",
+    "name": "Bouquet Pipe 005",
     "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 165000,
@@ -5483,7 +5483,7 @@ export const products = [
   },
   {
     "id": "BPIPE_006",
-    "name": "Pipe Bouquet 006",
+    "name": "Bouquet Pipe 006",
     "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 120000,
@@ -5493,7 +5493,7 @@ export const products = [
   },
   {
     "id": "BPIPE_007",
-    "name": "Pipe Bouquet 007",
+    "name": "Bouquet Pipe 007",
     "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 89000,
@@ -5503,7 +5503,7 @@ export const products = [
   },
   {
     "id": "BPIPE_008",
-    "name": "Pipe Bouquet 008",
+    "name": "Bouquet Pipe 008",
     "category": "Pipe Bouquet",
     "size": "Custom",
     "price": 89000,
@@ -5513,7 +5513,7 @@ export const products = [
   },
   {
     "id": "BCSAYUR_001",
-    "name": "Custom Bouquet Sayur 001",
+    "name": "Bouquet Sayur 001",
     "category": "Custom Bouquet",
     "size": "Sayur",
     "price": 200000,
@@ -5523,7 +5523,7 @@ export const products = [
   },
   {
     "id": "BDRIED_001",
-    "name": "Custom Bouquet Dried 001",
+    "name": "Bouquet Dried Flower 001",
     "category": "Custom Bouquet",
     "size": "Dried",
     "price": 95000,
@@ -5533,7 +5533,7 @@ export const products = [
   },
   {
     "id": "BDRIED_002",
-    "name": "Custom Bouquet Dried 002",
+    "name": "Bouquet Dried Flower 002",
     "category": "Custom Bouquet",
     "size": "Dried",
     "price": 499000,
@@ -5543,7 +5543,7 @@ export const products = [
   },
   {
     "id": "BDRIED_003",
-    "name": "Custom Bouquet Dried 003",
+    "name": "Bouquet Dried Flower 003",
     "category": "Custom Bouquet",
     "size": "Dried",
     "price": 129000,
@@ -5553,7 +5553,7 @@ export const products = [
   },
   {
     "id": "BDRIED_004",
-    "name": "Custom Bouquet Dried 004",
+    "name": "Bouquet Dried Flower 004",
     "category": "Custom Bouquet",
     "size": "Dried",
     "price": 89000,
@@ -5563,7 +5563,7 @@ export const products = [
   },
   {
     "id": "BDRIED_005",
-    "name": "Custom Bouquet Dried 005",
+    "name": "Bouquet Dried Flower 005",
     "category": "Custom Bouquet",
     "size": "Dried",
     "price": 95000,
@@ -5573,7 +5573,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_001",
-    "name": "Custom Bouquet Graduation Artificial 001",
+    "name": "Bouquet Graduation Artificial 001",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 250000,
@@ -5583,7 +5583,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_002",
-    "name": "Custom Bouquet Graduation Artificial 002",
+    "name": "Bouquet Graduation Artificial 002",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 449000,
@@ -5593,7 +5593,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_003",
-    "name": "Custom Bouquet Graduation Artificial 003",
+    "name": "Bouquet Graduation Artificial 003",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 275000,
@@ -5603,7 +5603,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_004",
-    "name": "Custom Bouquet Graduation Artificial 004",
+    "name": "Bouquet Graduation Artificial 004",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 255000,
@@ -5613,7 +5613,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_005",
-    "name": "Custom Bouquet Graduation Artificial 005",
+    "name": "Bouquet Graduation Artificial 005",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 249000,
@@ -5623,7 +5623,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_006",
-    "name": "Custom Bouquet Graduation Artificial 006",
+    "name": "Bouquet Graduation Artificial 006",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 249000,
@@ -5633,7 +5633,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_007",
-    "name": "Custom Bouquet Graduation Artificial 007",
+    "name": "Bouquet Graduation Artificial 007",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 249000,
@@ -5643,7 +5643,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_008",
-    "name": "Custom Bouquet Graduation Artificial 008",
+    "name": "Bouquet Graduation Artificial 008",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 249000,
@@ -5653,7 +5653,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_009",
-    "name": "Custom Bouquet Graduation Artificial 009",
+    "name": "Bouquet Graduation Artificial 009",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 205000,
@@ -5663,7 +5663,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_010",
-    "name": "Custom Bouquet Graduation Artificial 010",
+    "name": "Bouquet Graduation Artificial 010",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 179000,
@@ -5673,7 +5673,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_011",
-    "name": "Custom Bouquet Graduation Artificial 011",
+    "name": "Bouquet Graduation Artificial 011",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 155000,
@@ -5683,7 +5683,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_012",
-    "name": "Custom Bouquet Graduation Artificial 012",
+    "name": "Bouquet Graduation Artificial 012",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 129000,
@@ -5693,7 +5693,7 @@ export const products = [
   },
   {
     "id": "BGRADARTIF_013",
-    "name": "Custom Bouquet Graduation Artificial 013",
+    "name": "Bouquet Graduation Artificial 013",
     "category": "Custom Bouquet",
     "size": "Graduation Artificial",
     "price": 0,
@@ -5703,7 +5703,7 @@ export const products = [
   },
   {
     "id": "BGRADFRESH_014",
-    "name": "Custom Bouquet Graduation Fresh 014",
+    "name": "Bouquet Graduation Fresh 014",
     "category": "Custom Bouquet",
     "size": "Graduation Fresh",
     "price": 249000,
@@ -5713,7 +5713,7 @@ export const products = [
   },
   {
     "id": "BGRADFRESH_015",
-    "name": "Custom Bouquet Graduation Fresh 015",
+    "name": "Bouquet Graduation Fresh 015",
     "category": "Custom Bouquet",
     "size": "Graduation Fresh",
     "price": 275000,
@@ -5723,7 +5723,7 @@ export const products = [
   },
   {
     "id": "BGRADSNACK_016",
-    "name": "Custom Bouquet Graduation Snack 016",
+    "name": "Bouquet Graduation Snack 016",
     "category": "Custom Bouquet",
     "size": "Graduation Snack",
     "price": 149000,
@@ -5733,7 +5733,7 @@ export const products = [
   },
   {
     "id": "BLEGO_001",
-    "name": "Custom Bouquet Lego 001",
+    "name": "Bouquet Lego 001",
     "category": "Custom Bouquet",
     "size": "Lego",
     "price": 0,
@@ -5743,7 +5743,7 @@ export const products = [
   },
   {
     "id": "BLEGO_002",
-    "name": "Custom Bouquet Lego 002",
+    "name": "Bouquet Lego 002",
     "category": "Custom Bouquet",
     "size": "Lego",
     "price": 125000,
@@ -5753,7 +5753,7 @@ export const products = [
   },
   {
     "id": "BLEGO_003",
-    "name": "Custom Bouquet Lego 003",
+    "name": "Bouquet Lego 003",
     "category": "Custom Bouquet",
     "size": "Lego",
     "price": 135000,
@@ -5763,7 +5763,7 @@ export const products = [
   },
   {
     "id": "BLEGO_004",
-    "name": "Custom Bouquet Lego 004",
+    "name": "Bouquet Lego 004",
     "category": "Custom Bouquet",
     "size": "Lego",
     "price": 149000,
@@ -5773,7 +5773,7 @@ export const products = [
   },
   {
     "id": "BPHOTOARTIF_001",
-    "name": "Custom Bouquet Photo 001",
+    "name": "Bouquet Photo Artificial 001",
     "category": "Custom Bouquet",
     "size": "Photo",
     "price": 179000,
@@ -5783,7 +5783,7 @@ export const products = [
   },
   {
     "id": "BPHOTOARTIF_002",
-    "name": "Custom Bouquet Photo 002",
+    "name": "Bouquet Photo Artificial 002",
     "category": "Custom Bouquet",
     "size": "Photo",
     "price": 249000,
@@ -5793,7 +5793,7 @@ export const products = [
   },
   {
     "id": "BPHOTOARTIF_003",
-    "name": "Custom Bouquet Photo 003",
+    "name": "Bouquet Photo Artificial 003",
     "category": "Custom Bouquet",
     "size": "Photo",
     "price": 199000,
@@ -5803,7 +5803,7 @@ export const products = [
   },
   {
     "id": "BPHOTOARTIF_004",
-    "name": "Custom Bouquet Photo 004",
+    "name": "Bouquet Photo Artificial 004",
     "category": "Custom Bouquet",
     "size": "Photo",
     "price": 199000,
@@ -5813,7 +5813,7 @@ export const products = [
   },
   {
     "id": "BPHOTOARTIF_005",
-    "name": "Custom Bouquet Photo 005",
+    "name": "Bouquet Photo Artificial 005",
     "category": "Custom Bouquet",
     "size": "Photo",
     "price": 189000,
@@ -5823,7 +5823,7 @@ export const products = [
   },
   {
     "id": "BPHOTOARTIF_006",
-    "name": "Custom Bouquet Photo 006",
+    "name": "Bouquet Photo Artificial 006",
     "category": "Custom Bouquet",
     "size": "Photo",
     "price": 175000,
@@ -5833,7 +5833,7 @@ export const products = [
   },
   {
     "id": "BROKOKARTIF_001",
-    "name": "Custom Bouquet Rokok 001",
+    "name": "Bouquet Rokok Artificial 001",
     "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 335000,
@@ -5843,7 +5843,7 @@ export const products = [
   },
   {
     "id": "BROKOKARTIF_002",
-    "name": "Custom Bouquet Rokok 002",
+    "name": "Bouquet Rokok Artificial 002",
     "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 259000,
@@ -5853,7 +5853,7 @@ export const products = [
   },
   {
     "id": "BROKOKARTIF_003",
-    "name": "Custom Bouquet Rokok 003",
+    "name": "Bouquet Rokok Artificial 003",
     "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 65000,
@@ -5863,7 +5863,7 @@ export const products = [
   },
   {
     "id": "BROKOKARTIF_004",
-    "name": "Custom Bouquet Rokok 004",
+    "name": "Bouquet Rokok Artificial 004",
     "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 60000,
@@ -5873,7 +5873,7 @@ export const products = [
   },
   {
     "id": "BROKOKARTIF_005",
-    "name": "Custom Bouquet Rokok 005",
+    "name": "Bouquet Rokok Artificial 005",
     "category": "Custom Bouquet",
     "size": "Rokok",
     "price": 219000,
@@ -5883,7 +5883,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_001",
-    "name": "Custom Bouquet Gift Custom 001",
+    "name": "Bouquet Gift Custom 001",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 0,
@@ -5893,7 +5893,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_002",
-    "name": "Custom Bouquet Gift Custom 002",
+    "name": "Bouquet Gift Custom 002",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 0,
@@ -5903,7 +5903,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_003",
-    "name": "Custom Bouquet Gift Custom 003",
+    "name": "Bouquet Gift Custom 003",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 0,
@@ -5913,7 +5913,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_004",
-    "name": "Custom Bouquet Gift Custom 004",
+    "name": "Bouquet Gift Custom 004",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 0,
@@ -5923,7 +5923,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_005",
-    "name": "Custom Bouquet Gift Custom 005",
+    "name": "Bouquet Gift Custom 005",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 79000,
@@ -5933,7 +5933,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_006",
-    "name": "Custom Bouquet Gift Custom 006",
+    "name": "Bouquet Gift Custom 006",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 79000,
@@ -5943,7 +5943,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_007",
-    "name": "Custom Bouquet Gift Custom 007",
+    "name": "Bouquet Gift Custom 007",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 79000,
@@ -5953,7 +5953,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_008",
-    "name": "Custom Bouquet Gift Custom 008",
+    "name": "Bouquet Gift Custom 008",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 120000,
@@ -5963,7 +5963,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_009",
-    "name": "Custom Bouquet Gift Custom 009",
+    "name": "Bouquet Gift Custom 009",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 135000,
@@ -5973,7 +5973,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_010",
-    "name": "Custom Bouquet Gift Custom 010",
+    "name": "Bouquet Gift Custom 010",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 149000,
@@ -5983,7 +5983,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_010_1",
-    "name": "Custom Bouquet Gift Custom 010",
+    "name": "Bouquet Gift Custom 010",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 149000,
@@ -5993,7 +5993,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_010_2",
-    "name": "Custom Bouquet Gift Custom 010",
+    "name": "Bouquet Gift Custom 010",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 149000,
@@ -6003,7 +6003,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_011",
-    "name": "Custom Bouquet Gift Custom 011",
+    "name": "Bouquet Gift Custom 011",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 179000,
@@ -6013,7 +6013,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_012",
-    "name": "Custom Bouquet Gift Custom 012",
+    "name": "Bouquet Gift Custom 012",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 179000,
@@ -6023,7 +6023,7 @@ export const products = [
   },
   {
     "id": "GIFTCUSTOM_013",
-    "name": "Custom Bouquet Gift Custom 013",
+    "name": "Bouquet Gift Custom 013",
     "category": "Custom Bouquet",
     "size": "Gift Custom",
     "price": 260000,
@@ -6533,7 +6533,7 @@ export const products = [
   },
   {
     "id": "MBD15LBR_051",
-    "name": "Money Bouquet Dried 051",
+    "name": "Money Bouquet Dried Flower 051",
     "category": "Money Bouquet",
     "size": "Dried",
     "price": 125000,
@@ -6543,7 +6543,7 @@ export const products = [
   },
   {
     "id": "MBD30LBR_052",
-    "name": "Money Bouquet Dried 052",
+    "name": "Money Bouquet Dried Flower 052",
     "category": "Money Bouquet",
     "size": "Dried",
     "price": 235000,
@@ -6553,7 +6553,7 @@ export const products = [
   },
   {
     "id": "MBD30LBR_053",
-    "name": "Money Bouquet Dried 053",
+    "name": "Money Bouquet Dried Flower 053",
     "category": "Money Bouquet",
     "size": "Dried",
     "price": 235000,
@@ -6563,7 +6563,7 @@ export const products = [
   },
   {
     "id": "MBD30LBR_054",
-    "name": "Money Bouquet Dried 054",
+    "name": "Money Bouquet Dried Flower 054",
     "category": "Money Bouquet",
     "size": "Dried",
     "price": 265000,
@@ -6573,7 +6573,7 @@ export const products = [
   },
   {
     "id": "MBD35LBR_055",
-    "name": "Money Bouquet Dried 055",
+    "name": "Money Bouquet Dried Flower 055",
     "category": "Money Bouquet",
     "size": "Dried",
     "price": 265000,
@@ -6583,7 +6583,7 @@ export const products = [
   },
   {
     "id": "MBF10LBR_056",
-    "name": "Money Bouquet Fresh 056",
+    "name": "Money Bouquet Fresh Flower 056",
     "category": "Money Bouquet",
     "size": "Fresh",
     "price": 149000,
@@ -6593,7 +6593,7 @@ export const products = [
   },
   {
     "id": "MBF15LBR_057",
-    "name": "Money Bouquet Fresh 057",
+    "name": "Money Bouquet Fresh Flower 057",
     "category": "Money Bouquet",
     "size": "Fresh",
     "price": 199000,
@@ -6603,7 +6603,7 @@ export const products = [
   },
   {
     "id": "MBF30LBR_058",
-    "name": "Money Bouquet Fresh 058",
+    "name": "Money Bouquet Fresh Flower 058",
     "category": "Money Bouquet",
     "size": "Fresh",
     "price": 289000,
@@ -6903,7 +6903,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_001",
-    "name": "Vas Arrangement Kaca Artificial 001",
+    "name": "Vas Kaca Artificial 001",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 165000,
@@ -6913,7 +6913,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_002",
-    "name": "Vas Arrangement Kaca Artificial 002",
+    "name": "Vas Kaca Artificial 002",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 149000,
@@ -6923,7 +6923,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_003",
-    "name": "Vas Arrangement Kaca Artificial 003",
+    "name": "Vas Kaca Artificial 003",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 149000,
@@ -6933,7 +6933,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_004",
-    "name": "Vas Arrangement Kaca Artificial 004",
+    "name": "Vas Kaca Artificial 004",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 149000,
@@ -6943,7 +6943,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_005",
-    "name": "Vas Arrangement Kaca Artificial 005",
+    "name": "Vas Kaca Artificial 005",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 199000,
@@ -6953,7 +6953,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_006",
-    "name": "Vas Arrangement Kaca Artificial 006",
+    "name": "Vas Kaca Artificial 006",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 199000,
@@ -6963,7 +6963,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_007",
-    "name": "Vas Arrangement Kaca Artificial 007",
+    "name": "Vas Kaca Artificial 007",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 199000,
@@ -6973,7 +6973,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_008",
-    "name": "Vas Arrangement Kaca Artificial 008",
+    "name": "Vas Kaca Artificial 008",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 199000,
@@ -6983,7 +6983,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_009",
-    "name": "Vas Arrangement Kaca Artificial 009",
+    "name": "Vas Kaca Artificial 009",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 199000,
@@ -6993,7 +6993,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_010",
-    "name": "Vas Arrangement Kaca Artificial 010",
+    "name": "Vas Kaca Artificial 010",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 209000,
@@ -7003,7 +7003,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_011",
-    "name": "Vas Arrangement Kaca Artificial 011",
+    "name": "Vas Kaca Artificial 011",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 299000,
@@ -7013,7 +7013,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_011_1",
-    "name": "Vas Arrangement Kaca Artificial 011",
+    "name": "Vas Kaca Artificial 011",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 299000,
@@ -7023,7 +7023,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_012",
-    "name": "Vas Arrangement Kaca Artificial 012",
+    "name": "Vas Kaca Artificial 012",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 299000,
@@ -7033,7 +7033,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_013",
-    "name": "Vas Arrangement Kaca Artificial 013",
+    "name": "Vas Kaca Artificial 013",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 349000,
@@ -7043,7 +7043,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_014",
-    "name": "Vas Arrangement Kaca Artificial 014",
+    "name": "Vas Kaca Artificial 014",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 499000,
@@ -7053,7 +7053,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_014_1",
-    "name": "Vas Arrangement Kaca Artificial 014",
+    "name": "Vas Kaca Artificial 014",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 499000,
@@ -7063,7 +7063,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_015",
-    "name": "Vas Arrangement Kaca Artificial 015",
+    "name": "Vas Kaca Artificial 015",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 999000,
@@ -7073,7 +7073,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_016",
-    "name": "Vas Arrangement Kaca Artificial 016",
+    "name": "Vas Kaca Artificial 016",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 999000,
@@ -7083,7 +7083,7 @@ export const products = [
   },
   {
     "id": "VASKACAARTIF_017",
-    "name": "Vas Arrangement Kaca Artificial 017",
+    "name": "Vas Kaca Artificial 017",
     "category": "Vas Arrangement",
     "size": "Kaca Artificial",
     "price": 149000,
@@ -7093,7 +7093,7 @@ export const products = [
   },
   {
     "id": "VASPETITEARTI_001",
-    "name": "Vas Arrangement Petite Artificial 001",
+    "name": "Vas Kaca Artificial Petite 001",
     "category": "Vas Arrangement",
     "size": "Petite Artificial",
     "price": 110000,
@@ -7103,7 +7103,7 @@ export const products = [
   },
   {
     "id": "VASPETITEARTI_002",
-    "name": "Vas Arrangement Petite Artificial 002",
+    "name": "Vas Kaca Artificial Petite 002",
     "category": "Vas Arrangement",
     "size": "Petite Artificial",
     "price": 125000,
@@ -7113,7 +7113,7 @@ export const products = [
   },
   {
     "id": "VASPETITE_003",
-    "name": "Vas Arrangement Petite Artificial 003",
+    "name": "Vas Kaca Artificial Petite 003",
     "category": "Vas Arrangement",
     "size": "Petite Artificial",
     "price": 110000,
@@ -7123,7 +7123,7 @@ export const products = [
   },
   {
     "id": "VASPETITE_004",
-    "name": "Vas Arrangement Petite Artificial 004",
+    "name": "Vas Kaca Artificial Petite 004",
     "category": "Vas Arrangement",
     "size": "Petite Artificial",
     "price": 110000,
@@ -7133,7 +7133,7 @@ export const products = [
   },
   {
     "id": "VASPETITE_005",
-    "name": "Vas Arrangement Petite Artificial 005",
+    "name": "Vas Kaca Artificial Petite 005",
     "category": "Vas Arrangement",
     "size": "Petite Artificial",
     "price": 110000,
@@ -7143,7 +7143,7 @@ export const products = [
   },
   {
     "id": "VASPETITE_006",
-    "name": "Vas Arrangement Petite Artificial 006",
+    "name": "Vas Kaca Artificial Petite 006",
     "category": "Vas Arrangement",
     "size": "Petite Artificial",
     "price": 110000,
@@ -7153,7 +7153,7 @@ export const products = [
   },
   {
     "id": "VASPETITE_007",
-    "name": "Vas Arrangement Petite Artificial 007",
+    "name": "Vas Kaca Artificial Petite 007",
     "category": "Vas Arrangement",
     "size": "Petite Artificial",
     "price": 110000,
@@ -7163,7 +7163,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_001",
-    "name": "Vas Arrangement Plastic Melamin Artificial 001",
+    "name": "Vas Plastic Melamine Artificial 001",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 199000,
@@ -7173,7 +7173,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_002",
-    "name": "Vas Arrangement Plastic Melamin Artificial 002",
+    "name": "Vas Plastic Melamine Artificial 002",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 275000,
@@ -7183,7 +7183,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_003",
-    "name": "Vas Arrangement Plastic Melamin Artificial 003",
+    "name": "Vas Plastic Melamine Artificial 003",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 325000,
@@ -7193,7 +7193,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_004",
-    "name": "Vas Arrangement Plastic Melamin Artificial 004",
+    "name": "Vas Plastic Melamine Artificial 004",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 220000,
@@ -7203,7 +7203,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_005",
-    "name": "Vas Arrangement Plastic Melamin Artificial 005",
+    "name": "Vas Plastic Melamine Artificial 005",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 265000,
@@ -7213,7 +7213,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_006",
-    "name": "Vas Arrangement Plastic Melamin Artificial 006",
+    "name": "Vas Plastic Melamine Artificial 006",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 250000,
@@ -7223,7 +7223,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_007",
-    "name": "Vas Arrangement Plastic Melamin Artificial 007",
+    "name": "Vas Plastic Melamine Artificial 007",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 220000,
@@ -7233,7 +7233,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_008",
-    "name": "Vas Arrangement Plastic Melamin Artificial 008",
+    "name": "Vas Plastic Melamine Artificial 008",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 235000,
@@ -7243,7 +7243,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_009",
-    "name": "Vas Arrangement Plastic Melamin Artificial 009",
+    "name": "Vas Plastic Melamine Artificial 009",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 235000,
@@ -7253,7 +7253,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_010",
-    "name": "Vas Arrangement Plastic Melamin Artificial 010",
+    "name": "Vas Plastic Melamine Artificial 010",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 235000,
@@ -7263,7 +7263,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_011",
-    "name": "Vas Arrangement Plastic Melamin Artificial 011",
+    "name": "Vas Plastic Melamine Artificial 011",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 349000,
@@ -7273,7 +7273,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_012",
-    "name": "Vas Arrangement Plastic Melamin Artificial 012",
+    "name": "Vas Plastic Melamine Artificial 012",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 325000,
@@ -7283,7 +7283,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_013",
-    "name": "Vas Arrangement Plastic Melamin Artificial 013",
+    "name": "Vas Plastic Melamine Artificial 013",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 315000,
@@ -7293,7 +7293,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_014",
-    "name": "Vas Arrangement Plastic Melamin Artificial 014",
+    "name": "Vas Plastic Melamine Artificial 014",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 299000,
@@ -7303,7 +7303,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_015",
-    "name": "Vas Arrangement Plastic Melamin Artificial 015",
+    "name": "Vas Plastic Melamine Artificial 015",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 299000,
@@ -7313,7 +7313,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_016",
-    "name": "Vas Arrangement Plastic Melamin Artificial 016",
+    "name": "Vas Plastic Melamine Artificial 016",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 289000,
@@ -7323,7 +7323,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_017",
-    "name": "Vas Arrangement Plastic Melamin Artificial 017",
+    "name": "Vas Plastic Melamine Artificial 017",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 289000,
@@ -7333,7 +7333,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_018",
-    "name": "Vas Arrangement Plastic Melamin Artificial 018",
+    "name": "Vas Plastic Melamine Artificial 018",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 279000,
@@ -7343,7 +7343,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_019",
-    "name": "Vas Arrangement Plastic Melamin Artificial 019",
+    "name": "Vas Plastic Melamine Artificial 019",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 275000,
@@ -7353,7 +7353,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_020",
-    "name": "Vas Arrangement Plastic Melamin Artificial 020",
+    "name": "Vas Plastic Melamine Artificial 020",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 249000,
@@ -7363,7 +7363,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_021",
-    "name": "Vas Arrangement Plastic Melamin Artificial 021",
+    "name": "Vas Plastic Melamine Artificial 021",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 249000,
@@ -7373,7 +7373,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_022",
-    "name": "Vas Arrangement Plastic Melamin Artificial 022",
+    "name": "Vas Plastic Melamine Artificial 022",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 245000,
@@ -7383,7 +7383,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_023",
-    "name": "Vas Arrangement Plastic Melamin Artificial 023",
+    "name": "Vas Plastic Melamine Artificial 023",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 245000,
@@ -7393,7 +7393,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_024",
-    "name": "Vas Arrangement Plastic Melamin Artificial 024",
+    "name": "Vas Plastic Melamine Artificial 024",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 235000,
@@ -7403,7 +7403,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_025",
-    "name": "Vas Arrangement Plastic Melamin Artificial 025",
+    "name": "Vas Plastic Melamine Artificial 025",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 235000,
@@ -7413,7 +7413,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_026",
-    "name": "Vas Arrangement Plastic Melamin Artificial 026",
+    "name": "Vas Plastic Melamine Artificial 026",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 229000,
@@ -7423,7 +7423,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_027",
-    "name": "Vas Arrangement Plastic Melamin Artificial 027",
+    "name": "Vas Plastic Melamine Artificial 027",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 220000,
@@ -7433,7 +7433,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_028",
-    "name": "Vas Arrangement Plastic Melamin Artificial 028",
+    "name": "Vas Plastic Melamine Artificial 028",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 220000,
@@ -7443,7 +7443,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_029",
-    "name": "Vas Arrangement Plastic Melamin Artificial 029",
+    "name": "Vas Plastic Melamine Artificial 029",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 199000,
@@ -7453,7 +7453,7 @@ export const products = [
   },
   {
     "id": "VASPLASTICMELAMINARTIF_030",
-    "name": "Vas Arrangement Plastic Melamin Artificial 030",
+    "name": "Vas Plastic Melamine Artificial 030",
     "category": "Vas Arrangement",
     "size": "Plastic Melamin Artificial",
     "price": 285000,
@@ -7463,7 +7463,7 @@ export const products = [
   },
   {
     "id": "VASKACAFRESH_001",
-    "name": "Vas Arrangement Kaca Fresh 001",
+    "name": "Vas Kaca Fresh Flower 001",
     "category": "Vas Arrangement",
     "size": "Kaca Fresh",
     "price": 239000,
@@ -7473,7 +7473,7 @@ export const products = [
   },
   {
     "id": "VASKACAFRESH_002",
-    "name": "Vas Arrangement Kaca Fresh 002",
+    "name": "Vas Kaca Fresh Flower 002",
     "category": "Vas Arrangement",
     "size": "Kaca Fresh",
     "price": 239000,
@@ -7483,7 +7483,7 @@ export const products = [
   },
   {
     "id": "VASKACAFRESH_002_1",
-    "name": "Vas Arrangement Kaca Fresh 002",
+    "name": "Vas Kaca Fresh Flower 002",
     "category": "Vas Arrangement",
     "size": "Kaca Fresh",
     "price": 239000,
@@ -7493,7 +7493,7 @@ export const products = [
   },
   {
     "id": "VASKACAFRESH_003",
-    "name": "Vas Arrangement Kaca Fresh 003",
+    "name": "Vas Kaca Fresh Flower 003",
     "category": "Vas Arrangement",
     "size": "Kaca Fresh",
     "price": 299000,
@@ -7503,7 +7503,7 @@ export const products = [
   },
   {
     "id": "VASKACAFRESH_004",
-    "name": "Vas Arrangement Kaca Fresh 004",
+    "name": "Vas Kaca Fresh Flower 004",
     "category": "Vas Arrangement",
     "size": "Kaca Fresh",
     "price": 385000,
@@ -7513,7 +7513,7 @@ export const products = [
   },
   {
     "id": "WCARTIF_002",
-    "name": "Wedding Arrangement Corsage Artificial 002",
+    "name": "Wedding Corsage Artificial 002",
     "category": "Wedding Arrangement",
     "size": "Corsage Artificial",
     "price": 40000,
@@ -7523,7 +7523,7 @@ export const products = [
   },
   {
     "id": "WCARTIF_004",
-    "name": "Wedding Arrangement Corsage Artificial 004",
+    "name": "Wedding Corsage Artificial 004",
     "category": "Wedding Arrangement",
     "size": "Corsage Artificial",
     "price": 35000,
@@ -7533,7 +7533,7 @@ export const products = [
   },
   {
     "id": "WCFRESH_001",
-    "name": "Wedding Arrangement Corsage Fresh 001",
+    "name": "Wedding Corsage Fresh Flower 001",
     "category": "Wedding Arrangement",
     "size": "Corsage Fresh",
     "price": 35000,
@@ -7543,7 +7543,7 @@ export const products = [
   },
   {
     "id": "WCFRESH_003",
-    "name": "Wedding Arrangement Corsage Fresh 003",
+    "name": "Wedding Corsage Fresh Flower 003",
     "category": "Wedding Arrangement",
     "size": "Corsage Fresh",
     "price": 30000,
@@ -7553,7 +7553,7 @@ export const products = [
   },
   {
     "id": "WEDARTIFCAR_001",
-    "name": "Wedding Arrangement Wedding Car Artificial 001",
+    "name": "Wedding Car Artificial 001",
     "category": "Wedding Arrangement",
     "size": "Wedding Car Artificial",
     "price": 299000,
@@ -7563,7 +7563,7 @@ export const products = [
   },
   {
     "id": "WEDARTIFCAR_002",
-    "name": "Wedding Arrangement Wedding Car Artificial 002",
+    "name": "Wedding Car Artificial 002",
     "category": "Wedding Arrangement",
     "size": "Wedding Car Artificial",
     "price": 259000,
@@ -7573,7 +7573,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_001",
-    "name": "Wedding Arrangement Artificial 001",
+    "name": "Bouquet Wedding Artificial 001",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 350000,
@@ -7583,7 +7583,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_002",
-    "name": "Wedding Arrangement Artificial 002",
+    "name": "Bouquet Wedding Artificial 002",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 65000,
@@ -7593,7 +7593,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_003",
-    "name": "Wedding Arrangement Artificial 003",
+    "name": "Bouquet Wedding Artificial 003",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7603,7 +7603,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_004",
-    "name": "Wedding Arrangement Artificial 004",
+    "name": "Bouquet Wedding Artificial 004",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7613,7 +7613,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_005",
-    "name": "Wedding Arrangement Artificial 005",
+    "name": "Bouquet Wedding Artificial 005",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7623,7 +7623,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_005_1",
-    "name": "Wedding Arrangement Artificial 005",
+    "name": "Bouquet Wedding Artificial 005",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7633,7 +7633,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_005_2",
-    "name": "Wedding Arrangement Artificial 005",
+    "name": "Bouquet Wedding Artificial 005",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7643,7 +7643,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_006",
-    "name": "Wedding Arrangement Artificial 006",
+    "name": "Bouquet Wedding Artificial 006",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7653,7 +7653,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_007",
-    "name": "Wedding Arrangement Artificial 007",
+    "name": "Bouquet Wedding Artificial 007",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7663,7 +7663,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_008",
-    "name": "Wedding Arrangement Artificial 008",
+    "name": "Bouquet Wedding Artificial 008",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7673,7 +7673,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_009",
-    "name": "Wedding Arrangement Artificial 009",
+    "name": "Bouquet Wedding Artificial 009",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7683,7 +7683,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_009_1",
-    "name": "Wedding Arrangement Artificial 009",
+    "name": "Bouquet Wedding Artificial 009",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7693,7 +7693,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_009_2",
-    "name": "Wedding Arrangement Artificial 009",
+    "name": "Bouquet Wedding Artificial 009",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7703,7 +7703,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_010",
-    "name": "Wedding Arrangement Artificial 010",
+    "name": "Bouquet Wedding Artificial 010",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7713,7 +7713,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_011",
-    "name": "Wedding Arrangement Artificial 011",
+    "name": "Bouquet Wedding Artificial 011",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 425000,
@@ -7723,7 +7723,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_012",
-    "name": "Wedding Arrangement Artificial 012",
+    "name": "Bouquet Wedding Artificial 012",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 399000,
@@ -7733,7 +7733,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_013",
-    "name": "Wedding Arrangement Artificial 013",
+    "name": "Bouquet Wedding Artificial 013",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 349000,
@@ -7743,7 +7743,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_013_1",
-    "name": "Wedding Arrangement Artificial 013",
+    "name": "Bouquet Wedding Artificial 013",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 349000,
@@ -7753,7 +7753,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_014",
-    "name": "Wedding Arrangement Artificial 014",
+    "name": "Bouquet Wedding Artificial 014",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 349000,
@@ -7763,7 +7763,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_015",
-    "name": "Wedding Arrangement Artificial 015",
+    "name": "Bouquet Wedding Artificial 015",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 325000,
@@ -7773,7 +7773,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_016",
-    "name": "Wedding Arrangement Artificial 016",
+    "name": "Bouquet Wedding Artificial 016",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 325000,
@@ -7783,7 +7783,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_017",
-    "name": "Wedding Arrangement Artificial 017",
+    "name": "Bouquet Wedding Artificial 017",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 325000,
@@ -7793,7 +7793,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_018",
-    "name": "Wedding Arrangement Artificial 018",
+    "name": "Bouquet Wedding Artificial 018",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 325000,
@@ -7803,7 +7803,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_019",
-    "name": "Wedding Arrangement Artificial 019",
+    "name": "Bouquet Wedding Artificial 019",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
@@ -7813,7 +7813,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_020",
-    "name": "Wedding Arrangement Artificial 020",
+    "name": "Bouquet Wedding Artificial 020",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
@@ -7823,7 +7823,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_021",
-    "name": "Wedding Arrangement Artificial 021",
+    "name": "Bouquet Wedding Artificial 021",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
@@ -7833,7 +7833,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_022",
-    "name": "Wedding Arrangement Artificial 022",
+    "name": "Bouquet Wedding Artificial 022",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
@@ -7843,7 +7843,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_023",
-    "name": "Wedding Arrangement Artificial 023",
+    "name": "Bouquet Wedding Artificial 023",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
@@ -7853,7 +7853,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_024",
-    "name": "Wedding Arrangement Artificial 024",
+    "name": "Bouquet Wedding Artificial 024",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
@@ -7863,7 +7863,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_025",
-    "name": "Wedding Arrangement Artificial 025",
+    "name": "Bouquet Wedding Artificial 025",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
@@ -7873,7 +7873,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_026",
-    "name": "Wedding Arrangement Artificial 026",
+    "name": "Bouquet Wedding Artificial 026",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 299000,
@@ -7883,7 +7883,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_027",
-    "name": "Wedding Arrangement Artificial 027",
+    "name": "Bouquet Wedding Artificial 027",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 279000,
@@ -7893,7 +7893,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_027_1",
-    "name": "Wedding Arrangement Artificial 027",
+    "name": "Bouquet Wedding Artificial 027",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 279000,
@@ -7903,7 +7903,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_028",
-    "name": "Wedding Arrangement Artificial 028",
+    "name": "Bouquet Wedding Artificial 028",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 249000,
@@ -7913,7 +7913,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_029",
-    "name": "Wedding Arrangement Artificial 029",
+    "name": "Bouquet Wedding Artificial 029",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 199000,
@@ -7923,7 +7923,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_030",
-    "name": "Wedding Arrangement Artificial 030",
+    "name": "Bouquet Wedding Artificial 030",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 180000,
@@ -7933,7 +7933,7 @@ export const products = [
   },
   {
     "id": "WEDARTIF_031",
-    "name": "Wedding Arrangement Artificial 031",
+    "name": "Bouquet Wedding Artificial 031",
     "category": "Wedding Arrangement",
     "size": "Artificial",
     "price": 179000,
@@ -7943,7 +7943,7 @@ export const products = [
   },
   {
     "id": "WEDFRESHCAR_001",
-    "name": "Wedding Arrangement Wedding Car Fresh 001",
+    "name": "Wedding Car Fresh Flower 001",
     "category": "Wedding Arrangement",
     "size": "Wedding Car Fresh",
     "price": 40000,
@@ -7953,7 +7953,7 @@ export const products = [
   },
   {
     "id": "WEDFRESHCAR_002",
-    "name": "Wedding Arrangement Wedding Car Fresh 002",
+    "name": "Wedding Car Fresh Flower 002",
     "category": "Wedding Arrangement",
     "size": "Wedding Car Fresh",
     "price": 299000,
@@ -7963,7 +7963,7 @@ export const products = [
   },
   {
     "id": "WEDFRESH_001",
-    "name": "Wedding Arrangement Fresh 001",
+    "name": "Bouquet Wedding Fresh Flower 001",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 429000,
@@ -7973,7 +7973,7 @@ export const products = [
   },
   {
     "id": "WEDFRESH_002",
-    "name": "Wedding Arrangement Fresh 002",
+    "name": "Bouquet Wedding Fresh Flower 002",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 199000,
@@ -7983,7 +7983,7 @@ export const products = [
   },
   {
     "id": "WEDFRESH_002_1",
-    "name": "Wedding Arrangement Fresh 002",
+    "name": "Bouquet Wedding Fresh Flower 002",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 199000,
@@ -7993,7 +7993,7 @@ export const products = [
   },
   {
     "id": "WEDFRESH_003",
-    "name": "Wedding Arrangement Fresh 003",
+    "name": "Bouquet Wedding Fresh Flower 003",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 289000,
@@ -8003,7 +8003,7 @@ export const products = [
   },
   {
     "id": "WEDFRESH_004",
-    "name": "Wedding Arrangement Fresh 004",
+    "name": "Bouquet Wedding Fresh Flower 004",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 299000,
@@ -8013,7 +8013,7 @@ export const products = [
   },
   {
     "id": "WEDFRESH_005",
-    "name": "Wedding Arrangement Fresh 005",
+    "name": "Bouquet Wedding Fresh Flower 005",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 299000,
@@ -8023,7 +8023,7 @@ export const products = [
   },
   {
     "id": "WEDFRESH_005_1",
-    "name": "Wedding Arrangement Fresh 005",
+    "name": "Bouquet Wedding Fresh Flower 005",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 325000,
@@ -8033,7 +8033,7 @@ export const products = [
   },
   {
     "id": "WEDFRESH_006",
-    "name": "Wedding Arrangement Fresh 006",
+    "name": "Bouquet Wedding Fresh Flower 006",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 599000,
@@ -8043,7 +8043,7 @@ export const products = [
   },
   {
     "id": "WEDFRESH_007",
-    "name": "Wedding Arrangement Fresh 007",
+    "name": "Bouquet Wedding Fresh Flower 007",
     "category": "Wedding Arrangement",
     "size": "Fresh",
     "price": 599000,
@@ -8053,7 +8053,7 @@ export const products = [
   },
   {
     "id": "WEDMIX_001",
-    "name": "Wedding Arrangement Mix 001",
+    "name": "Bouquet Wedding Fresh Mix Artificial 001",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 275000,
@@ -8063,7 +8063,7 @@ export const products = [
   },
   {
     "id": "WEDMIX_002",
-    "name": "Wedding Arrangement Mix 002",
+    "name": "Bouquet Wedding Fresh Mix Artificial 002",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 289000,
@@ -8073,7 +8073,7 @@ export const products = [
   },
   {
     "id": "WEDMIX_003",
-    "name": "Wedding Arrangement Mix 003",
+    "name": "Bouquet Wedding Fresh Mix Artificial 003",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 399000,
@@ -8083,7 +8083,7 @@ export const products = [
   },
   {
     "id": "WEDMIX_004",
-    "name": "Wedding Arrangement Mix 004",
+    "name": "Bouquet Wedding Fresh Mix Artificial 004",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 329000,
@@ -8093,7 +8093,7 @@ export const products = [
   },
   {
     "id": "WEDMIX_005",
-    "name": "Wedding Arrangement Mix 005",
+    "name": "Bouquet Wedding Fresh Mix Artificial 005",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 219000,
@@ -8103,7 +8103,7 @@ export const products = [
   },
   {
     "id": "WEDMIX_006",
-    "name": "Wedding Arrangement Mix 006",
+    "name": "Bouquet Wedding Fresh Mix Artificial 006",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 299000,
@@ -8113,7 +8113,7 @@ export const products = [
   },
   {
     "id": "WEDMIX_007",
-    "name": "Wedding Arrangement Mix 007",
+    "name": "Bouquet Wedding Fresh Mix Artificial 007",
     "category": "Wedding Arrangement",
     "size": "Mix",
     "price": 699000,

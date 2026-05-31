@@ -10,64 +10,64 @@ const productsFile = path.join(__dirname, '../src/data/products.js');
 // Map prefixes to categories and subdirectories
 const prefixMap = {
   // Bouquet Artificial
-  'bap': { cat: 'Bouquet Artificial', sub: 'Petite', dir: 'bouquet-artificial/petite' },
-  'bas': { cat: 'Bouquet Artificial', sub: 'Small', dir: 'bouquet-artificial/s' },
-  'bam': { cat: 'Bouquet Artificial', sub: 'Medium', dir: 'bouquet-artificial/m' },
-  'bal': { cat: 'Bouquet Artificial', sub: 'Large', dir: 'bouquet-artificial/l' },
-  'baxl': { cat: 'Bouquet Artificial', sub: 'XL', dir: 'bouquet-artificial/xl' },
-  'baxxl': { cat: 'Bouquet Artificial', sub: 'XXL', dir: 'bouquet-artificial/xxl' },
-  'bahs': { cat: 'Bouquet Artificial', sub: 'Human Size', dir: 'bouquet-artificial/human-size' },
+  'bap': { cat: 'Bouquet Artificial', sub: 'Petite', dir: 'bouquet-artificial/petite', namePrefix: 'Bouquet Artificial Petite' },
+  'bas': { cat: 'Bouquet Artificial', sub: 'Small', dir: 'bouquet-artificial/s', namePrefix: 'Bouquet Artificial Small' },
+  'bam': { cat: 'Bouquet Artificial', sub: 'Medium', dir: 'bouquet-artificial/m', namePrefix: 'Bouquet Artificial Medium' },
+  'bal': { cat: 'Bouquet Artificial', sub: 'Large', dir: 'bouquet-artificial/l', namePrefix: 'Bouquet Artificial Large' },
+  'baxl': { cat: 'Bouquet Artificial', sub: 'XL', dir: 'bouquet-artificial/xl', namePrefix: 'Bouquet Artificial XL' },
+  'baxxl': { cat: 'Bouquet Artificial', sub: 'XXL', dir: 'bouquet-artificial/xxl', namePrefix: 'Bouquet Artificial XXL' },
+  'bahs': { cat: 'Bouquet Artificial', sub: 'Human Size', dir: 'bouquet-artificial/human-size', namePrefix: 'Bouquet Artificial Human Size' },
 
   // Bouquet Fresh
-  'bfs': { cat: 'Fresh Flowers', sub: 'Small', dir: 'bouquet-fresh/s' },
-  'bfm': { cat: 'Fresh Flowers', sub: 'Medium', dir: 'bouquet-fresh/m' },
-  'bfl': { cat: 'Fresh Flowers', sub: 'Large', dir: 'bouquet-fresh/l' },
-  'bfxl': { cat: 'Fresh Flowers', sub: 'XL', dir: 'bouquet-fresh/xl' },
-  'bfp': { cat: 'Fresh Flowers', sub: 'Premium', dir: 'bouquet-fresh/premium' },
-  'bsf': { cat: 'Fresh Flowers', sub: 'Single Flower', dir: 'bouquet-fresh/single' },
-  'bfhs': { cat: 'Fresh Flowers', sub: 'Human Size', dir: 'bouquet-fresh/human-size' },
+  'bfs': { cat: 'Fresh Flowers', sub: 'Small', dir: 'bouquet-fresh/s', namePrefix: 'Bouquet Fresh Small' },
+  'bfm': { cat: 'Fresh Flowers', sub: 'Medium', dir: 'bouquet-fresh/m', namePrefix: 'Bouquet Fresh Medium' },
+  'bfl': { cat: 'Fresh Flowers', sub: 'Large', dir: 'bouquet-fresh/l', namePrefix: 'Bouquet Fresh Large' },
+  'bfxl': { cat: 'Fresh Flowers', sub: 'XL', dir: 'bouquet-fresh/xl', namePrefix: 'Bouquet Fresh XL' },
+  'bfp': { cat: 'Fresh Flowers', sub: 'Premium', dir: 'bouquet-fresh/premium', namePrefix: 'Bouquet Fresh Premium' },
+  'bsf': { cat: 'Fresh Flowers', sub: 'Single Flower', dir: 'bouquet-fresh/single', namePrefix: 'Bouquet Single Fresh Flower' },
+  'bfhs': { cat: 'Fresh Flowers', sub: 'Human Size', dir: 'bouquet-fresh/human-size', namePrefix: 'Bouquet Fresh Flower Human Size' },
 
   // Bouquet Mix
-  'bfmam': { cat: 'Fresh Mix Artificial', sub: 'Medium', dir: 'bouquet-mix/m' },
-  'bfmal': { cat: 'Fresh Mix Artificial', sub: 'Large', dir: 'bouquet-mix/l' },
-  'bfmaxl': { cat: 'Fresh Mix Artificial', sub: 'XL', dir: 'bouquet-mix/xl' },
+  'bfmam': { cat: 'Fresh Mix Artificial', sub: 'Medium', dir: 'bouquet-mix/m', namePrefix: 'Bouquet Fresh Mix Artificial Medium' },
+  'bfmal': { cat: 'Fresh Mix Artificial', sub: 'Large', dir: 'bouquet-mix/l', namePrefix: 'Bouquet Fresh Mix Artificial Large' },
+  'bfmaxl': { cat: 'Fresh Mix Artificial', sub: 'XL', dir: 'bouquet-mix/xl', namePrefix: 'Bouquet Fresh Mix Artificial XL' },
 
   // Bloom Box
-  'blboxartif': { cat: 'Bloom Box', sub: 'Artificial', dir: 'bloom-box-artificial' },
-  'blboxfresh': { cat: 'Bloom Box', sub: 'Fresh', dir: 'bloom-box-fresh' },
+  'blboxartif': { cat: 'Bloom Box', sub: 'Artificial', dir: 'bloom-box-artificial', namePrefix: 'Bloombox Artificial' },
+  'blboxfresh': { cat: 'Bloom Box', sub: 'Fresh', dir: 'bloom-box-fresh', namePrefix: 'Bloombox Fresh' },
 
   // Vas
-  'vaskacaartif': { cat: 'Vas Arrangement', sub: 'Kaca Artificial', dir: 'vas-artificial' },
-  'vaskacafresh': { cat: 'Vas Arrangement', sub: 'Kaca Fresh', dir: 'vas-fresh' },
-  'vaspetitearti': { cat: 'Vas Arrangement', sub: 'Petite Artificial', dir: 'vas-artificial' },
-  'vaspetite': { cat: 'Vas Arrangement', sub: 'Petite Artificial', dir: 'vas-artificial' },
-  'vasplasticmelaminartif': { cat: 'Vas Arrangement', sub: 'Plastic Melamin Artificial', dir: 'vas-artificial' },
+  'vaskacaartif': { cat: 'Vas Arrangement', sub: 'Kaca Artificial', dir: 'vas-artificial', namePrefix: 'Vas Kaca Artificial' },
+  'vaskacafresh': { cat: 'Vas Arrangement', sub: 'Kaca Fresh', dir: 'vas-fresh', namePrefix: 'Vas Kaca Fresh Flower' },
+  'vaspetitearti': { cat: 'Vas Arrangement', sub: 'Petite Artificial', dir: 'vas-artificial', namePrefix: 'Vas Kaca Artificial Petite' },
+  'vaspetite': { cat: 'Vas Arrangement', sub: 'Petite Artificial', dir: 'vas-artificial', namePrefix: 'Vas Kaca Artificial Petite' },
+  'vasplasticmelaminartif': { cat: 'Vas Arrangement', sub: 'Plastic Melamin Artificial', dir: 'vas-artificial', namePrefix: 'Vas Plastic Melamine Artificial' },
 
   // Snack Bouquet
-  'bsnack': { cat: 'Snack Bouquet', sub: 'Snack', dir: 'snack-bucket' },
+  'bsnack': { cat: 'Snack Bouquet', sub: 'Snack', dir: 'snack-bucket', namePrefix: 'Snack Bouquet' },
 
   // Wedding Arrangement
-  'wedartifcar': { cat: 'Wedding Arrangement', sub: 'Wedding Car Artificial', dir: 'wedding-arrangement' },
-  'wedfreshcar': { cat: 'Wedding Arrangement', sub: 'Wedding Car Fresh', dir: 'wedding-arrangement' },
-  'wedartif': { cat: 'Wedding Arrangement', sub: 'Artificial', dir: 'wedding-arrangement' },
-  'wedfresh': { cat: 'Wedding Arrangement', sub: 'Fresh', dir: 'wedding-arrangement' },
-  'wedmix': { cat: 'Wedding Arrangement', sub: 'Mix', dir: 'wedding-arrangement' },
-  'wcartif': { cat: 'Wedding Arrangement', sub: 'Corsage Artificial', dir: 'wedding-arrangement' },
-  'wcfresh': { cat: 'Wedding Arrangement', sub: 'Corsage Fresh', dir: 'wedding-arrangement' },
+  'wedartifcar': { cat: 'Wedding Arrangement', sub: 'Wedding Car Artificial', dir: 'wedding-arrangement', namePrefix: 'Wedding Car Artificial' },
+  'wedfreshcar': { cat: 'Wedding Arrangement', sub: 'Wedding Car Fresh', dir: 'wedding-arrangement', namePrefix: 'Wedding Car Fresh Flower' },
+  'wedartif': { cat: 'Wedding Arrangement', sub: 'Artificial', dir: 'wedding-arrangement', namePrefix: 'Bouquet Wedding Artificial' },
+  'wedfresh': { cat: 'Wedding Arrangement', sub: 'Fresh', dir: 'wedding-arrangement', namePrefix: 'Bouquet Wedding Fresh Flower' },
+  'wedmix': { cat: 'Wedding Arrangement', sub: 'Mix', dir: 'wedding-arrangement', namePrefix: 'Bouquet Wedding Fresh Mix Artificial' },
+  'wcartif': { cat: 'Wedding Arrangement', sub: 'Corsage Artificial', dir: 'wedding-arrangement', namePrefix: 'Wedding Corsage Artificial' },
+  'wcfresh': { cat: 'Wedding Arrangement', sub: 'Corsage Fresh', dir: 'wedding-arrangement', namePrefix: 'Wedding Corsage Fresh Flower' },
 
   // Custom / Gift Bouquet
-  'bgradartif': { cat: 'Custom Bouquet', sub: 'Graduation Artificial', dir: 'custom-bucket' },
-  'bgradfresh': { cat: 'Custom Bouquet', sub: 'Graduation Fresh', dir: 'custom-bucket' },
-  'bgradsnack': { cat: 'Custom Bouquet', sub: 'Graduation Snack', dir: 'custom-bucket' },
-  'blego': { cat: 'Custom Bouquet', sub: 'Lego', dir: 'custom-bucket' },
-  'brokokartif': { cat: 'Custom Bouquet', sub: 'Rokok', dir: 'custom-bucket' },
-  'bphotoartif': { cat: 'Custom Bouquet', sub: 'Photo', dir: 'custom-bucket' },
-  'giftcustom': { cat: 'Custom Bouquet', sub: 'Gift Custom', dir: 'custom-bucket' },
-  'bdried': { cat: 'Custom Bouquet', sub: 'Dried', dir: 'custom-bucket' },
-  'bcsayur': { cat: 'Custom Bouquet', sub: 'Sayur', dir: 'custom-bucket' },
+  'bgradartif': { cat: 'Custom Bouquet', sub: 'Graduation Artificial', dir: 'custom-bucket', namePrefix: 'Bouquet Graduation Artificial' },
+  'bgradfresh': { cat: 'Custom Bouquet', sub: 'Graduation Fresh', dir: 'custom-bucket', namePrefix: 'Bouquet Graduation Fresh' },
+  'bgradsnack': { cat: 'Custom Bouquet', sub: 'Graduation Snack', dir: 'custom-bucket', namePrefix: 'Bouquet Graduation Snack' },
+  'blego': { cat: 'Custom Bouquet', sub: 'Lego', dir: 'custom-bucket', namePrefix: 'Bouquet Lego' },
+  'brokokartif': { cat: 'Custom Bouquet', sub: 'Rokok', dir: 'custom-bucket', namePrefix: 'Bouquet Rokok Artificial' },
+  'bphotoartif': { cat: 'Custom Bouquet', sub: 'Photo', dir: 'custom-bucket', namePrefix: 'Bouquet Photo Artificial' },
+  'giftcustom': { cat: 'Custom Bouquet', sub: 'Gift Custom', dir: 'custom-bucket', namePrefix: 'Bouquet Gift Custom' },
+  'bdried': { cat: 'Custom Bouquet', sub: 'Dried', dir: 'custom-bucket', namePrefix: 'Bouquet Dried Flower' },
+  'bcsayur': { cat: 'Custom Bouquet', sub: 'Sayur', dir: 'custom-bucket', namePrefix: 'Bouquet Sayur' },
 
   // Pipe Bouquet
-  'bpipe': { cat: 'Pipe Bouquet', sub: '', dir: 'bucket-pipe' }
+  'bpipe': { cat: 'Pipe Bouquet', sub: '', dir: 'bucket-pipe', namePrefix: 'Bouquet Pipe' }
 };
 
 function getPrefixInfo(filename) {
@@ -78,16 +78,18 @@ function getPrefixInfo(filename) {
   if (mbMatch) {
     const type = mbMatch[1];
     let sub = '';
-    if (type === 'mba') sub = 'Artificial';
-    else if (type === 'mbf') sub = 'Fresh';
-    else if (type === 'mbd') sub = 'Dried';
-    else sub = 'Custom';
+    let namePrefix = 'Money Bouquet';
+    if (type === 'mba') { sub = 'Artificial'; namePrefix = 'Money Bouquet Artificial'; }
+    else if (type === 'mbf') { sub = 'Fresh'; namePrefix = 'Money Bouquet Fresh Flower'; }
+    else if (type === 'mbd') { sub = 'Dried'; namePrefix = 'Money Bouquet Dried Flower'; }
+    else { sub = 'Custom'; namePrefix = 'Money Bouquet Custom'; }
 
     return {
       sku: mbMatch[0],
       cat: 'Money Bouquet',
       sub: sub,
-      dir: 'money-bucket'
+      dir: 'money-bucket',
+      namePrefix: namePrefix
     };
   }
 
@@ -197,15 +199,7 @@ async function organizeProducts() {
 
           const codeNumber = idMatch ? (id.includes('_') ? id.split('_')[1] : '') : '';
 
-          let displayNameCat = info.cat;
-          if (displayNameCat.startsWith('Bouquet ')) {
-            displayNameCat = displayNameCat.replace('Bouquet ', '');
-          }
-
-          let name = `${displayNameCat}`;
-          if (info.sub && info.sub !== displayNameCat && !displayNameCat.includes(info.sub)) {
-            name += ` ${info.sub}`;
-          }
+          let name = info.namePrefix || info.cat;
           if (codeNumber) name += ` ${codeNumber}`;
           if (id.includes('_') && !idMatch) name += ` (Custom)`; // fallback
 
