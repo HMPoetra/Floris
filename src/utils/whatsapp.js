@@ -10,7 +10,8 @@ export const formatPrice = (price) => {
 };
 
 export const generateOrderLink = (product) => {
-  const msg = `Halo Jalé Florist, saya tertarik memesan ${product.name} (Kode: ${product.id}) seharga ${formatPrice(product.price)}. Apakah masih tersedia?`;
+  const imageUrl = window.location.origin + product.image;
+  const msg = `Halo Jalé Florist, saya tertarik memesan ${product.name} (Kode: ${product.id}) seharga ${formatPrice(product.price)}.\n\n*Gambar Produk:* ${imageUrl}\n\nApakah masih tersedia?`;
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 };
 

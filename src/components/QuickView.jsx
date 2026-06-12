@@ -67,6 +67,11 @@ export default function QuickView({ product, onClose }) {
       : formatPrice(totalPrice);
 
     text += `*Total Harga:* ${displayTotalWA}\n\n`;
+    
+    // Add product image URL to the message so WhatsApp generates a preview
+    const imageUrl = window.location.origin + product.image;
+    text += `*Gambar Produk:* ${imageUrl}\n\n`;
+    
     text += `Mohon info ketersediaan dan total biaya ongkirnya ya. Terima kasih!`;
 
     return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;

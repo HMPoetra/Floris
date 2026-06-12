@@ -418,7 +418,7 @@ export default function HighlightProduct() {
               <div className="mt-auto pt-6 border-t border-sand/40">
                 <a
                   href={`${getWhatsAppLink()}?text=${encodeURIComponent(
-                    `Halo Jalé Florist, saya tertarik dengan produk ${selectedProduct.name} (${selectedProduct.price}). Boleh minta info lebih lanjut?`
+                    `Halo Jalé Florist, saya tertarik dengan produk ${selectedProduct.name} (${selectedProduct.price}).\n\n*Gambar Produk:* ${window.location.origin}${selectedProduct.images[0]}\n\nBoleh minta info lebih lanjut?`
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
