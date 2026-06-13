@@ -105,7 +105,9 @@ export default function QuickView({ product, onClose }) {
     text += `*Total Harga:* ${displayTotalWA}\n\n`;
 
     // Use the static product redirect page URL so WhatsApp scrapes proper Open Graph tags for preview
-    const productPageUrl = `https://florisstore.vercel.app/p/${product.id}`;
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    const baseUrl = isLocal ? 'https://testfloris.vercel.app' : window.location.origin;
+    const productPageUrl = `${baseUrl}/p/${product.id}`;
     text += `*Gambar Produk:* ${productPageUrl}\n\n`;
 
     text += `Mohon info ketersediaan dan total biaya ongkirnya ya. Terima kasih!`;

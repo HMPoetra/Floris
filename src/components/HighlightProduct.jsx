@@ -106,7 +106,9 @@ export default function HighlightProduct() {
 
   const generateLink = () => {
     if (!selectedProduct) return '';
-    const imgUrl = `https://florisstore.vercel.app${selectedProduct.images[modalImageIndex]}`;
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    const baseUrl = isLocal ? 'https://testfloris.vercel.app' : window.location.origin;
+    const imgUrl = `${baseUrl}${selectedProduct.images[modalImageIndex]}`;
     const waText = `Halo Jalé Florist, saya tertarik dengan produk ${selectedProduct.name} (${selectedProduct.price}).\n\n*Gambar Produk:* ${imgUrl}\n\nBoleh minta info lebih lanjut?`;
     return `${getWhatsAppLink()}?text=${encodeURIComponent(waText)}`;
   };
