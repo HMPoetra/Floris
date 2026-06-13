@@ -84,6 +84,18 @@ export default function Catalog() {
     setVisibleCount(30);
   }, [activeCategory, activeSize, searchQuery]);
 
+  // Auto-open product modal if ?product=ID is present in URL
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const productId = params.get('product');
+    if (productId) {
+      const found = products.find(p => p.id === productId.toUpperCase());
+      if (found) {
+        setSelectedProduct(found);
+      }
+    }
+  }, []);
+
   // Acak semua produk sekali saja saat halaman dimuat
   const randomizedProducts = useMemo(() => {
     const shuffled = [...products];
@@ -314,7 +326,16 @@ export default function Catalog() {
 
       {/* Quick View Modal */}
       {selectedProduct && (
-        <QuickView product={selectedProduct} onClose={() => setSelectedProduct(null)} />
+        <QuickView 
+          product={selectedProduct} 
+          onClose={() => {
+            setSelectedProduct(null);
+            // Clean up the query parameter without reloading page
+            const url = new URL(window.location.href);
+            url.searchParams.delete('product');
+            window.history.pushState({}, '', url.toString());
+          }} 
+        />
       )}
     </section>
   );

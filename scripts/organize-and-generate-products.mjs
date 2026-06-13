@@ -250,6 +250,53 @@ export const sizes = ${JSON.stringify(uniqueSizes, null, 2)};
 
   fs.writeFileSync(productsFile, jsContent);
   console.log(`\n✅ Selesai! Berhasil meng-generate ${productsList.length} data produk di products.js.`);
+
+  // 5. Generate static redirect pages in public/p/
+  const pDir = path.join(__dirname, '../public/p');
+  if (fs.existsSync(pDir)) {
+    fs.rmSync(pDir, { recursive: true, force: true });
+  }
+  fs.mkdirSync(pDir, { recursive: true });
+
+  const formatPriceIndo = (price) => {
+    if (price === 0) return "Ask admin for price";
+    return new Intl.NumberFormat('id-ID', {
+      style: 'currency',
+      currency: 'IDR',
+      minimumFractionDigits: 0,
+    }).format(price);
+  };
+
+  productsList.forEach(product => {
+    const fileContent = `<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>${product.name} - Jalé Florist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Open Graph Meta Tags for WhatsApp/Social Media Link Preview -->
+  <meta property="og:title" content="${product.name}" />
+  <meta property="og:description" content="Pesan ${product.name} (${product.size}) seharga ${formatPriceIndo(product.price)} di Jalé Florist Bandung." />
+  <meta property="og:image" content="https://florisstore.vercel.app${product.image}" />
+  <meta property="og:url" content="https://florisstore.vercel.app/p/${product.id}" />
+  <meta property="og:type" content="product" />
+  
+  <!-- Redirect real users to the main website with the product query parameter -->
+  <script>
+    window.location.replace("/?product=${product.id}");
+  </script>
+  <meta http-equiv="refresh" content="0;url=/?product=${product.id}" />
+</head>
+<body>
+  <p>Mengalihkan Anda ke Jalé Florist...</p>
+</body>
+</html>`;
+    
+    fs.writeFileSync(path.join(pDir, `${product.id}.html`), fileContent);
+  });
+  console.log(`✅ Generated ${productsList.length} static redirect product files in public/p/`);
+
   if (unknownCount > 0) {
     console.log(`⚠️ Ada ${unknownCount} file baru yang dilewati karena kodenya tidak dikenali.`);
   }

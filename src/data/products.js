@@ -346,7 +346,7 @@ export const products = [
     "name": "Bouquet Artificial Human Size 011",
     "category": "Bouquet Artificial",
     "size": "Human Size",
-    "price": 950000,
+    "price": 850000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_011_Harga 850k.webp",
     "isPopular": false,
     "available": true
@@ -416,7 +416,7 @@ export const products = [
     "name": "Bouquet Artificial Human Size 018",
     "category": "Bouquet Artificial",
     "size": "Human Size",
-    "price": 950000,
+    "price": 750000,
     "image": "/images/produk/bouquet-artificial/human-size/Bahs_018_Harga 750k.webp",
     "isPopular": false,
     "available": true
