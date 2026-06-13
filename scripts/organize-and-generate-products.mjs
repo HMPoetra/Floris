@@ -318,8 +318,8 @@ export const sizes = ${JSON.stringify(uniqueSizes, null, 2)};
   <!-- Open Graph Meta Tags for WhatsApp/Social Media Link Preview -->
   <meta property="og:title" content="${product.name}" />
   <meta property="og:description" content="Pesan ${product.name} (${product.size}) seharga ${formatPriceIndo(product.price)} di Jalé Florist Bandung." />
-  <meta property="og:image" content="https://testfloris2.vercel.app/images/og/${product.id}.jpg" />
-  <meta property="og:url" content="https://testfloris2.vercel.app/p/${product.id}" />
+  <meta property="og:image" content="https://testfloris3.vercel.app/images/og/${product.id}.jpg" />
+  <meta property="og:url" content="https://testfloris3.vercel.app/p/${product.id}" />
   <meta property="og:type" content="product" />
   
   <!-- Redirect real users to the main website with the product query parameter -->
