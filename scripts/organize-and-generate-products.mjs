@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import sharp from 'sharp';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const uncategorizedDir = path.join(__dirname, '../public/images/produk/uncategorized');
@@ -267,7 +268,46 @@ export const sizes = ${JSON.stringify(uniqueSizes, null, 2)};
     }).format(price);
   };
 
-  productsList.forEach(product => {
+  // Create OG directory if not exists
+  const ogDir = path.join(__dirname, '../public/images/og');
+  if (!fs.existsSync(ogDir)) {
+    fs.mkdirSync(ogDir, { recursive: true });
+  }
+
+  console.log(`⏳ Menyiapkan gambar OG berukuran besar untuk ${productsList.length} produk...`);
+
+  for (const product of productsList) {
+    const ogImageFilename = `${product.id}.jpg`;
+    const ogImagePath = path.join(ogDir, ogImageFilename);
+    const inputImagePath = path.join(__dirname, '../public', product.image);
+
+    if (!fs.existsSync(ogImagePath) && fs.existsSync(inputImagePath)) {
+      try {
+        // 1. Resize background to cover 1200x630 and blur it
+        const bg = await sharp(inputImagePath)
+          .resize(1200, 630, { fit: 'cover' })
+          .blur(30)
+          .toBuffer();
+
+        // 2. Resize foreground to fit height of 570
+        const fg = await sharp(inputImagePath)
+          .resize({ height: 570, fit: 'inside' })
+          .toBuffer();
+
+        const fgMetadata = await sharp(fg).metadata();
+        const leftOffset = Math.round((1200 - fgMetadata.width) / 2);
+        const topOffset = Math.round((630 - fgMetadata.height) / 2);
+
+        // 3. Composite fg on bg
+        await sharp(bg)
+          .composite([{ input: fg, left: leftOffset, top: topOffset }])
+          .jpeg({ quality: 85 })
+          .toFile(ogImagePath);
+      } catch (err) {
+        console.error(`⚠️ Gagal generate OG image untuk ${product.id}:`, err);
+      }
+    }
+
     const fileContent = `<!DOCTYPE html>
 <html lang="id">
 <head>
@@ -278,7 +318,7 @@ export const sizes = ${JSON.stringify(uniqueSizes, null, 2)};
   <!-- Open Graph Meta Tags for WhatsApp/Social Media Link Preview -->
   <meta property="og:title" content="${product.name}" />
   <meta property="og:description" content="Pesan ${product.name} (${product.size}) seharga ${formatPriceIndo(product.price)} di Jalé Florist Bandung." />
-  <meta property="og:image" content="https://testfloris2.vercel.app${product.image}" />
+  <meta property="og:image" content="https://testfloris2.vercel.app/images/og/${product.id}.jpg" />
   <meta property="og:url" content="https://testfloris2.vercel.app/p/${product.id}" />
   <meta property="og:type" content="product" />
   
@@ -294,7 +334,7 @@ export const sizes = ${JSON.stringify(uniqueSizes, null, 2)};
 </html>`;
     
     fs.writeFileSync(path.join(pDir, `${product.id}.html`), fileContent);
-  });
+  }
   console.log(`✅ Generated ${productsList.length} static redirect product files in public/p/`);
 
   if (unknownCount > 0) {
