@@ -103,14 +103,13 @@ export default function QuickView({ product, onClose }) {
       : formatPrice(totalPrice);
 
     text += `*Total Harga:* ${displayTotalWA}\n\n`;
+    text += `Mohon info ketersediaan dan total biaya ongkirnya ya. Terima kasih!\n\n`;
 
     // Use the static product redirect page URL so WhatsApp scrapes proper Open Graph tags for preview
     const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-    const baseUrl = isLocal ? 'https://testfloris3.vercel.app' : window.location.origin;
+    const baseUrl = isLocal ? 'https://testfloris4.vercel.app' : window.location.origin;
     const productPageUrl = `${baseUrl}/p/${product.id}`;
-    text += `*Gambar Produk:* ${productPageUrl}\n\n`;
-
-    text += `Mohon info ketersediaan dan total biaya ongkirnya ya. Terima kasih!`;
+    text += `${productPageUrl}`;
 
     return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
   };

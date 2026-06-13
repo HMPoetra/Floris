@@ -107,9 +107,9 @@ export default function HighlightProduct() {
   const generateLink = () => {
     if (!selectedProduct) return '';
     const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-    const baseUrl = isLocal ? 'https://testfloris3.vercel.app' : window.location.origin;
+    const baseUrl = isLocal ? 'https://testfloris4.vercel.app' : window.location.origin;
     const imgUrl = `${baseUrl}${selectedProduct.images[modalImageIndex]}`;
-    const waText = `Halo Jalé Florist, saya tertarik dengan produk ${selectedProduct.name} (${selectedProduct.price}).\n\n*Gambar Produk:* ${imgUrl}\n\nBoleh minta info lebih lanjut?`;
+    const waText = `Halo Jalé Florist, saya tertarik dengan produk ${selectedProduct.name} (${selectedProduct.price}).\n\nBoleh minta info lebih lanjut?\n\n${imgUrl}`;
     return `${getWhatsAppLink()}?text=${encodeURIComponent(waText)}`;
   };
 
